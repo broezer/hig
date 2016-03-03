@@ -704,9 +704,13 @@ nav {
 #stats {
   display: none; }
 
-g.active .st0 {
+g.active rect {
   -webkit-animation: blink 1s infinite;
           animation: blink 1s infinite; }
+
+g.active text {
+  -webkit-animation: blinkText 1s infinite;
+          animation: blinkText 1s infinite; }
 
 circle.st8 {
   -webkit-animation: blinkZoom 1s infinite;
@@ -714,15 +718,43 @@ circle.st8 {
 
 @-webkit-keyframes blink {
   0% {
-    fill: #FFED4C; }
+    fill: black; }
+  50% {
+    fill: black; }
+  51% {
+    fill: white; }
   100% {
     fill: white; } }
 
 @keyframes blink {
   0% {
-    fill: #FFED4C; }
+    fill: black; }
+  50% {
+    fill: black; }
+  51% {
+    fill: white; }
   100% {
     fill: white; } }
+
+@-webkit-keyframes blinkText {
+  0% {
+    fill: white; }
+  50% {
+    fill: white; }
+  51% {
+    fill: black; }
+  100% {
+    fill: black; } }
+
+@keyframes blinkText {
+  0% {
+    fill: white; }
+  50% {
+    fill: white; }
+  51% {
+    fill: black; }
+  100% {
+    fill: black; } }
 
 @-webkit-keyframes blinkZoom {
   0% {
@@ -745,7 +777,17 @@ body {
   height: 100%;
   color: rgba(0, 0, 0, 0.8);
   -webkit-font-smoothing: antialiased;
-  transition: opacity 300ms ease; }
+  transition: opacity 300ms ease;
+  visibility: hidden;
+  opacity: 0; }
+
+.wf-loading body {
+  visibility: hidden;
+  opacity: 0; }
+
+.wf-active body {
+  visibility: visible;
+  opacity: 1; }
 
 img, picture {
   margin-left: auto;
@@ -792,4 +834,45 @@ header {
   column-width: 200px; }
 
 main {
-  margin-bottom: 3.75em; }
+  margin-bottom: 1.875em; }
+
+.text-area {
+  margin-top: 0.75em;
+  padding: 0.975em 1em;
+  background: #FFED4C;
+  font-weight: bold;
+  font-size: 2rem;
+  position: relative;
+  display: inline-block;
+  width: 100%; }
+  .text-area h2 {
+    margin: 0;
+    padding: 0;
+    text-transform: lowercase;
+    width: 33.33333%;
+    display: inline-block;
+    float: left;
+    position: relative; }
+    .text-area h2.welcome {
+      text-align: center; }
+    .text-area h2.left {
+      text-align: left;
+      opacity: 0;
+      -webkit-transform: translateX(55%);
+      transform: translateX(55%); }
+    .text-area h2.right {
+      text-align: right;
+      opacity: 0;
+      -webkit-transform: translateX(-55%);
+      transform: translateX(-55%); }
+    .text-area h2.left, .text-area h2.right {
+      transition: opacity 200ms ease;
+      transition-property: -webkit-transform;
+      transition-property: transform;
+      transition-duration: 1s;
+      transition-timing-function: ease-out;
+      transition-delay: 100ms; }
+      .text-area h2.left.active, .text-area h2.right.active {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0); }

@@ -2,7 +2,7 @@
   floor: 3
   housenumber: 136
   unit: K2
-  direction: left-end
+  direction: right
 
 - name: Mieras.org
   floor: 3
@@ -26,22 +26,22 @@
   floor: 3
   housenumber: 136
   unit: K6
-  direction: left-end
+  direction: right
 
 - name: Goddog
   floor: 3
   housenumber: 136
   unit: K7
-  direction: left-end
+  direction: right
 
 - name: Kortom
   floor: 3
   housenumber: 136
   unit: K7
-  direction: left-end
+  direction: right
 
 - name: Bruce
   floor: 3
   housenumber: 136
   unit:
-  direction: left-end
+  direction: right

@@ -1,5 +1,5 @@
 ---
 layout: home
-title: Bruce Moerdjiman
+title: Het Industriegebouw - Prototype
 published: true
 ---

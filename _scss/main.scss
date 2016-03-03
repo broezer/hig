@@ -9,8 +9,13 @@
 	display:none;
 }
 
-g.active .st0{
+g.active rect{
 	animation: blink 1s infinite;
+}
+
+g.active text{
+	animation: blinkText 1s infinite;
+
 }
 
 circle.st8{
@@ -19,8 +24,17 @@ circle.st8{
 
 
 @keyframes blink{
-    0%{ fill: #FFED4C; }
+    0%{ fill: black; }
+		50%{ fill: black; }
+		51%{ fill: white; }
     100%{ fill: white; }
+}
+
+@keyframes blinkText{
+    0%{ fill: white; }
+		50%{ fill: white; }
+		51%{ fill: black; }
+    100%{ fill: black; }
 }
 
 @keyframes blinkZoom{
@@ -41,19 +55,19 @@ body {
 		color:$black;
 		-webkit-font-smoothing: antialiased;
 		@include transition(opacity 300ms ease);
-		//visibility: hidden;
-		//opacity:0;
+		visibility: hidden;
+		opacity:0;
 
 }
 
 .wf-loading body{
-		//visibility: hidden;
-		//opacity:0;
+		visibility: hidden;
+		opacity:0;
 }
 
 .wf-active body{
-    //visibility: visible;
-		//opacity:1;
+    visibility: visible;
+		opacity:1;
 
   }
 
@@ -109,5 +123,50 @@ header{
 }
 
 main{
-	margin-bottom:($base-spacing * 2.5);
+	margin-bottom:($small-spacing * 2.5);
+}
+
+.text-area{
+	margin-top:($small-spacing);
+	padding: ($small-spacing * 1.3) ($base-spacing / 1.5);
+	background:$yellow;
+	font-weight:bold;
+	font-size:rem(32);
+	position: relative;
+	display: inline-block;
+	width: 100%;
+
+	h2{
+		margin:0;
+		padding:0;
+		text-transform:lowercase;
+		width:(100% / 3);
+		display: inline-block;
+		float:left;
+    position: relative;
+		&.welcome{
+			text-align:center;
+		}
+		&.left{
+			text-align:left;
+			opacity:0;
+			@include transform(translateX(55%));
+		}
+		&.right{
+			text-align:right;
+			opacity:0;
+			@include transform(translateX(-55%));
+		}
+		&.left, &.right{
+			@include transition(opacity 200ms ease);
+			@include transition-property(transform);
+			@include transition-duration(1s);
+			@include transition-timing-function(ease-out);
+			@include transition-delay(100ms);
+			&.active{
+				opacity:1;
+				@include transform(translateX(0))
+			}
+		}
+	}
 }
