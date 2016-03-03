@@ -1,0 +1,32 @@
+{% include top.html %}
+<body>
+  <div class="site">
+    <header class="header">
+      {% include svg/hig.html %}
+
+    </header>
+    <main>
+    {{ content }}
+    </main>
+    {% include menu.html %} 
+    <footer>
+    </footer>
+  </div>
+  {% include analytics.html %}
+  <!--
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+  <script>
+  WebFont.load({
+    google: {
+      families: ['Montserrat', 'Lora']
+    },
+    typekit: {
+       id: 'ptu0nia'
+     }
+  });
+  </script>
+  -->
+  <script src='/bower_components/jquery/dist/jquery.min.js'></script>
+  <script src='/js/unit.js'></script>
+</body>
+</html>

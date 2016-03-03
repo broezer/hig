@@ -1,0 +1,130 @@
+//@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+//@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic);
+
+body {
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav {
+  font-family: $heading-font-family;
+  font-size: $base-font-size;
+  line-height: $heading-line-height;
+  margin: 0 0 $small-spacing;
+  text-transform:uppercase;
+}
+
+p, pre {
+  margin: 0 0 $small-spacing;
+}
+
+a {
+  color: $action-color;
+  text-decoration: none;
+  transition: color $base-duration $base-timing;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: shade($action-color, 25%);
+  }
+}
+
+hr {
+  border-bottom: $base-border;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  margin: $base-spacing 0;
+}
+
+img,
+picture {
+  margin: 0;
+  max-width: 100%;
+}
+
+
+/*Custom*/
+main h1{
+  font-size: rem(24);
+  line-height: rem(29);
+  @include shift(1);
+  @include media ($medium-screen-down){
+    font-size: rem(24/1.5);
+    line-height: rem(29/1.5);
+    @include shift(0);
+  }
+  &::before{
+    display: block;
+    height: 0;
+    border-bottom: 4px solid $black;
+    content: "";
+    margin-top: 19px;
+    float:left;
+    @include span-columns(1);
+    margin-right: 2.6%;
+    @include media ($medium-screen-down){
+      width: 3.2%;
+      margin-left: 3.2%;
+      //margin-right: 0;
+    }
+  }
+  &.post{
+    margin-bottom:0;
+  }
+}
+
+main h2{
+  @include shift(2);
+  @include media ($medium-screen-down){
+    @include shift(2);
+  }
+}
+
+main p, .highlight{
+
+
+  @include span-columns(9);
+  @include shift(2);
+  @include media ($medium-screen-down){
+    font-size: rem(18/1.5);
+    line-height: rem(28/1.2);
+    @include span-columns(10);
+    @include shift(1);
+
+  }
+}
+
+main p.meta{
+  font-family: "nudista-web", sans-serif;
+  font-weight:300;
+  font-size: rem(16);
+  line-height: rem(16);
+  color:$black;
+  @include media ($medium-screen-down){
+    font-size: rem(16/1.5);
+    line-height: rem(16/1.2);
+    @include shift(0);
+  }
+}
+
+.highlight pre, p code{
+  padding:rem(5) rem(10);
+  background:$light-gray;
+  border-radius: 2px;
+}
+
+nav{
+  font-size: rem(18);
+  line-height: rem(18);
+}

@@ -1,0 +1,47 @@
+- name: Nieuw Creatief Peil
+  floor: 3
+  housenumber: 136
+  unit: K2
+  direction: left-end
+
+- name: Mieras.org
+  floor: 3
+  housenumber: 136
+  unit: K3
+  direction: right
+
+- name: Picture Fix
+  floor: 3
+  housenumber: 136
+  unit: K4
+  direction: right
+
+- name: Mr.Watson
+  floor: 3
+  housenumber: 136
+  unit: K5
+  direction: right
+
+- name: EZ Shopping
+  floor: 3
+  housenumber: 136
+  unit: K6
+  direction: left-end
+
+- name: Goddog
+  floor: 3
+  housenumber: 136
+  unit: K7
+  direction: left-end
+
+- name: Kortom
+  floor: 3
+  housenumber: 136
+  unit: K7
+  direction: left-end
+
+- name: Bruce
+  floor: 3
+  housenumber: 136
+  unit:
+  direction: left-end
