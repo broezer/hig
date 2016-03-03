@@ -418,7 +418,6 @@ button, input[type="button"], input[type="reset"], input[type="submit"], .btn, .
           user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-  float: left;
   width: 100%;
   margin-bottom: 0.75em; }
   button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus, .btn:hover, .btn:focus, .btn:visited:hover, .btn:visited:focus {

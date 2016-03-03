@@ -1,16 +1,22 @@
+- name: Lumick
+  floor: 3
+  housenumber: 136
+  unit: K1
+  direction: right
+
 - name: Nieuw Creatief Peil
   floor: 3
   housenumber: 136
   unit: K2
   direction: right
 
-- name: Mieras.org
+- name: Maatwerk
   floor: 3
   housenumber: 136
   unit: K3
   direction: right
 
-- name: Picture Fix
+- name: DEK
   floor: 3
   housenumber: 136
   unit: K4
@@ -40,8 +46,68 @@
   unit: K7
   direction: right
 
-- name: Bruce
+- name: Koffietaco Magazine
   floor: 3
   housenumber: 136
-  unit:
+  unit: K8
   direction: right
+
+- name: LuvDaSun
+  floor: 3
+  housenumber:
+  unit: K10
+  direction:
+
+- name: Bruce
+  floor: 3
+  housenumber:
+  unit: D1
+  direction: right
+
+- name: Clear Right
+  floor: 3
+  housenumber:
+  unit: D2
+  direction: right
+
+- name: Vloedlicht
+  floor: 3
+  housenumber:
+  unit: K10
+  direction:
+
+- name: Today's Specials
+  floor: 3
+  housenumber:
+  unit: K11
+  direction: left
+
+- name: Van Vliet Kroonluchters
+  floor: 3
+  housenumber:
+  unit: K12
+  direction: left
+
+- name: We Will Assist
+  floor: 3
+  housenumber:
+  unit: K13
+  direction: left
+
+- name: Kone Advies
+  floor: 3
+  housenumber:
+  unit: K14
+  direction: left
+
+- name: Karels & Den Besten
+  floor: 3
+  housenumber:
+  unit: K15
+  direction: left
+
+- name: Lijn
+  floor: 3
+  housenumber:
+  unit: K16
+  direction: left
