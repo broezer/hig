@@ -34,3 +34,13 @@
     }
   }
 }
+.btn--welcome, .btn--welcome:visited {
+  background:$black;
+  color:white;
+  width:50%;
+  margin-left:25%;
+  margin-right:25%;
+  text-align:center;
+  margin-top:20%;
+  text-transform:lowercase;
+}

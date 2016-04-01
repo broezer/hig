@@ -77,97 +77,22 @@ img, picture{
 	position: relative;
   display: block;
 }
-canvas{
-	position:fixed;
-	top:0;
-	left:0;
-}
 
-.site{
-	text-align:left;
-}
-
-.site,header, main{
-	position:relative;
-
-}
-
-.site{
-	//@include outer-container();
-	width:90%;
-	margin-left:5%;
-	margin-right:5%;
+header{
+	z-index:1;
+	//margin:0;
+	//padding:0;
+	//margin-top:($base-spacing * 2.5);
+	//margin-bottom:$base-spacing;
+	@include span-columns(6);
+	padding-left:5%;
 }
 
 
 
-#logo{
-	height:25px;
-}
 
-.companies{
-	-webkit-column-count: 2;
-     -moz-column-count: 2;
-          column-count: 2;
-  -webkit-column-width: 200px;
-     -moz-column-width: 200px;
-          column-width: 200px;
-	@include media($large-screen-up) {
-		-webkit-column-count: 4;
-	     -moz-column-count: 4;
-	          column-count: 4;
-	  -webkit-column-width: 200px;
-	     -moz-column-width: 200px;
-	          column-width: 200px;
-	}
 
-}
 
-main{
-	margin-bottom:($small-spacing * 2.5);
-}
-
-.text-area{
-	margin-top:($small-spacing);
-	padding: ($small-spacing * 1.3) ($base-spacing / 1.5);
-	background:$yellow;
-	font-weight:bold;
-	font-size:rem(32);
-	position: relative;
-	display: inline-block;
-	width: 100%;
-
-	h2{
-		margin:0;
-		padding:0;
-		text-transform:lowercase;
-		width:50%;
-		display: inline-block;
-		float:left;
-    position: relative;
-		color:black;
-		&.left{
-			text-align:left;
-			opacity:0;
-			@include transform(translateX(55%));
-		}
-		&.right{
-			text-align:right;
-			opacity:0;
-			@include transform(translateX(-55%));
-		}
-		&.left, &.right{
-			@include transition(opacity 200ms ease);
-			@include transition-property(transform);
-			@include transition-duration(1s);
-			@include transition-timing-function(ease-out);
-			@include transition-delay(100ms);
-			&.active{
-				opacity:1;
-				@include transform(translateX(0))
-			}
-		}
-	}
-}
 
 @import "welcome.scss";
+@import "search.scss"
