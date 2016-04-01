@@ -599,6 +599,20 @@ picture {
   margin: 0;
   max-width: 100%; }
 
+/*Custom*/
+h1 {
+  color: black;
+  font-weight: 200;
+  text-transform: none;
+  margin-bottom: 0;
+  line-height: 150px; }
+
+h2 {
+  color: black;
+  font-weight: 200;
+  text-transform: none;
+  margin-bottom: 0; }
+
 .videoContainer {
   margin-bottom: 1.3125rem;
   float: left;
@@ -744,7 +758,7 @@ header {
   position: absolute;
   bottom: 0; }
 
-.welcome, .search {
+.welcome {
   position: relative;
   background: #FFED4C;
   width: 100%;
@@ -757,30 +771,22 @@ header {
   font-size: 54px;
   -webkit-animation: backgroundColor 24s infinite;
           animation: backgroundColor 24s infinite; }
-  .welcome .hello, .search .hello {
+  .welcome .hello {
     position: relative;
     vertical-align: middle;
     padding-left: 5%;
     padding-top: 10%;
     clear: both; }
-  .welcome h1, .search h1 {
+  .welcome h1 {
     -webkit-animation: fadeAnimation01 12s infinite;
-            animation: fadeAnimation01 12s infinite;
-    color: black;
-    font-weight: 200;
-    text-transform: none;
-    margin-bottom: 0;
-    line-height: 150px; }
-    .welcome h1 em, .search h1 em {
+            animation: fadeAnimation01 12s infinite; }
+    .welcome h1 em {
       font-weight: 700;
       font-style: normal;
       border-bottom: 8px solid black; }
-  .welcome h2, .search h2 {
+  .welcome h2 {
     -webkit-animation: fadeAnimation02 12s infinite;
-            animation: fadeAnimation02 12s infinite;
-    color: black;
-    font-weight: 200;
-    text-transform: none; }
+            animation: fadeAnimation02 12s infinite; }
 
 .welcome.active {
   opacity: 0;
@@ -921,6 +927,52 @@ header {
   100% {
     background: url(/assets/img/HIG03.jpg);
     background-size: cover; } }
+
+.search {
+  position: relative;
+  background: white;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  text-align: left;
+  display: table;
+  font-size: 54px; }
+  .search h1 {
+    margin-top: 0;
+    padding-left: 5%;
+    clear: both;
+    font-weight: 300;
+    font-size: 50%;
+    line-height: 50%;
+    display: none; }
+
+.plan {
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  clear: both;
+  font-weight: 700; }
+
+.floors {
+  width: 10%;
+  float: left;
+  font-size: 38px;
+  text-align: center; }
+
+.floor {
+  border-top: 2px solid #1D1D1D;
+  border-left: 2px solid #1D1D1D;
+  border-right: 2px solid #1D1D1D; }
+  .floor.active {
+    background: black;
+    color: white; }
+
+.map {
+  width: 85%;
+  margin-left: 5%;
+  float: left; }
 
 .companies {
   -webkit-column-count: 2;
