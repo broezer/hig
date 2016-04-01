@@ -114,12 +114,21 @@ header{
 }
 
 .companies{
-	-webkit-column-count: 4;
-     -moz-column-count: 4;
-          column-count: 4;
+	-webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
   -webkit-column-width: 200px;
      -moz-column-width: 200px;
           column-width: 200px;
+	@include media($large-screen-up) {
+		-webkit-column-count: 4;
+	     -moz-column-count: 4;
+	          column-count: 4;
+	  -webkit-column-width: 200px;
+	     -moz-column-width: 200px;
+	          column-width: 200px;
+	}
+
 }
 
 main{
@@ -140,13 +149,11 @@ main{
 		margin:0;
 		padding:0;
 		text-transform:lowercase;
-		width:(100% / 3);
+		width:50%;
 		display: inline-block;
 		float:left;
     position: relative;
-		&.welcome{
-			text-align:center;
-		}
+		color:black;
 		&.left{
 			text-align:left;
 			opacity:0;
@@ -170,3 +177,5 @@ main{
 		}
 	}
 }
+
+@import "welcome.scss";

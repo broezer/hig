@@ -404,7 +404,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"], .btn, .
   color: black;
   cursor: pointer;
   display: inline-block;
-  font-family: "nimbus-sans", helvetica, arial, sans-serif;
+  font-family: "pragmatica-web", helvetica, arial, sans-serif;
   font-size: 1em;
   -webkit-font-smoothing: antialiased;
   font-weight: 600;
@@ -448,7 +448,7 @@ label {
 input,
 select {
   display: block;
-  font-family: "nimbus-sans", helvetica, arial, sans-serif;
+  font-family: "pragmatica-web", helvetica, arial, sans-serif;
   font-size: 1em; }
 
 input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea,
@@ -458,7 +458,7 @@ select[multiple] {
   border-radius: 3px;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
   box-sizing: border-box;
-  font-family: "nimbus-sans", helvetica, arial, sans-serif;
+  font-family: "pragmatica-web", helvetica, arial, sans-serif;
   font-size: 1em;
   margin-bottom: 0.75em;
   padding: 0.5em;
@@ -548,9 +548,9 @@ td,
 th {
   vertical-align: middle; }
 
-body {
+body, .st7 {
   color: black;
-  font-family: "nimbus-sans", helvetica, arial, sans-serif;
+  font-family: "pragmatica-web", helvetica, arial, sans-serif;
   font-size: 1em;
   line-height: 1.5; }
 
@@ -561,7 +561,7 @@ h4,
 h5,
 h6,
 nav {
-  font-family: "nimbus-sans", helvetica, arial, sans-serif;
+  font-family: "pragmatica-web", helvetica, arial, sans-serif;
   font-size: 1em;
   line-height: 1.2;
   margin: 0 0 0.75em;
@@ -593,6 +593,7 @@ picture {
 main h1 {
   font-size: 1.5rem;
   line-height: 1.8125rem;
+  color: black;
   margin-left: 8.51064%; }
   @media screen and (max-width: 600px) {
     main h1 {
@@ -825,12 +826,20 @@ header {
   height: 25px; }
 
 .companies {
-  -webkit-column-count: 4;
-  -moz-column-count: 4;
-  column-count: 4;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
   -webkit-column-width: 200px;
   -moz-column-width: 200px;
   column-width: 200px; }
+  @media screen and (min-width: 1140px) {
+    .companies {
+      -webkit-column-count: 4;
+      -moz-column-count: 4;
+      column-count: 4;
+      -webkit-column-width: 200px;
+      -moz-column-width: 200px;
+      column-width: 200px; } }
 
 main {
   margin-bottom: 1.875em; }
@@ -848,12 +857,11 @@ main {
     margin: 0;
     padding: 0;
     text-transform: lowercase;
-    width: 33.33333%;
+    width: 50%;
     display: inline-block;
     float: left;
-    position: relative; }
-    .text-area h2.welcome {
-      text-align: center; }
+    position: relative;
+    color: black; }
     .text-area h2.left {
       text-align: left;
       opacity: 0;
@@ -875,3 +883,91 @@ main {
         opacity: 1;
         -webkit-transform: translateX(0);
         transform: translateX(0); }
+
+.welcome {
+  position: fixed;
+  background: #FFED4C;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  text-align: center;
+  display: table;
+  font-size: 92px; }
+  .welcome .hello {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle; }
+  .welcome h1 {
+    -webkit-animation: fadeAnimation01 12s infinite;
+            animation: fadeAnimation01 12s infinite;
+    color: black;
+    font-weight: 900; }
+  .welcome h2 {
+    -webkit-animation: fadeAnimation02 12s infinite;
+            animation: fadeAnimation02 12s infinite;
+    color: black;
+    font-weight: 900; }
+
+.welcome.active {
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 300ms ease 700ms, opacity 700ms ease; }
+
+.welcome.inactive {
+  opacity: 1;
+  visibility: visible;
+  transition: visibility 0s ease, opacity 700ms ease 5s; }
+
+@-webkit-keyframes fadeAnimation01 {
+  0% {
+    opacity: 0; }
+  10% {
+    opacity: 1; }
+  78% {
+    opacity: 1; }
+  88% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+@keyframes fadeAnimation01 {
+  0% {
+    opacity: 0; }
+  10% {
+    opacity: 1; }
+  78% {
+    opacity: 1; }
+  88% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+@-webkit-keyframes fadeAnimation02 {
+  0% {
+    opacity: 0; }
+  20% {
+    opacity: 0; }
+  30% {
+    opacity: 1; }
+  80% {
+    opacity: 1; }
+  90% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+@keyframes fadeAnimation02 {
+  0% {
+    opacity: 0; }
+  20% {
+    opacity: 0; }
+  30% {
+    opacity: 1; }
+  80% {
+    opacity: 1; }
+  90% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }

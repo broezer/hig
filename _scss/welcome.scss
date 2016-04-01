@@ -1,0 +1,63 @@
+.welcome{
+  position:fixed;
+  background:$yellow;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  z-index:9;
+  text-align:center;
+  display:table;
+  font-size:92px;
+  .hello{
+    display:table-cell;
+    position: relative;
+    vertical-align:middle;
+  }
+
+  h1{
+    animation: fadeAnimation01 12s infinite;
+    color:black;
+    font-weight:900;
+  }
+  h2{
+    animation: fadeAnimation02 12s infinite;
+    color:black;
+    font-weight:900;
+  }
+}
+
+
+.welcome{
+
+  &.active{
+    opacity:0;
+    visibility:hidden;
+    @include transition(visibility 300ms ease 700ms, opacity 700ms ease);
+  }
+  &.inactive{
+    opacity:1;
+    visibility:visible;
+    @include transition(visibility 0s ease, opacity 700ms ease 5s);
+
+
+  }
+}
+
+@keyframes fadeAnimation01{
+    0%{ opacity: 0; }
+		10%{ opacity: 1; }
+		78%{ opacity: 1; }
+    88%{ opacity: 0; }
+    100%{ opacity: 0; }
+}
+
+
+@keyframes fadeAnimation02{
+    0%{ opacity: 0; }
+    20%{opacity: 0; }
+    30%{opacity: 1; }
+		80%{ opacity: 1; }
+		90%{ opacity: 0; }
+    100%{ opacity: 0; }
+}
