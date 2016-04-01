@@ -30,23 +30,7 @@ h1{
 
 
     </header>
-    <section id="welcome" class="welcome">
-  <style>
-  video, canvas {
-    margin-left: 230px;
-    margin-top: 120px;
-    position: absolute;
-    opacity:1;
-    }
-  </style>
-  <video id="video" width="320" height="240" preload autoplay loop muted></video>
-  <canvas id="canvas" width="320" height="240"></canvas>
-  <div class="hello">
-    <h1>Welkom in Het Industriegbouw</h1>
-    <h2>Stap gerust dichterbij..</h2>
-  </div>
-</section>
-
+  
     <main>
     <h1 class="post">IFFR 2016</h1>
 <p class="meta">21 Jan 2016</p>
@@ -243,58 +227,6 @@ h1{
   <script src='/bower_components/jquery/dist/jquery.min.js'></script>
   <script src='/js/unit.js'></script>
 
-  <script src='/js/tracking-min.js'></script>
-  <script src='/js/data/face-min.js'></script>
-  <script src='/js/data/eye-min.js'></script>
-  <script src='/js/data/mouth-min.js'></script>
-
-  <script src='/js/dat-gui/dat.gui.min.js'></script>
-  <script src='/js/stats.min.js'></script>
-  <script>
-     window.onload = function() {
-       var video = document.getElementById('video');
-       var canvas = document.getElementById('canvas');
-       var context = canvas.getContext('2d');
-       var introScreen = document.getElementById('welcome');
-
-       var tracker = new tracking.ObjectTracker('face');
-
-       tracker.setInitialScale(5);
-       tracker.setStepSize(1);
-       tracker.setEdgesDensity(0.1);
-       tracking.track('#video', tracker, { camera: true });
-
-
-
-       tracker.on('track', function(event) {
-
-
-         if (event.data.length === 0) {
-           if (introScreen.classList.contains('active')){
-             introScreen.className = 'welcome inactive';
-           }else{
-
-           }
-         } else {
-           if (introScreen.classList.contains('active')){
-             introScreen.className = 'welcome active hidden';
-           }else{
-             introScreen.className = 'welcome active';
-           }
-
-
-         }
-
-
-       });
-
-
-       var gui = new dat.GUI();
-       gui.add(tracker, 'edgesDensity', 0.1, 0.5).step(0.01);
-       gui.add(tracker, 'initialScale', 1.0, 10.0).step(0.1);
-       gui.add(tracker, 'stepSize', 1, 5).step(0.1);
-     };
-   </script>
 
 </body>
 </html>
