@@ -99,15 +99,7 @@ canvas{
 	margin-right:5%;
 }
 
-header{
-	z-index:1;
-	//margin:0;
-	//padding:0;
-	margin-top:($base-spacing * 2.5);
-	margin-bottom:$base-spacing;
-	@include span-columns(12);
-	//@include shift(1);
-}
+
 
 #logo{
 	height:25px;

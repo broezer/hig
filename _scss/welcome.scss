@@ -1,29 +1,66 @@
+header{
+	z-index:1;
+	//margin:0;
+	//padding:0;
+	//margin-top:($base-spacing * 2.5);
+	//margin-bottom:$base-spacing;
+	@include span-columns(6);
+	padding-left:5%;
+}
+
+.image{
+  //background:url(/assets/img/higsite.jpg);
+  animation: backgroundImg 24s infinite;
+  height:40%;
+  width:100%;
+  position:absolute;
+  bottom:0;
+
+}
+
 .welcome{
-  position:fixed;
+  position:relative;
   background:$yellow;
   width:100%;
   height:100%;
   top:0;
   left:0;
   z-index:9;
-  text-align:center;
+  text-align:left;
   display:table;
-  font-size:92px;
+  font-size:54px;
+  animation: backgroundColor 24s infinite;
   .hello{
-    display:table-cell;
+    //@include span-columns(5);
+  	//@include shift(1);
+    //display:table-cell;
     position: relative;
     vertical-align:middle;
+    padding-left:5%;
+    padding-top:10%;
+    clear:both;
   }
 
   h1{
     animation: fadeAnimation01 12s infinite;
     color:black;
-    font-weight:900;
+    font-weight:200;
+    text-transform: none;
+    margin-bottom:0;
+
+    line-height: 150px;
+    em{
+      font-weight:700;
+      font-style:normal;
+      border-bottom: 8px solid black;
+    }
   }
   h2{
     animation: fadeAnimation02 12s infinite;
     color:black;
-    font-weight:900;
+    font-weight:200;
+    text-transform: none;
+
   }
 }
 
@@ -60,4 +97,24 @@
 		80%{ opacity: 1; }
 		90%{ opacity: 0; }
     100%{ opacity: 0; }
+}
+
+@keyframes backgroundColor{
+  0%{ background: $yellow }
+  30%{ background: $yellow; }
+  33%{ background: $salmon; }
+  63%{ background: $salmon; }
+  66%{ background: $blue-gray; }
+  97%{ background: $blue-gray; }
+  100% { background: $yellow; }
+}
+
+@keyframes backgroundImg{
+  0%{ background:url(/assets/img/HIG03.jpg); background-size:cover; }
+  30%{ background:url(/assets/img/HIG03.jpg);  background-size:cover;}
+  33%{ background:url(/assets/img/HIG01.jpg); background-size:cover; }
+  63%{ background:url(/assets/img/HIG01.jpg);  background-size:cover;}
+  66%{ background:url(/assets/img/HIG02.jpg);  background-size:cover;}
+  97%{ background:url(/assets/img/HIG02.jpg); background-size:cover; }
+  100% { background:url(/assets/img/HIG03.jpg); background-size:cover; }
 }

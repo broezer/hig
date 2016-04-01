@@ -603,7 +603,7 @@ main h1 {
   main h1::before {
     display: block;
     height: 0;
-    border-bottom: 4px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 4px solid #1D1D1D;
     content: "";
     margin-top: 19px;
     float: left;
@@ -652,7 +652,7 @@ main p.meta {
   font-weight: 300;
   font-size: 1rem;
   line-height: 1rem;
-  color: rgba(0, 0, 0, 0.8); }
+  color: #1D1D1D; }
   @media screen and (max-width: 600px) {
     main p.meta {
       font-size: 0.66667rem;
@@ -775,7 +775,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  color: rgba(0, 0, 0, 0.8);
+  color: #1D1D1D;
   -webkit-font-smoothing: antialiased;
   transition: opacity 300ms ease;
   visibility: hidden;
@@ -810,17 +810,6 @@ canvas {
   width: 90%;
   margin-left: 5%;
   margin-right: 5%; }
-
-header {
-  z-index: 1;
-  margin-top: 3.75em;
-  margin-bottom: 1.5em;
-  float: left;
-  display: block;
-  margin-right: 2.12766%;
-  width: 100%; }
-  header:last-child {
-    margin-right: 0; }
 
 #logo {
   height: 25px; }
@@ -884,31 +873,61 @@ main {
         -webkit-transform: translateX(0);
         transform: translateX(0); }
 
+header {
+  z-index: 1;
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 48.93617%;
+  padding-left: 5%; }
+  header:last-child {
+    margin-right: 0; }
+
+.image {
+  -webkit-animation: backgroundImg 24s infinite;
+          animation: backgroundImg 24s infinite;
+  height: 40%;
+  width: 100%;
+  position: absolute;
+  bottom: 0; }
+
 .welcome {
-  position: fixed;
+  position: relative;
   background: #FFED4C;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
   z-index: 9;
-  text-align: center;
+  text-align: left;
   display: table;
-  font-size: 92px; }
+  font-size: 54px;
+  -webkit-animation: backgroundColor 24s infinite;
+          animation: backgroundColor 24s infinite; }
   .welcome .hello {
-    display: table-cell;
     position: relative;
-    vertical-align: middle; }
+    vertical-align: middle;
+    padding-left: 5%;
+    padding-top: 10%;
+    clear: both; }
   .welcome h1 {
     -webkit-animation: fadeAnimation01 12s infinite;
             animation: fadeAnimation01 12s infinite;
     color: black;
-    font-weight: 900; }
+    font-weight: 200;
+    text-transform: none;
+    margin-bottom: 0;
+    line-height: 150px; }
+    .welcome h1 em {
+      font-weight: 700;
+      font-style: normal;
+      border-bottom: 8px solid black; }
   .welcome h2 {
     -webkit-animation: fadeAnimation02 12s infinite;
             animation: fadeAnimation02 12s infinite;
     color: black;
-    font-weight: 900; }
+    font-weight: 200;
+    text-transform: none; }
 
 .welcome.active {
   opacity: 0;
@@ -971,3 +990,81 @@ main {
     opacity: 0; }
   100% {
     opacity: 0; } }
+
+@-webkit-keyframes backgroundColor {
+  0% {
+    background: #FFED4C; }
+  30% {
+    background: #FFED4C; }
+  33% {
+    background: #F4A99D; }
+  63% {
+    background: #F4A99D; }
+  66% {
+    background: #a5bbb3; }
+  97% {
+    background: #a5bbb3; }
+  100% {
+    background: #FFED4C; } }
+
+@keyframes backgroundColor {
+  0% {
+    background: #FFED4C; }
+  30% {
+    background: #FFED4C; }
+  33% {
+    background: #F4A99D; }
+  63% {
+    background: #F4A99D; }
+  66% {
+    background: #a5bbb3; }
+  97% {
+    background: #a5bbb3; }
+  100% {
+    background: #FFED4C; } }
+
+@-webkit-keyframes backgroundImg {
+  0% {
+    background: url(/assets/img/HIG03.jpg);
+    background-size: cover; }
+  30% {
+    background: url(/assets/img/HIG03.jpg);
+    background-size: cover; }
+  33% {
+    background: url(/assets/img/HIG01.jpg);
+    background-size: cover; }
+  63% {
+    background: url(/assets/img/HIG01.jpg);
+    background-size: cover; }
+  66% {
+    background: url(/assets/img/HIG02.jpg);
+    background-size: cover; }
+  97% {
+    background: url(/assets/img/HIG02.jpg);
+    background-size: cover; }
+  100% {
+    background: url(/assets/img/HIG03.jpg);
+    background-size: cover; } }
+
+@keyframes backgroundImg {
+  0% {
+    background: url(/assets/img/HIG03.jpg);
+    background-size: cover; }
+  30% {
+    background: url(/assets/img/HIG03.jpg);
+    background-size: cover; }
+  33% {
+    background: url(/assets/img/HIG01.jpg);
+    background-size: cover; }
+  63% {
+    background: url(/assets/img/HIG01.jpg);
+    background-size: cover; }
+  66% {
+    background: url(/assets/img/HIG02.jpg);
+    background-size: cover; }
+  97% {
+    background: url(/assets/img/HIG02.jpg);
+    background-size: cover; }
+  100% {
+    background: url(/assets/img/HIG03.jpg);
+    background-size: cover; } }
