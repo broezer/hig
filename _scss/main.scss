@@ -57,6 +57,7 @@ body {
 		@include transition(opacity 300ms ease);
 		visibility: hidden;
 		opacity:0;
+		cursor:none;
 
 }
 

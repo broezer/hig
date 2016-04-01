@@ -724,7 +724,8 @@ body {
   -webkit-font-smoothing: antialiased;
   transition: opacity 300ms ease;
   visibility: hidden;
-  opacity: 0; }
+  opacity: 0;
+  cursor: none; }
 
 .wf-loading body {
   visibility: hidden;
