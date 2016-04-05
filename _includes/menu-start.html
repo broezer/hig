@@ -1,0 +1,12 @@
+
+{% capture tags %}
+  {% for item in site.data.start %}
+    {{ item.test }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedtags = tags | split:' ' | sort %}
+<dl class="search-list">
+{% for tag in sortedtags %}
+    <a class="btn select" href="" target="{{ tag | capitalize  }}">{{ tag }}</a>
+{% endfor %}
+</dl>

@@ -724,8 +724,7 @@ body {
   -webkit-font-smoothing: antialiased;
   transition: opacity 300ms ease;
   visibility: hidden;
-  opacity: 0;
-  cursor: none; }
+  opacity: 0; }
 
 .wf-loading body {
   visibility: hidden;
@@ -750,6 +749,9 @@ header {
   padding-left: 5%; }
   header:last-child {
     margin-right: 0; }
+
+section {
+  position: relative; }
 
 .image {
   background: url(/assets/img/HIG02.jpg);
@@ -950,46 +952,100 @@ header {
     display: none; }
 
 .plan {
-  padding-top: 10%;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-top: 75px;
   clear: both;
   font-weight: 700; }
 
+.map {
+  width: 1010px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.floor-wrapper {
+  width: 100%;
+  position: fixed; }
+
 .floors {
-  width: 10%;
+  margin-left: 450px;
+  width: 130px;
   float: left;
   font-size: 38px;
   text-align: center; }
+  .floors h2 {
+    font-weight: 700; }
 
 .floor {
-  border-top: 2px solid #1D1D1D;
-  border-left: 2px solid #1D1D1D;
-  border-right: 2px solid #1D1D1D; }
+  background: #1D1D1D;
+  color: white;
+  font-weight: 700;
+  height: 130px;
+  width: 130px;
+  display: none;
+  font-size: 58px;
+  line-height: 130px; }
   .floor.active {
-    background: black;
-    color: white; }
+    background: #1D1D1D;
+    color: white;
+    display: block; }
 
-.map {
-  width: 85%;
-  margin-left: 5%;
-  float: left; }
+.search-companies {
+  clear: both;
+  width: 100%;
+  position: absolute;
+  bottom: 200px; }
 
 .companies {
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
-  -webkit-column-width: 200px;
-  -moz-column-width: 200px;
-  column-width: 200px; }
-  @media screen and (min-width: 1140px) {
-    .companies {
-      -webkit-column-count: 4;
-      -moz-column-count: 4;
-      column-count: 4;
-      -webkit-column-width: 200px;
-      -moz-column-width: 200px;
-      column-width: 200px; } }
+  -webkit-column-count: 1;
+     -moz-column-count: 1;
+          column-count: 1;
+  width: 1010px;
+  margin-left: auto;
+  margin-right: auto; }
+  .companies .btn {
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #F4A99D;
+    border: none;
+    color: black; }
+
+.search-start {
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+
+.search-list {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1010px;
+  margin-left: auto;
+  margin-right: auto; }
+  .search-list .btn {
+    padding: 0;
+    margin-bottom: 10px;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    background: #FFED4C; }
 
 .text-area {
   margin-top: 0.75em;

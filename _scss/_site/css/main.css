@@ -952,75 +952,51 @@ section {
     display: none; }
 
 .plan {
-  padding-top: 75px;
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
   clear: both;
   font-weight: 700; }
 
-.map {
-  width: 1010px;
-  margin-left: auto;
-  margin-right: auto; }
-
-.floor-wrapper {
-  width: 100%;
-  position: fixed; }
-
 .floors {
-  margin-left: 450px;
-  width: 130px;
+  width: 10%;
   float: left;
   font-size: 38px;
   text-align: center; }
-  .floors h2 {
-    font-weight: 700; }
 
 .floor {
-  background: #1D1D1D;
-  color: white;
-  font-weight: 700;
-  height: 130px;
-  width: 130px;
-  display: none;
-  font-size: 58px;
-  line-height: 130px; }
+  border-top: 2px solid #1D1D1D;
+  border-left: 2px solid #1D1D1D;
+  border-right: 2px solid #1D1D1D; }
   .floor.active {
-    background: #1D1D1D;
-    color: white;
-    display: block; }
+    background: black;
+    color: white; }
+
+.map {
+  width: 85%;
+  margin-left: 5%;
+  float: left; }
 
 .search-companies {
-  clear: both;
-  width: 100%;
-  position: absolute;
-  bottom: 200px; }
+  clear: both; }
 
 .companies {
-  -webkit-column-count: 1;
-     -moz-column-count: 1;
-          column-count: 1;
-  width: 1010px;
-  margin-left: auto;
-  margin-right: auto; }
+  -webkit-column-count: 3;
+     -moz-column-count: 3;
+          column-count: 3;
+  width: 100%; }
   .companies .btn {
-    padding-top: 0;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 5px;
     width: 100%;
-    height: 100px;
+    height: 50px;
     margin-top: 10px;
-    margin-bottom: 10px;
-    line-height: 100px;
+    line-height: 45px;
     font-weight: bold;
-    text-transform: uppercase;
-    background: #F4A99D;
-    border: none;
-    color: black; }
+    font-size: 1rem;
+    text-transform: uppercase; }
 
 .search-start {
-  clear: both;
-  position: absolute;
-  bottom: 0;
-  width: 100%; }
+  clear: both; }
 
 .search-list {
   display: -webkit-flex;
@@ -1031,21 +1007,16 @@ section {
           flex-flow: row wrap;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 1010px;
-  margin-left: auto;
-  margin-right: auto; }
+          justify-content: space-between; }
   .search-list .btn {
-    padding: 0;
-    margin-bottom: 10px;
-    width: 75px;
-    height: 75px;
-    line-height: 75px;
+    padding: 5px;
+    width: 150px;
+    height: 125px;
+    margin-top: 10px;
+    line-height: 125px;
     font-weight: bold;
     text-align: center;
-    text-transform: uppercase;
-    border: none;
-    background: #FFED4C; }
+    text-transform: uppercase; }
 
 .text-area {
   margin-top: 0.75em;

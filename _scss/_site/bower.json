@@ -1,0 +1,29 @@
+{
+  "name": "HIG",
+  "description": "Digital Signage",
+  "main": "gulpfile.js",
+  "authors": [
+    "Bruce Moerdjiman"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "jekyll",
+    "gulp",
+    "sass",
+    "browsersync"
+  ],
+  "homepage": "https://github.com/broezer/broezer.github.io",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "~4.2.6",
+    "neat": "~1.7.2"
+  }
+}

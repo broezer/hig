@@ -59,7 +59,7 @@
   direction:
 
 - name: Bruce
-  floor: 3
+  floor: 2
   housenumber:
   unit: D1
   direction: right

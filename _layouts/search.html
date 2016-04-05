@@ -2,7 +2,16 @@
 layout: default
 ---
 <section class="plan">
+
+  <div class="map">
+  {% include svg/third-floor.html %}
+  </div>
+
+</section>
+
+<section class="floor-wrapper">
   <ul class="floors">
+    <h2>FLOOR</h2>
     <li class="floor floor05">05</li>
     <li class="floor floor04">04</li>
     <li class="floor floor03">03</li>
@@ -10,7 +19,12 @@ layout: default
     <li class="floor floor01">01</li>
     <li class="floor floor00 active">BG</li>
   </ul>
-  <div class="map">
-  {% include svg/third-floor.html %}
-  </div>
-<section>
+</section>
+
+<section class="search-companies">
+  {% include menu.html %}
+</section>
+
+<section class="search-start">
+  {% include menu-start.html %}
+</section>
