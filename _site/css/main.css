@@ -954,16 +954,20 @@ section {
 .plan {
   padding-top: 75px;
   clear: both;
-  font-weight: 700; }
+  font-weight: 700;
+  -webkit-perspective: 2000px;
+          perspective: 2000px; }
 
 .map {
   width: 1010px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  -webkit-transform: rotateX(50deg);
+          transform: rotateX(50deg); }
 
 .floor-wrapper {
   width: 100%;
-  position: fixed; }
+  position: relative; }
 
 .floors {
   margin-left: 450px;
@@ -991,8 +995,7 @@ section {
 .search-companies {
   clear: both;
   width: 100%;
-  position: absolute;
-  bottom: 200px; }
+  position: relative; }
 
 .companies {
   -webkit-column-count: 1;
@@ -1018,9 +1021,10 @@ section {
 
 .search-start {
   clear: both;
-  position: absolute;
+  position: relative;
   bottom: 0;
-  width: 100%; }
+  width: 100%;
+  padding-top: 150px; }
 
 .search-list {
   display: -webkit-flex;

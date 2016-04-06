@@ -24,6 +24,7 @@
   padding-top:75px;
   clear:both;
   font-weight:700;
+  perspective: 2000px;
 }
 
 
@@ -32,12 +33,13 @@
   width:1010px;
   margin-left:auto;
   margin-right:auto;
+  transform: rotateX(50deg);
 
 }
 
 .floor-wrapper{
   width:100%;
-  position:fixed;
+  position:relative;
 }
 
 .floors{
@@ -73,8 +75,7 @@
   clear: both;
   width:100%;
   //left:5%;
-  position:absolute;
-  bottom:200px;
+  position:relative;
 }
 
 
@@ -111,9 +112,10 @@
 
 .search-start{
   clear:both;
-  position:absolute;
+  position:relative;
   bottom:0;
   width:100%;
+  padding-top:150px;
   //position:absolute;
   //bottom:0;
   //width:90%;
