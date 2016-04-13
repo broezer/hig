@@ -1,3 +1,148 @@
+#Vijfde Verdieping
+
+- name: Magnet.me
+  floor: 5
+  housenumber:
+  unit:
+  direction:
+
+- name: Visser en Visser Chartering B.V.
+  floor: 5
+  housenumber:
+  unit:
+  direction:
+
+- name: Jade Architecten
+  floor: 5
+  housenumber:
+  unit:
+  direction:
+
+- name: Studio Beige 
+  floor: 5
+  housenumber:
+  unit:
+  direction:
+
+#Vierde verdieping
+- name: Administratiekantoor J. Monster
+  floor: 4
+  housenumber:
+  unit:
+  direction:
+
+- name: Fimmar B.V.
+  floor: 4
+  housenumber:
+  unit:
+  direction:
+
+- name: Tandartspraktijk
+  floor: 4
+  housenumber:
+  unit:
+  direction:
+
+- name: Intax Tax Consultants
+  floor: 4
+  housenumber:
+  unit:
+  direction:
+
+
+- name: Ciparo
+  floor: 4
+  housenumber:
+  unit:
+  direction:
+
+- name: Destan Detachering B.V.
+  floor: 4
+  housenumber:
+  unit:
+  direction:
+
+- name: Helen Keller Stichting
+  floor: 4
+  housenumber:
+  unit:
+  direction:
+
+- name: Ben en Flip
+  floor: 4
+  housenumber:
+  unit:
+  direction:
+
+- name: Nino en Frankie
+  floor: 4
+  housenumber:
+  unit:
+  direction:
+
+- name: Sabine van Zeijl
+  floor: 4
+  housenumber:
+  unit:
+  direction:
+
+- name: Job Smit
+  floor: 4
+  housenumber:
+  unit:
+  direction:
+
+- name: Damage Playground
+  floor: 4
+  housenumber:
+  unit:
+  direction:
+
+- name: Vestia
+  floor: 4
+  housenumber:
+  unit:
+  direction:
+
+
+#Derde verdieping
+
+- name: Trin-It
+  floor: 3
+  housenumber:
+  unit:
+  direction:
+
+- name: Studio Woesthuis
+  floor: 3
+  housenumber:
+  unit:
+  direction:
+
+- name: Liefdesmomenten
+  floor: 3
+  housenumber:
+  unit:
+  direction:
+
+- name: Blauwesteeg
+  floor: 3
+  housenumber:
+  unit:
+  direction:
+
+- name: VS Logistics B.V.
+  floor: 3
+  housenumber:
+  unit:
+  direction:
+
+- name: Bravebox & Digital Creative
+  floor: 3
+  housenumber:
+  unit:
+  direction:
+
 - name: Lumick
   floor: 3
   housenumber: 136
@@ -111,3 +256,174 @@
   housenumber:
   unit: K16
   direction: left
+
+#Tweede verdieping
+
+- name: RTS Meiser Nederland B.V.
+  floor: 2
+  housenumber:
+  unit:
+  direction:
+
+- name: BTS Business Translation Services B.V.
+  floor: 2
+  housenumber:
+  unit:
+  direction:
+
+- name: Te Pas Advocaten
+  floor: 2
+  housenumber:
+  unit:
+  direction:
+
+- name: Uitdekunst!
+  floor: 2
+  housenumber:
+  unit:
+  direction:
+
+- name: New Fork
+  floor: 2
+  housenumber:
+  unit:
+  direction:
+
+- name: Zico Lopes Dezign
+  floor: 2
+  housenumber:
+  unit:
+  direction:
+
+- name: Nexus Verus
+  floor: 2
+  housenumber:
+  unit:
+  direction:
+
+- name: Treestle
+  floor: 2
+  housenumber:
+  unit:
+  direction:
+
+- name: Ships Ink
+  floor: 2
+  housenumber:
+  unit:
+  direction:
+
+- name: Flow Logics
+  floor: 2
+  housenumber:
+  unit:
+  direction:
+
+- name: De cultuurschool
+  floor: 2
+  housenumber:
+  unit:
+  direction:
+
+- name: Heulek B.V.
+  floor: 2
+  housenumber:
+  unit:
+  direction:
+
+- name: China Classification Society
+  floor: 2
+  housenumber:
+  unit:
+  direction:
+
+
+- name: LISA interieur en architectuur
+  floor: 2
+  housenumber:
+  unit:
+  direction:
+
+#Eerste verdieping
+
+- name: Mediad
+  floor: 1
+  housenumber:
+  unit:
+  direction:
+
+- name: WAQF
+  floor: 1
+  housenumber:
+  unit:
+  direction:
+
+- name: SLK
+  floor: 1
+  housenumber:
+  unit:
+  direction:
+
+- name: Mepros
+  floor: 1
+  housenumber:
+  unit:
+  direction:
+
+- name: Uscoutfor
+  floor: 1
+  housenumber:
+  unit:
+  direction:
+
+- name: Trichis Comminicatie en Ontwerp B.V.
+  floor: 1
+  housenumber:
+  unit:
+  direction:
+
+
+#Begane Grond
+
+
+- name: Cafe@home
+  floor: 0
+  housenumber:
+  unit:
+  direction:
+
+- name: Elite
+  floor: 0
+  housenumber:
+  unit:
+  direction:
+
+- name: Heriz
+  floor: 0
+  housenumber:
+  unit:
+  direction:
+
+- name: Vico
+  floor: 0
+  housenumber:
+  unit:
+  direction:
+
+- name: Tortu
+  floor: 0
+  housenumber:
+  unit:
+  direction:
+
+- name: Resto Rokus
+  floor: 0
+  housenumber:
+  unit:
+  direction:
+
+- name: Tegendraads
+  floor: 0
+  housenumber:
+  unit:
+  direction:

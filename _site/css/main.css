@@ -622,6 +622,9 @@ h2 {
   text-transform: none;
   margin-bottom: 0; }
 
+.st7 {
+  color: #1565c0; }
+
 .videoContainer {
   margin-bottom: 1.3125rem;
   float: left;
@@ -979,15 +982,47 @@ section {
   padding-top: 75px;
   clear: both;
   font-weight: 700;
-  -webkit-perspective: 2000px;
-          perspective: 2000px; }
+  -webkit-perspective: 1500px;
+          perspective: 1500px;
+  height: 610px; }
 
 .map {
-  width: 1010px;
-  margin-left: auto;
-  margin-right: auto;
-  -webkit-transform: rotateX(50deg);
-          transform: rotateX(50deg); }
+  position: absolute;
+  width: 84%;
+  margin-left: 8%;
+  margin-right: 8%;
+  -webkit-transform: rotateX(75deg);
+          transform: rotateX(75deg);
+  opacity: 0.1;
+  top: -160px;
+  transition: all 300ms ease-in; }
+  .map.floor04 {
+    top: -80px; }
+  .map.floor03 {
+    top: 0; }
+  .map.floor02 {
+    top: 80px; }
+  .map.floor01 {
+    top: 160px; }
+  .map.floor00 {
+    top: 220px; }
+  .map.active {
+    opacity: 0.2; }
+    .map.active rect.st0 {
+      fill: #a5bbb3; }
+  .map.flip.active {
+    opacity: 1;
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    z-index: 9;
+    opacity: 0.9;
+    top: 0;
+    transition: all 800ms ease-out; }
+    .map.flip.active rect.st0 {
+      fill: #a5bbb3; }
 
 .floor-wrapper {
   width: 100%;
@@ -1033,11 +1068,12 @@ section {
     padding-left: 10px;
     padding-right: 10px;
     width: 100%;
-    height: 100px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    line-height: 100px;
+    height: 70px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 70px;
     font-weight: bold;
+    font-size: 2.1875rem;
     text-transform: uppercase;
     background: #F4A99D;
     border: none;
@@ -1048,7 +1084,7 @@ section {
   position: relative;
   bottom: 0;
   width: 100%;
-  padding-top: 150px; }
+  padding-top: 30px; }
 
 .search-list {
   display: -webkit-flex;

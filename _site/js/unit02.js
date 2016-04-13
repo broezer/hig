@@ -2,12 +2,14 @@
 
   var allUnits = $('.st0');
   var allCompanies = $('.company');
-  var allFloors = $('.floor')
+  var allFloors = $('.floor');
+  var allMaps = $('.map');
 
   allCompanies.hide();
 
   $('.company').click(function() {
       allFloors.removeClass('active');
+      allMaps.removeClass('active');
       $this = $(this);
       var target = $this.attr('unit');
       var floor = $this.attr('floor');
