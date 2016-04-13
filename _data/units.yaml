@@ -18,7 +18,7 @@
   unit:
   direction:
 
-- name: Studio Beige 
+- name: Studio Beige
   floor: 5
   housenumber:
   unit:
@@ -204,7 +204,7 @@
   direction:
 
 - name: Bruce
-  floor: 2
+  floor: 3
   housenumber:
   unit: D1
   direction: right

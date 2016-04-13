@@ -7,9 +7,17 @@
 
   allCompanies.hide();
 
+  function reset(){
+    allFloors.removeClass('active');
+    allMaps.removeClass('active inactive');
+    $('g').attr('class', '');
+  };
+
+
   $('.company').click(function() {
       allFloors.removeClass('active');
-      allMaps.removeClass('active');
+      allMaps.removeClass('active inactive');
+      allMaps.addClass('inactive');
       $this = $(this);
       var target = $this.attr('unit');
       var floor = $this.attr('floor');
@@ -24,6 +32,7 @@
       //if ($target.hasClass('active')){
       //}else{
       //}
+      setTimeout(reset, 1000*20);
     return false;
   });
 
