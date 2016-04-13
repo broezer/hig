@@ -18,11 +18,12 @@
 
   };
 
+  var timer;
 
-  var resetGoBack = setTimeout(goBack, 1000*30);
 
   $(document).ready(function(){
-    resetGoBack = setTimeout(goBack, 1000*30);
+    window.clearTimeout(timer);
+    timer = window.setTimeout(goBack, 1000*30);
   });
 
   $('.company').click(function() {
@@ -44,8 +45,8 @@
       //}else{
       //}
       setTimeout(reset, 1000*20);
-      clearTimeout(resetGoBack);
-      resetGoBack = setTimeout(goBack, 1000*30);
+      window.clearTimeout(timer);
+      timer = window.setTimeout(goBack, 1000*30);
 
       return false;
   });
@@ -60,8 +61,8 @@
     console.log(target);
     $('.company--'+ target).show();
 
-    clearTimeout(resetGoBack);
-    resetGoBack = setTimeout(goBack, 1000*30);
+    window.clearTimeout(timer);
+    timer = window.setTimeout(goBack, 1000*30);
 
     return false;
   });
