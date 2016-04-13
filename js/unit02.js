@@ -19,6 +19,7 @@
   };
 
   var timer;
+  var timer02;
 
 
   $(document).ready(function(){
@@ -44,7 +45,8 @@
       //if ($target.hasClass('active')){
       //}else{
       //}
-      setTimeout(reset, 1000*20);
+      window.clearTimeout(timer02);
+      timer02 = window.setTimeout(reset, 1000*20);
       window.clearTimeout(timer);
       timer = window.setTimeout(goBack, 1000*30);
 
