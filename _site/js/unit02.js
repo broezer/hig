@@ -13,6 +13,17 @@
     $('g').attr('class', '');
   };
 
+  function goBack(){
+    window.location.replace("/");
+
+  };
+
+
+  var resetGoBack = setTimeout(goBack, 1000*30);
+
+  $(document).ready(function(){
+    resetGoBack = setTimeout(goBack, 1000*30);
+  });
 
   $('.company').click(function() {
       allFloors.removeClass('active');
@@ -33,7 +44,10 @@
       //}else{
       //}
       setTimeout(reset, 1000*20);
-    return false;
+      clearTimeout(resetGoBack);
+      resetGoBack = setTimeout(goBack, 1000*30);
+
+      return false;
   });
 
 
@@ -45,8 +59,14 @@
     var target = $this.attr('target');
     console.log(target);
     $('.company--'+ target).show();
+
+    clearTimeout(resetGoBack);
+    resetGoBack = setTimeout(goBack, 1000*30);
+
     return false;
   });
+
+
 
 
 })(jQuery);
