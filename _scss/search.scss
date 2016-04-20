@@ -59,6 +59,14 @@
   }
   &.active{
     opacity:0.5;
+    #Layer_1{
+      .st1{
+        fill:transparent;
+      }
+    }
+    .st1{
+      fill:$blue-gray;
+    }
     rect.st0{
       fill:$blue-gray;
     }

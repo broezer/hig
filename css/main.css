@@ -1011,6 +1011,10 @@ section {
     opacity: 0.1; }
   .map.active {
     opacity: 0.5; }
+    .map.active #Layer_1 .st1 {
+      fill: transparent; }
+    .map.active .st1 {
+      fill: #a5bbb3; }
     .map.active rect.st0 {
       fill: #a5bbb3; }
   .map.flip.active {
