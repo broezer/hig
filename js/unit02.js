@@ -8,13 +8,13 @@
   allCompanies.hide();
 
   function reset(){
-    //allFloors.removeClass('active');
-    //allMaps.removeClass('active inactive');
-    //$('g').attr('class', '');
+    allFloors.removeClass('active');
+    allMaps.removeClass('active inactive');
+    $('g').attr('class', '');
   };
 
   function goBack(){
-    //window.location.replace("/");
+    window.location.replace("/");
 
   };
 
