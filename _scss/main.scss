@@ -9,7 +9,7 @@
 	display:none;
 }
 
-g.active rect{
+g.active rect, g.active polyline, g.active polygon{
 	animation: blink 1s infinite;
 }
 

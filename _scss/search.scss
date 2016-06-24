@@ -57,18 +57,27 @@
   &.inactive{
     opacity:0.1;
   }
+  text{
+    stroke: none;
+    color:transparant;
+    fill:#ccc;
+  }
+
   &.active{
     opacity:0.5;
-    #Layer_1{
-      .st1{
-        fill:transparent;
-      }
+    text{
+      stroke: none;
+      color:black;
+      fill:black;
     }
-    .st1{
+    [id^=F] polyline, [id^=F] polygon, [id^=F] rect{
       fill:$blue-gray;
     }
-    rect.st0{
-      fill:$blue-gray;
+    #outline polyline{
+      fill:transparent;
+    }
+    [id^=F3D] text{
+      font-size:6px;
     }
   }
   &.flip.active{
@@ -86,6 +95,7 @@
     //background:rgba(255,255,255,0.8);
     @include transition(all 800ms ease-out);
   }
+
 }
 
 .floor-wrapper{

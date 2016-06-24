@@ -6,10 +6,10 @@
       {% if unit.unit == "D1" or  unit.unit == "D2" or unit.unit == "D3" or unit.unit == "D4" %}
         <a href=""  class="btn company company--{{ unit.name | slice: 0, 1 }}" unit="#D1_D2_D3_D4" floor=".floor0{{ unit.floor}}" direction="{{ unit.direction }}">
       {% else %}
-        <a href=""  class="btn company company--{{ unit.name | slice: 0, 1 }}" unit="#{{unit.unit}}" floor=".floor0{{ unit.floor}}" direction="{{ unit.direction }}">
+        <a href=""  class="btn company company--{{ unit.name | slice: 0, 1 }}" unit="#F{{unit.floor}}{{unit.unit |  remove: "." }}" floor=".floor0{{ unit.floor}}" direction="{{ unit.direction }}">
       {% endif %}
         <dt>{{ unit.name }}</dt>
-        <dd>{{ unit.unit }}</dd>
+        <dd>F{{unit.floor}} | {{ unit.unit }}</dd>
        </a>
     {% endfor %}
 

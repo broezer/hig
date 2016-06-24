@@ -661,7 +661,7 @@ h2 {
 #stats {
   display: none; }
 
-g.active rect {
+g.active rect, g.active polyline, g.active polygon {
   -webkit-animation: blink 1s infinite;
           animation: blink 1s infinite; }
 
@@ -1009,14 +1009,22 @@ section {
     top: 120px; }
   .map.inactive {
     opacity: 0.1; }
+  .map text {
+    stroke: none;
+    color: transparant;
+    fill: #ccc; }
   .map.active {
     opacity: 0.5; }
-    .map.active #Layer_1 .st1 {
+    .map.active text {
+      stroke: none;
+      color: black;
+      fill: black; }
+    .map.active [id^=F] polyline, .map.active [id^=F] polygon, .map.active [id^=F] rect {
+      fill: #a5bbb3; }
+    .map.active #outline polyline {
       fill: transparent; }
-    .map.active .st1 {
-      fill: #a5bbb3; }
-    .map.active rect.st0 {
-      fill: #a5bbb3; }
+    .map.active [id^=F3D] text {
+      font-size: 6px; }
   .map.flip.active {
     opacity: 1;
     -webkit-transform: rotateX(0);

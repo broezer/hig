@@ -1,116 +1,131 @@
 #Vijfde Verdieping
+- name: Stroom
+  floor: 5
+  housenumber: 186
+  unit: U01A
+  direction:
 
 - name: Magnet.me
   floor: 5
-  housenumber:
-  unit:
+  housenumber: 200
+  unit: U05
   direction:
 
 - name: Visser en Visser Chartering B.V.
   floor: 5
-  housenumber:
-  unit:
+  housenumber: 190
+  unit: U02
   direction:
 
 - name: Jade Architecten
   floor: 5
-  housenumber:
-  unit:
+  housenumber: 196-198
+  unit: U04
   direction:
 
 - name: Studio Beige
   floor: 5
-  housenumber:
-  unit:
+  housenumber: 202
+  unit: U06
   direction:
 
 #Vierde verdieping
 - name: Administratiekantoor J. Monster
   floor: 4
-  housenumber:
-  unit:
+  housenumber: 158
+  unit: U04
   direction:
 
 - name: Fimmar B.V.
   floor: 4
-  housenumber:
-  unit:
+  housenumber: 158
+  unit: U06
   direction:
 
-- name: Tandartspraktijk
-  floor: 4
-  housenumber:
-  unit:
-  direction:
 
 - name: Intax Tax Consultants
   floor: 4
-  housenumber:
-  unit:
+  housenumber: 170
+  unit: U09
   direction:
 
 
 - name: Ciparo
   floor: 4
-  housenumber:
-  unit:
+  housenumber: 178
+  unit: U11
   direction:
 
 - name: Destan Detachering B.V.
   floor: 4
-  housenumber:
-  unit:
+  housenumber: 186
+  unit: U13
   direction:
 
 - name: Helen Keller Stichting
   floor: 4
-  housenumber:
-  unit:
+  housenumber: 186
+  unit: U15
   direction:
 
-- name: Ben en Flip
+- name: Nieuwpoort & Lutijn
   floor: 4
-  housenumber:
-  unit:
+  housenumber: 187
+  unit: U12
   direction:
 
 - name: Nino en Frankie
   floor: 4
-  housenumber:
-  unit:
+  housenumber: 187
+  unit: U12
   direction:
 
 - name: Sabine van Zeijl
   floor: 4
-  housenumber:
-  unit:
+  housenumber: 187
+  unit: U12
   direction:
 
 - name: Job Smit
   floor: 4
-  housenumber:
-  unit:
+  housenumber: 187
+  unit: U12
   direction:
 
-- name: Damage Playground
-  floor: 4
-  housenumber:
-  unit:
-  direction:
 
 - name: Vestia
   floor: 4
-  housenumber:
-  unit:
+  housenumber: 164-168
+  unit: U08
   direction:
 
 
 #Derde verdieping
 
+- name: Het Industriegebouw
+  floor: 3
+  housenumber: 152-154
+  unit: 3.10
+  direction:
+
+
+- name: Grace Tan
+  floor: 3
+  housenumber: 130
+  unit: 3.2
+  direction:
+
+- name: MSO
+  floor: 3
+  housenumber: 130
+  unit: 3.3
+  direction:
+
+
 - name: Trin-It
   floor: 3
-  housenumber:
-  unit:
+  housenumber: 130
+  unit: 3.4 #3.5 3.6
   direction:
 
 - name: Studio Woesthuis
@@ -133,128 +148,146 @@
 
 - name: VS Logistics B.V.
   floor: 3
-  housenumber:
-  unit:
+  housenumber: 130
+  unit: 3.7
   direction:
 
 - name: Bravebox & Digital Creative
   floor: 3
-  housenumber:
-  unit:
+  housenumber: 130
+  unit: 3.1
   direction:
 
 - name: Lumick
   floor: 3
   housenumber: 136
-  unit: K1
+  unit: U01
   direction: right
 
 - name: Nieuw Creatief Peil
   floor: 3
   housenumber: 136
-  unit: K2
+  unit: U04
   direction: right
 
 - name: Maatwerk
   floor: 3
   housenumber: 136
-  unit: K3
+  unit: U05
   direction: right
 
 - name: DEK
   floor: 3
   housenumber: 136
-  unit: K4
+  unit: U06
   direction: right
 
 - name: Mr.Watson
   floor: 3
   housenumber: 136
-  unit: K5
+  unit: U07
   direction: right
 
 - name: EZ Shopping
   floor: 3
   housenumber: 136
-  unit: K6
+  unit: U08
   direction: right
 
 - name: Goddog
   floor: 3
   housenumber: 136
-  unit: K7
+  unit: U07
   direction: right
 
-- name: Kortom
+- name: Terra Cacti
   floor: 3
   housenumber: 136
-  unit: K7
+  unit: U02
   direction: right
 
 - name: Koffietaco Magazine
   floor: 3
   housenumber: 136
-  unit: K8
+  unit: U03
   direction: right
 
 - name: LuvDaSun
   floor: 3
   housenumber:
-  unit: K10
+  unit: U09
   direction:
 
-- name: Bruce
+- name: Bruce Moerdjiman
   floor: 3
   housenumber:
-  unit: D1
+  unit: D08
   direction: right
 
-- name: Clear Right
+- name: Alexander Goverse
   floor: 3
   housenumber:
-  unit: D2
+  unit: D10
   direction: right
 
 - name: Vloedlicht
   floor: 3
   housenumber:
-  unit: K10
+  unit: U10
   direction:
 
 - name: Today's Specials
   floor: 3
   housenumber:
-  unit: K11
+  unit: U11
   direction: left
 
 - name: Van Vliet Kroonluchters
   floor: 3
   housenumber:
-  unit: K12
+  unit: U12
   direction: left
 
-- name: We Will Assist
+- name: We Will Drive
   floor: 3
   housenumber:
-  unit: K13
+  unit: U12
+  direction: left
+
+- name: Sjauf
+  floor: 3
+  housenumber:
+  unit: U12
   direction: left
 
 - name: Kone Advies
   floor: 3
   housenumber:
-  unit: K14
+  unit: U15
+  direction: left
+
+- name: E&O Events
+  floor: 3
+  housenumber:
+  unit: U15
   direction: left
 
 - name: Karels & Den Besten
   floor: 3
   housenumber:
-  unit: K15
+  unit: U13
   direction: left
 
-- name: Lijn
+- name: Lijnn
   floor: 3
   housenumber:
-  unit: K16
+  unit: U14
+  direction: left
+
+- name: Roest Architectuur
+  floor: 3
+  housenumber:
+  unit: U14
   direction: left
 
 #Tweede verdieping
@@ -262,19 +295,19 @@
 - name: RTS Meiser Nederland B.V.
   floor: 2
   housenumber:
-  unit:
+  unit: U01
   direction:
 
 - name: BTS Business Translation Services B.V.
   floor: 2
-  housenumber:
-  unit:
+  housenumber: 98
+  unit: U02 U03
   direction:
 
 - name: Te Pas Advocaten
   floor: 2
-  housenumber:
-  unit:
+  housenumber: 106
+  unit: U05
   direction:
 
 - name: Uitdekunst!
@@ -327,14 +360,14 @@
 
 - name: Heulek B.V.
   floor: 2
-  housenumber:
-  unit:
+  housenumber: 128
+  unit: U10
   direction:
 
 - name: China Classification Society
   floor: 2
-  housenumber:
-  unit:
+  housenumber: 128
+  unit: U08
   direction:
 
 
@@ -346,40 +379,47 @@
 
 #Eerste verdieping
 
+
+#U08 = Gs. 90
+#U09 = Gs. 92
+#U10 = Gs. 94
+#U11 = Gs. 96
+
+
 - name: Mediad
   floor: 1
-  housenumber:
-  unit:
+  housenumber: 68
+  unit: U01
   direction:
 
 - name: WAQF
   floor: 1
-  housenumber:
-  unit:
+  housenumber: 76
+  unit: U02
   direction:
 
 - name: SLK
   floor: 1
-  housenumber:
-  unit:
+  housenumber: 80 84
+  unit: U04_05
   direction:
 
 - name: Mepros
   floor: 1
-  housenumber:
-  unit:
+  housenumber: 88
+  unit: U07
   direction:
 
 - name: Uscoutfor
   floor: 1
-  housenumber:
-  unit:
+  housenumber: 86
+  unit: U06
   direction:
 
-- name: Trichis Comminicatie en Ontwerp B.V.
+- name: Trichis Communicatie en Ontwerp B.V.
   floor: 1
-  housenumber:
-  unit:
+  housenumber: 74
+  unit: U03
   direction:
 
 
