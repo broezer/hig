@@ -9,7 +9,7 @@
         <a href=""  class="btn company company--{{ unit.name | slice: 0, 1 }}" unit="#F{{unit.floor}}{{unit.unit |  remove: "." }}" floor=".floor0{{ unit.floor}}" direction="{{ unit.direction }}">
       {% endif %}
         <dt>{{ unit.name }}</dt>
-        <dd>F{{unit.floor}} | {{ unit.unit }}</dd>
+        <dd>F{{unit.floor}} | {{ unit.unit | default }}</dd>
        </a>
     {% endfor %}
 

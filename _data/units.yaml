@@ -105,7 +105,7 @@
 - name: Het Industriegebouw
   floor: 3
   housenumber: 152-154
-  unit: 3.10
+  unit: '3.10'
   direction:
 
 
