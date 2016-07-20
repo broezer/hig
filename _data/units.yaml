@@ -230,6 +230,12 @@
   unit: D10
   direction: right
 
+- name: En-com
+  floor: 3
+  housenumber:
+  unit: D07
+  direction: right
+
 - name: Vloedlicht
   floor: 3
   housenumber:
