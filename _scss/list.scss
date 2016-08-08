@@ -1,0 +1,26 @@
+#overzicht-bedrijven{
+  text-align: left;
+    clear: both;
+    margin-left: 5%;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.list{
+  text-align:left;
+  width:90%;
+  margin-left:5%;
+}
+
+.list{
+  li{
+    border-bottom:1px solid #ccc;
+    span{
+      display:inline-block
+    }
+    span:first-child{
+      width:30%;
+
+    }
+  }
+}

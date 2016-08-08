@@ -12,6 +12,13 @@
 
   {{content}}
 
+  {% assign sorted_units = (site.data.units | sort: 'name') %}
+  <ol class="list">
+  {% for unit in sorted_units %}
+
+      <li><span>{{ unit.name }}</span> <span> Verieping: {{unit.floor}} </span> | <spanm>{{ unit.unit | default }} </span></li>
+  {% endfor %}
+  </ol>
 
   {% include analytics.html %}
 

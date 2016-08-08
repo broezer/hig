@@ -751,7 +751,9 @@ body {
   -webkit-font-smoothing: antialiased;
   transition: opacity 300ms ease;
   visibility: hidden;
-  opacity: 0;
+  opacity: 0; }
+
+body.nomouse {
   cursor: none; }
 
 .wf-loading body {
@@ -1165,3 +1167,22 @@ section {
         opacity: 1;
         -webkit-transform: translateX(0);
         transform: translateX(0); }
+
+#overzicht-bedrijven {
+  text-align: left;
+  clear: both;
+  margin-left: 5%;
+  font-size: 29px;
+  font-weight: bold; }
+
+.list {
+  text-align: left;
+  width: 90%;
+  margin-left: 5%; }
+
+.list li {
+  border-bottom: 1px solid #ccc; }
+  .list li span {
+    display: inline-block; }
+  .list li span:first-child {
+    width: 30%; }

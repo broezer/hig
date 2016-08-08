@@ -66,8 +66,11 @@ body {
 		@include transition(opacity 300ms ease);
 		visibility: hidden;
 		opacity:0;
-		cursor:none;
 
+}
+
+body.nomouse{
+	cursor:none;
 }
 
 .wf-loading body{
@@ -107,4 +110,5 @@ section{
 
 
 @import "welcome.scss";
-@import "search.scss"
+@import "search.scss";
+@import "list.scss"
