@@ -19,6 +19,18 @@
       <li><span>{{ unit.name }}</span> <span> Verieping: {{unit.floor}} </span> | <spanm>{{ unit.unit | default }} </span></li>
   {% endfor %}
   </ol>
+  <div class="overview">
+    <h2>1ste Verdieping</h2>
+    {% include svg/v1/01.svg %}
+    <h2>2de Verdieping</h2>
+    {% include svg/v1/02.svg %}
+    <h2>3de Verdieping</h2>
+    {% include svg/v1/03.svg %}
+    <h2>4de Verdieping</h2>
+    {% include svg/v1/04.svg %}
+    <h2>5de Verdieping</h2>
+    {% include svg/v1/05.svg %}
+  </div>
 
   {% include analytics.html %}
 
