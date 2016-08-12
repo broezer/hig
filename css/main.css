@@ -999,10 +999,14 @@ section {
   opacity: 0.4;
   top: -180px;
   transition: all 300ms ease-in; }
+  .map text {
+    display: none; }
   .map.floor04 {
     top: -120px; }
   .map.floor03 {
     top: -60px; }
+    .map.floor03.active text {
+      display: block; }
   .map.floor02 {
     top: 0; }
   .map.floor01 {

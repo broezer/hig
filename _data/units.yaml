@@ -3,101 +3,101 @@
   floor: 5
   housenumber: 186
   unit: U01A
-  direction:
+
 
 - name: Magnet.me
   floor: 5
   housenumber: 200
   unit: U05
-  direction:
+
 
 - name: Visser en Visser Chartering B.V.
   floor: 5
   housenumber: 190
   unit: U02
-  direction:
+
 
 - name: Jade Architecten
   floor: 5
   housenumber: 196-198
   unit: U04
-  direction:
+
+
+- name: Jessica Nielsen
+  floor: 5
+  housenumber: 196-198
+  unit: U04
+
 
 - name: Studio Beige
   floor: 5
   housenumber: 202
   unit: U06
-  direction:
+
 
 #Vierde verdieping
 - name: Administratiekantoor J. Monster
   floor: 4
   housenumber: 158
   unit: U04
-  direction:
+
 
 - name: Fimmar B.V.
   floor: 4
   housenumber: 158
   unit: U06
-  direction:
+
 
 
 - name: Intax Tax Consultants
   floor: 4
   housenumber: 170
   unit: U09
-  direction:
 
 
-- name: Ciparo
-  floor: 4
-  housenumber: 178
-  unit: U11
-  direction:
 
 - name: Destan Detachering B.V.
   floor: 4
   housenumber: 186
   unit: U13
-  direction:
+
 
 - name: Helen Keller Stichting
   floor: 4
   housenumber: 186
   unit: U15
-  direction:
+
 
 - name: Nieuwpoort & Lutijn
   floor: 4
   housenumber: 187
   unit: U12
-  direction:
+
 
 - name: Nino en Frankie
   floor: 4
   housenumber: 187
   unit: U12
-  direction:
+
 
 - name: Sabine van Zeijl
   floor: 4
   housenumber: 187
   unit: U12
-  direction:
+
 
 - name: Job Smit
   floor: 4
   housenumber: 187
   unit: U12
-  direction:
+
 
 
 - name: Vestia
   floor: 4
   housenumber: 164-168
   unit: U08
-  direction:
+
 
 
 #Derde verdieping
@@ -106,195 +106,284 @@
   floor: 3
   housenumber: 152-154
   unit: '3.10'
-  direction:
+
+- name: Huismeester
+  floor: 3
+  housenumber: 152-154
+  unit: '3.11'
 
 
 - name: Grace Tan
   floor: 3
   housenumber: 130
   unit: 3.2
-  direction:
+
 
 - name: MSO
   floor: 3
   housenumber: 130
   unit: 3.3
-  direction:
+
 
 
 - name: Trin-It
   floor: 3
   housenumber: 130
   unit: 3.4 #3.5 3.6
-  direction:
+
 
 - name: Studio Woesthuis
   floor: 3
   housenumber:
-  unit:
-  direction:
+  unit: 3.7
+
 
 - name: Liefdesmomenten
   floor: 3
   housenumber:
-  unit:
-  direction:
+  unit: 3.7
+
 
 - name: Blauwesteeg
   floor: 3
   housenumber:
-  unit:
-  direction:
+  unit: 3.7
+
 
 - name: VS Logistics B.V.
   floor: 3
   housenumber: 130
   unit: 3.7
-  direction:
+
 
 - name: Bravebox & Digital Creative
   floor: 3
   housenumber: 130
   unit: 3.1
-  direction:
+
 
 - name: Lumick
   floor: 3
   housenumber: 136
   unit: U01
-  direction: right
+
 
 - name: Nieuw Creatief Peil
   floor: 3
   housenumber: 136
   unit: U04
-  direction: right
+
 
 - name: Maatwerk
   floor: 3
   housenumber: 136
   unit: U05
-  direction: right
+
 
 - name: DEK
   floor: 3
   housenumber: 136
   unit: U06
-  direction: right
+
 
 - name: Mr.Watson
   floor: 3
   housenumber: 136
   unit: U07
-  direction: right
+
 
 - name: EZ Shopping
   floor: 3
   housenumber: 136
   unit: U08
-  direction: right
+
+
+- name: supRmen
+  floor: 3
+  housenumber: 136
+  unit: U08
+
+
+- name: Copperwire
+  floor: 3
+  housenumber: 136
+  unit: U08
+
 
 - name: Goddog
   floor: 3
   housenumber: 136
   unit: U07
-  direction: right
+
 
 - name: Terra Cacti
   floor: 3
   housenumber: 136
   unit: U02
-  direction: right
+
 
 - name: Koffietaco Magazine
   floor: 3
   housenumber: 136
   unit: U03
-  direction: right
+
+
+- name: 2MM Enterprises
+  floor: 3
+  housenumber: 136
+  unit: U03
+
+
+- name: Storys
+  floor: 3
+  housenumber: 136
+  unit: U03
+
 
 - name: LuvDaSun
   floor: 3
   housenumber:
   unit: U09
-  direction:
+
+
+- name: Maurice Geluk
+  floor: 3
+  housenumber:
+  unit: D03
+
+
+- name: Studio Annemiek Tijmes
+  floor: 3
+  housenumber:
+  unit: D06
+
+
+- name: TrendCult
+  floor: 3
+  housenumber:
+  unit: D09
+
+
+- name: Madelon Baans
+  floor: 3
+  housenumber:
+  unit: D13
+
+
+- name: Wesley Masius
+  floor: 3
+  housenumber:
+  unit: D14
+
+
+- name: Novo Mngt. B.V.
+  floor: 3
+  housenumber:
+  unit: D15
+
+
+- name: Joshua Brard
+  floor: 3
+  housenumber:
+  unit: D16
+
+
+- name: Joey Peters
+  floor: 3
+  housenumber:
+  unit: D17
+
+
+- name: Mehtap Gungormez
+  floor: 3
+  housenumber:
+  unit: D18
+
+
 
 - name: Bruce Moerdjiman
   floor: 3
   housenumber:
   unit: D08
-  direction: right
+
 
 - name: Alexander Goverse
   floor: 3
   housenumber:
   unit: D10
-  direction: right
+
 
 - name: En-com
   floor: 3
   housenumber:
   unit: D07
-  direction: right
+
 
 - name: Vloedlicht
   floor: 3
   housenumber:
   unit: U10
-  direction:
+
+
+- name: Frontaal Film
+  floor: 3
+  housenumber:
+  unit: U10
+
 
 - name: Today's Specials
   floor: 3
   housenumber:
   unit: U11
-  direction: left
+
 
 - name: Van Vliet Kroonluchters
   floor: 3
   housenumber:
   unit: U12
-  direction: left
+
 
 - name: We Will Drive
   floor: 3
   housenumber:
   unit: U12
-  direction: left
+
 
 - name: Sjauf
   floor: 3
   housenumber:
   unit: U12
-  direction: left
+
 
 - name: Kone Advies
   floor: 3
   housenumber:
   unit: U15
-  direction: left
+
 
 - name: E&O Events
   floor: 3
   housenumber:
   unit: U15
-  direction: left
+
 
 - name: Karels & Den Besten
   floor: 3
   housenumber:
   unit: U13
-  direction: left
+
 
 - name: Lijnn
   floor: 3
   housenumber:
   unit: U14
-  direction: left
+
 
 - name: Roest Architectuur
   floor: 3
   housenumber:
   unit: U14
-  direction: left
+
 
 #Tweede verdieping
 
@@ -302,86 +391,83 @@
   floor: 2
   housenumber:
   unit: U01
-  direction:
 
-- name: BTS Business Translation Services B.V.
+
+- name: Business Translation Services B.V.
   floor: 2
   housenumber: 98
-  unit: U02 U03
-  direction:
+  unit: U02
+
 
 - name: Te Pas Advocaten
   floor: 2
   housenumber: 106
   unit: U05
-  direction:
+
 
 - name: Uitdekunst!
   floor: 2
   housenumber:
   unit:
-  direction:
 
-- name: New Fork
+
+- name: Dajo Brinkman
   floor: 2
   housenumber:
   unit:
-  direction:
 
-- name: Zico Lopes Dezign
+
+- name: Marked! B.V.
   floor: 2
   housenumber:
   unit:
-  direction:
 
-- name: Nexus Verus
+
+- name: BeMe / Njoymarketing
   floor: 2
   housenumber:
   unit:
-  direction:
+
+
+
+- name: Studio Zico Lopez
+  floor: 2
+  housenumber:
+  unit:
+
+
 
 - name: Treestle
   floor: 2
   housenumber:
   unit:
-  direction:
+
 
 - name: Ships Ink
   floor: 2
   housenumber:
   unit:
-  direction:
+
 
 - name: Flow Logics
   floor: 2
   housenumber:
   unit:
-  direction:
+
 
 - name: De cultuurschool
   floor: 2
   housenumber:
   unit:
-  direction:
 
-- name: Heulek B.V.
-  floor: 2
-  housenumber: 128
-  unit: U10
-  direction:
+
 
 - name: China Classification Society
   floor: 2
   housenumber: 128
   unit: U08
-  direction:
 
 
-- name: LISA interieur en architectuur
-  floor: 2
-  housenumber:
-  unit:
-  direction:
 
 #Eerste verdieping
 
@@ -396,37 +482,37 @@
   floor: 1
   housenumber: 68
   unit: U01
-  direction:
+
 
 - name: WAQF
   floor: 1
   housenumber: 76
   unit: U02
-  direction:
+
 
 - name: SLK
   floor: 1
   housenumber: 80 84
   unit: U04_05
-  direction:
+
 
 - name: Mepros
   floor: 1
   housenumber: 88
   unit: U07
-  direction:
+
 
 - name: Uscoutfor
   floor: 1
   housenumber: 86
   unit: U06
-  direction:
+
 
 - name: Trichis Communicatie en Ontwerp B.V.
   floor: 1
   housenumber: 74
   unit: U03
-  direction:
+
 
 
 #Begane Grond
@@ -436,40 +522,39 @@
   floor: 0
   housenumber:
   unit:
-  direction:
+
 
 - name: Elite
   floor: 0
   housenumber:
   unit:
-  direction:
+
 
 - name: Heriz
   floor: 0
   housenumber:
   unit:
-  direction:
+
 
 - name: Vico
   floor: 0
   housenumber:
   unit:
-  direction:
+
 
 - name: Tortu
   floor: 0
   housenumber:
   unit:
-  direction:
+
 
 - name: Resto Rokus
   floor: 0
   housenumber:
   unit:
-  direction:
+
 
 - name: Tegendraads
   floor: 0
   housenumber:
   unit:
-  direction:
