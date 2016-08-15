@@ -68,7 +68,7 @@
   unit: U15
 
 
-- name: Nieuwpoort & Lutijn
+- name: Nieuwpoort & Luteijn
   floor: 4
   housenumber: 187
   unit: U12
@@ -107,10 +107,7 @@
   housenumber: 152-154
   unit: '3.10'
 
-- name: Huismeester
-  floor: 3
-  housenumber: 152-154
-  unit: '3.11'
+
 
 
 - name: Grace Tan
@@ -517,6 +514,11 @@
 
 #Begane Grond
 
+
+- name: Huismeester
+  floor: 0
+  housenumber:
+  unit: 
 
 - name: Cafe@home
   floor: 0
