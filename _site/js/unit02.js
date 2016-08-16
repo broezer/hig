@@ -24,7 +24,7 @@
 
   $(document).ready(function(){
     window.clearTimeout(timer);
-    //timer = window.setTimeout(goBack, 1000*30);
+    timer = window.setTimeout(goBack, 1000*30);
   });
 
   $('.company').click(function() {
