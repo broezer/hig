@@ -1,6 +1,6 @@
 {% include top.html %}
-{% if page.url == "/lijst/" %}
-<body class="{{page.bodyclass}} noselect ">
+{% if page.url == "/lijst/" or page.url == "/nieuws/" %}
+<body class="{{page.bodyclass}}  ">
 
 {% else %}
 <body class="{{page.bodyclass}} noselect nomouse">
@@ -25,12 +25,22 @@
   </script>
 
   <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+
+
   {% if page.url == "/" %}
    <script src="../js/refresh.js"></script>
   {% endif %}
 
   {% if page.url == "/search/" %}
    <script src="../js/unit02.js"></script>
+  {% endif %}
+
+  {% if page.url == "/nieuws/" %}
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-sanitize.min.js"></script>
+
+
+   <script src="../js/news.js"></script>
   {% endif %}
 
 

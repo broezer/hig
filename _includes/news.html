@@ -1,0 +1,22 @@
+<section class="news" ng-app="hig">
+  <div ng-controller="NewsCtrl">
+
+
+
+    <article>
+      <h2 ng-bind-html="news.title.rendered"> </h2>
+    </article>
+    <article ng-repeat="item in blocks">
+        <h2 ng-bind-html="item.blok_titel"> </h2>
+        <p ng-bind-html="item.blok_tekst"></p>
+
+        <div  ng-init="getImage(item.blok_afbeelding)" id=" // item.blok_afbeelding //" > // item.blok_afbeelding // </div>
+        <img  lazy-image lazy-src="// item.blok_afbeelding //" ng-src="// content //"/>
+
+    </article>
+
+
+
+
+  </div>
+</section>

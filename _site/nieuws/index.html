@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Het Industriegebouw - Prototype</title>
+    <title>HIG  - Nieuws</title>
     <meta name="viewport" content="width=device-width">
     <style>
 body{
@@ -21,7 +21,7 @@ h1{
 </head>
 
 
-<body class="welcome noselect nomouse">
+<body class="  ">
 
 
   <header class="header">
@@ -31,13 +31,31 @@ h1{
 
   </header>
 
-  <main class="hello">
-  <h1>Welkom in <em>Het Industriegebouw</em></h1>
-  <h2>Stap gerust dichterbij..</h2>
-  <a class="btn btn--welcome" href="/search" tartget="_self" title="zoek">Begin hier</a>
-</main>
-<div class="image">
-</div>
+  <h1 id="overzicht-bedrijven">Overzicht Bedrijven</h1>
+
+
+<section class="news" ng-app="hig">
+  <div ng-controller="NewsCtrl">
+
+
+
+    <article>
+      <h2 ng-bind-html="news.title.rendered"> </h2>
+    </article>
+    <article ng-repeat="item in blocks">
+        <h2 ng-bind-html="item.blok_titel"> </h2>
+        <p ng-bind-html="item.blok_tekst"></p>
+
+        <div  ng-init="getImage(item.blok_afbeelding)" id=" // item.blok_afbeelding //" > // item.blok_afbeelding // </div>
+        <img  lazy-image lazy-src="// item.blok_afbeelding //" ng-src="// content //"/>
+
+    </article>
+
+
+
+
+  </div>
+</section>
 
 
 
@@ -67,11 +85,15 @@ h1{
 
 
   
-   <script src="../js/refresh.js"></script>
-  
 
   
 
+  
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-sanitize.min.js"></script>
+
+
+   <script src="../js/news.js"></script>
   
 
 

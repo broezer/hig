@@ -1,59 +1,25 @@
-{% include top.html %}
-{% if page.url == "/lijst/" %}
-<body class="{{page.bodyclass}} noselect ">
+---
+layout: default
+---
 
-{% else %}
-<body class="{{page.bodyclass}} noselect nomouse">
+{{content}}
 
-{% endif %}
-  <header class="header">
-    {% include svg/hig.html %}
-  </header>
+{% assign sorted_units = (site.data.units | sort: 'name') %}
+<ol class="list">
+{% for unit in sorted_units %}
 
-  {{content}}
-
-  {% assign sorted_units = (site.data.units | sort: 'name') %}
-  <ol class="list">
-  {% for unit in sorted_units %}
-
-      <li><span>{{ unit.name }}</span> <span> Verieping: {{unit.floor}} </span> | <spanm>{{ unit.unit | default }} </span></li>
-  {% endfor %}
-  </ol>
-  <div class="overview">
-    <h2>1ste Verdieping</h2>
-    {% include svg/v1/01.svg %}
-    <h2>2de Verdieping</h2>
-    {% include svg/v1/02.svg %}
-    <h2>3de Verdieping</h2>
-    {% include svg/v1/03.svg %}
-    <h2>4de Verdieping</h2>
-    {% include svg/v1/04.svg %}
-    <h2>5de Verdieping</h2>
-    {% include svg/v1/05.svg %}
-  </div>
-
-  {% include analytics.html %}
-
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
-  <script>
-  WebFont.load({
-    typekit: {
-       id: 'ilj2exe'
-     }
-  });
-  </script>
-
-  <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-  {% if page.url == "/" %}
-   <script src="../js/refresh.js"></script>
-  {% endif %}
-
-  {% if page.url == "/search/" %}
-   <script src="../js/unit02.js"></script>
-  {% endif %}
-
-
-
-
-</body>
-</html>
+    <li><span>{{ unit.name }}</span> <span> Verieping: {{unit.floor}} </span> | <spanm>{{ unit.unit | default }} </span></li>
+{% endfor %}
+</ol>
+<div class="overview">
+  <h2>1ste Verdieping</h2>
+  {% include svg/v1/01.svg %}
+  <h2>2de Verdieping</h2>
+  {% include svg/v1/02.svg %}
+  <h2>3de Verdieping</h2>
+  {% include svg/v1/03.svg %}
+  <h2>4de Verdieping</h2>
+  {% include svg/v1/04.svg %}
+  <h2>5de Verdieping</h2>
+  {% include svg/v1/05.svg %}
+</div>
