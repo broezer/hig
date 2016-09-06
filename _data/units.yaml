@@ -218,6 +218,11 @@
   housenumber: 136
   unit: U02
 
+- name: Bijcollege
+  floor: 3
+  housenumber: 136
+  unit: U02
+
 
 - name: Koffietaco Magazine
   floor: 3
@@ -518,7 +523,7 @@
 - name: Huismeester
   floor: 0
   housenumber:
-  unit: 
+  unit:
 
 - name: Cafe@home
   floor: 0
