@@ -492,7 +492,12 @@
   unit: U02
 
 
-- name: SLK
+- name: Schagen Lensen & Van Krieken Accountants
+  floor: 1
+  housenumber: 80 84
+  unit: U04_05
+
+- name:  SAM Accountants
   floor: 1
   housenumber: 80 84
   unit: U04_05
