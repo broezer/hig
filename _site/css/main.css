@@ -768,7 +768,8 @@ img, picture {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  display: block; }
+  display: block;
+  height: auto; }
 
 header {
   z-index: 1;
@@ -1172,7 +1173,7 @@ section {
         -webkit-transform: translateX(0);
         transform: translateX(0); }
 
-#overzicht-bedrijven, .overview h2 {
+#overzicht-bedrijven, .overview h2, #gif-templates {
   text-align: left;
   clear: both;
   margin-left: 5%;
@@ -1201,3 +1202,54 @@ section {
   .overview svg text {
     display: block;
     fill: black; }
+
+.news .image-carousel {
+  width: 100vw;
+  height: 100vh; }
+
+.news-items {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  clear: both;
+  background-size: cover;
+  background-position: center center;
+  background-opacity: 0.5; }
+  .news-items h1 {
+    font-weight: 700;
+    font-size: 2.1875rem;
+    line-height: 2.625rem;
+    background: #F4A99D;
+    top: 0;
+    position: absolute;
+    width: 75%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem; }
+  .news-items p {
+    font-weight: 700;
+    font-size: 1.82292rem;
+    position: absolute;
+    width: 75%;
+    bottom: 0;
+    right: 0;
+    background: #ffed4c;
+    margin-bottom: 0;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem; }
+
+.posts ul {
+  padding: 1.25rem;
+  width: 50%;
+  float: left;
+  text-align: left; }
+
+.posts article {
+  width: 50%;
+  float: right; }
+  .posts article h1 {
+    font-weight: 700;
+    font-size: 2.1875rem;
+    line-height: 2.625rem;
+    background: #F4A99D; }
