@@ -446,8 +446,13 @@ button, input[type="button"], input[type="reset"], input[type="submit"], .btn, .
   margin-right: 25%;
   text-align: center;
   margin-top: 20%;
-  text-transform: lowercase;
-  float: left; }
+  text-transform: lowercase; }
+  .btn--welcome svg, .btn--welcome:visited svg {
+    display: inline;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding-top: 0.6875rem;
+    margin-left: 1.1875rem; }
 
 fieldset {
   background-color: transparent;
@@ -811,8 +816,7 @@ section {
     position: relative;
     vertical-align: middle;
     padding-left: 5%;
-    padding-top: 10%;
-    clear: both; }
+    padding-top: 10%; }
   .welcome h1.anim {
     -webkit-animation: fadeAnimation01 12s infinite;
             animation: fadeAnimation01 12s infinite; }
@@ -1209,7 +1213,6 @@ section {
     height: 60vh;
     background: none;
     padding-bottom: 0;
-    margin-top: 25vh;
     background-color: rgba(240, 240, 240, 0.6); }
 
 .news-items {

@@ -56,5 +56,15 @@
   text-align:center;
   margin-top:20%;
   text-transform:lowercase;
-  float:left;
+
+  span{
+
+  }
+  svg{
+    display:inline;
+    width:rem(40);
+    height:rem(40);
+    padding-top:rem(11);
+    margin-left:rem(19)
+   }
 }
