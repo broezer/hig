@@ -22,6 +22,7 @@
   display:table;
   font-size:54px;
   animation: backgroundColor 24s infinite;
+  overflow: hidden;
   .hello{
     //@include span-columns(5);
   	//@include shift(1);

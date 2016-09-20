@@ -804,7 +804,8 @@ section {
   display: table;
   font-size: 54px;
   -webkit-animation: backgroundColor 24s infinite;
-          animation: backgroundColor 24s infinite; }
+          animation: backgroundColor 24s infinite;
+  overflow: hidden; }
   .welcome .hello {
     position: relative;
     vertical-align: middle;
