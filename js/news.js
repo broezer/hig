@@ -8,8 +8,7 @@ var higApp = angular.module('hig', ['ngSanitize', 'ngTouch', 'angular-carousel']
   });
 
 
-higApp
-.controller('NewsCtrl', function ($scope, $http) {
+higApp.controller('NewsCtrl', function ($scope, $http) {
 
   $http.get('http://www.hetindustriegebouw.nl/wp-json/wp/v2/nieuwsbrief')
    .success(function(data){

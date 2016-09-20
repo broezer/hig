@@ -37,8 +37,40 @@ h1{
   <h2 class="anim">Stap gerust dichterbij..</h2>
   <a class="btn btn--welcome" href="/search" tartget="_self" title="zoek">zoek bedrijf</a>
 </main>
-<div class="image">
-</div>
+
+
+<section class="news" ng-controller="NewsCtrl">
+    <!--
+    <article class="news-items" ng-repeat="item in blocks" lazy-image lazy-src="// item.blok_afbeelding //" style="background-image : url('// content //')">
+        <h1 ng-bind-html="item.blok_titel"> </h1>
+        <p ng-bind-html="item.blok_tekst"></p>
+    </article>
+  -->
+
+    <ul class="image image-carousel" rn-carousel rn-carousel-auto-slide="10" rn-carousel-transition="none" rn-carousel-duration="300" rn-carousel-controls-allow-loop>
+
+      <li  class="news-items" ng-repeat="item in blocks">
+        <article class="news-items" >
+          <h1 ng-bind-html="item.blok_titel"> </h1>
+          <div class="news-image"  lazy-image lazy-src="// item.blok_afbeelding //" > </div>
+          <p ng-bind-html="item.blok_tekst"></p>
+        </article>
+      </li>
+
+    </ul>
+
+  <!--
+  <slick class="image-carousel" init-onload=true data="blocks">
+    <li  class="" ng-repeat="item in blocks">
+      <article class="news-items"lazy-image lazy-src="// item.blok_afbeelding //" >
+          <h1 ng-bind-html="item.blok_titel"> </h1>
+          <p ng-bind-html="item.blok_tekst"></p>
+      </article>
+    </li>
+  </slick>
+-->
+
+</section>
 
 
 
@@ -72,6 +104,17 @@ h1{
   
 
   
+
+  
+   <script src="../js/refresh.js"></script>
+   <script src="../js/angular.js"></script>
+   <script src="../js/angular-sanitize.min.js"></script>
+   <script src="../js/angular-touch.min.js"></script>
+
+   <script src="../js/angular-carousel.js"></script>
+
+   <script src="../js/news.js"></script>
+   <script src="../js/posts.js"></script>
 
   
 
