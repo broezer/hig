@@ -27,6 +27,10 @@
     "neat": "~1.7.2"
   },
   "devDependencies": {
-    "angular": "~1.5.8"
+    "angular": "~1.5.8",
+    "angular-carousel": "~1.0.1",
+    "angular-slick": "~0.2.1",
+    "slick-carousel": "~1.6.0",
+    "video.js": "videojs#~5.13.0"
   }
 }

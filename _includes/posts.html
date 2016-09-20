@@ -1,0 +1,16 @@
+<section class="posts" ng-controller="PostsCtrl">
+
+    <ul>
+      <li ng-repeat="post in posts" >
+        <h2 ng-bind-html="post.title.rendered" id="// post.id //" ng-click="selectPost(post.id)"> </h2>
+      </li>
+    </ul>
+
+
+    <article>
+      <h1 ng-bind-html="selectedPost.title.rendered"></h1>
+      <div ng-bind-html="selectedPost.content.rendered"></div>
+    </article>
+
+
+</section>

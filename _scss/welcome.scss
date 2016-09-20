@@ -33,7 +33,7 @@
     clear:both;
   }
 
-  h1{
+  h1.anim{
     animation: fadeAnimation01 12s infinite;
 
     em{
@@ -42,9 +42,9 @@
       border-bottom: 8px solid black;
     }
   }
-  h2{
+  h2.anim{
     animation: fadeAnimation02 12s infinite;
-  
+
 
   }
 }

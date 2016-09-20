@@ -1,22 +1,40 @@
-<section class="news" ng-app="hig">
-  <div ng-controller="NewsCtrl">
+<main class="hello">
+  <h1 class="anim">Welkom in <em>Het Industriegebouw</em></h1>
+  <h2 class="anim">Stap gerust dichterbij..</h2>
+  <a class="btn btn--welcome" href="/search" tartget="_self" title="zoek">zoek bedrijf</a>
+</main>
 
 
-
-    <article>
-      <h2 ng-bind-html="news.title.rendered"> </h2>
-    </article>
-    <article ng-repeat="item in blocks">
-        <h2 ng-bind-html="item.blok_titel"> </h2>
+<section class="news" ng-controller="NewsCtrl">
+    <!--
+    <article class="news-items" ng-repeat="item in blocks" lazy-image lazy-src="// item.blok_afbeelding //" style="background-image : url('// content //')">
+        <h1 ng-bind-html="item.blok_titel"> </h1>
         <p ng-bind-html="item.blok_tekst"></p>
-
-        <div  ng-init="getImage(item.blok_afbeelding)" id=" // item.blok_afbeelding //" > // item.blok_afbeelding // </div>
-        <img  lazy-image lazy-src="// item.blok_afbeelding //" ng-src="// content //"/>
-
     </article>
+  -->
 
+    <ul class="image image-carousel" rn-carousel rn-carousel-auto-slide="10" rn-carousel-transition="none" rn-carousel-duration="300" rn-carousel-controls-allow-loop>
+    
+      <li  class="news-items" ng-repeat="item in blocks">
 
+        <article class="news-items" >
+          <h1 ng-bind-html="item.blok_titel"> </h1>
+          <div class="news-image"  lazy-image lazy-src="// item.blok_afbeelding //" > </div>
+          <p ng-bind-html="item.blok_tekst"></p>
+        </article>
+      </li>
 
+    </ul>
 
-  </div>
+  <!--
+  <slick class="image-carousel" init-onload=true data="blocks">
+    <li  class="" ng-repeat="item in blocks">
+      <article class="news-items"lazy-image lazy-src="// item.blok_afbeelding //" >
+          <h1 ng-bind-html="item.blok_titel"> </h1>
+          <p ng-bind-html="item.blok_tekst"></p>
+      </article>
+    </li>
+  </slick>
+-->
+
 </section>

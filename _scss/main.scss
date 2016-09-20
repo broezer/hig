@@ -89,6 +89,7 @@ img, picture{
 	margin-right:auto;
 	position: relative;
   display: block;
+	height:auto;
 }
 
 header{
@@ -111,4 +112,5 @@ section{
 
 @import "welcome.scss";
 @import "search.scss";
-@import "list.scss"
+@import "list.scss";
+@import "news.scss";
