@@ -11,6 +11,8 @@ Download de bestanden hier onder:
 
 [Template Horizontal , 16:9](https://www.dropbox.com/s/k42wes44rpd8r4q/GIF_TEMPLATE_HORIZONTAL.psd?dl=0)
 
+[Fonts](https://www.dropbox.com/s/dtpwit5hl4gnhfu/NHaas.zip?dl=0)
+
 Bekijk de video. (paswoord: hig)
 
 <iframe src="https://player.vimeo.com/video/183279554" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
