@@ -1,10 +1,11 @@
 .news{
-
+  margin-top:rem(80);
   .image-carousel{
     width:100vw;
     height:60vh;
     background:none;
-    padding-bottom:5vh;
+    padding-bottom:0;
+    margin-top: 25vh;
     background-color:$light-gray;
 
   }
@@ -23,15 +24,16 @@
     clear: both;
     float: left;
     font-weight:700;
-    font-size: rem(46);
-    line-height:rem(42);
+    font-size: rem(44);
+    line-height:rem(48);
     padding-top:rem(20);
     padding-bottom:rem(20);
     padding-left:5%;
     padding-right:5%;
-    margin-top:rem(40);
+    width:100%;
     margin-bottom:rem(40);
     text-transform:normal;
+    background-color:rgba(255,255,255,0.7);
   }
   .news-image{
     position:relative;
