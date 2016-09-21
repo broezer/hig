@@ -15,7 +15,8 @@ h3,
 h4,
 h5,
 h6,
-nav {
+nav,
+.posts span {
   font-family: $heading-font-family;
   font-size: $base-font-size;
   line-height: $heading-line-height;
@@ -25,6 +26,7 @@ nav {
 
 p, pre {
   margin: 0 0 $small-spacing;
+  text-transform:normal;
 }
 
 a {

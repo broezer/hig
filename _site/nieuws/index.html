@@ -22,7 +22,7 @@ h1{
 </head>
 
 
-<body class="welcome  ">
+<body class="welcome " ng-app="hig">
 
 
   <header class="header">
@@ -32,10 +32,7 @@ h1{
 </a>
   </header>
 
-  
-
-
-<main class="hello">
+  <main class="hello">
   <h1 class="anim">Welkom in <em>Het Industriegebouw</em></h1>
   <h2 class="anim">Stap gerust dichterbij..</h2>
   <a class="btn btn--welcome" href="/search" tartget="_self" title="zoek"><span>zoek bedrijf</span> 
@@ -53,15 +50,7 @@ h1{
 
 
 <section class="news" ng-controller="NewsCtrl">
-    <!--
-    <article class="news-items" ng-repeat="item in blocks" lazy-image lazy-src="// item.blok_afbeelding //" style="background-image : url('// content //')">
-        <h1 ng-bind-html="item.blok_titel"> </h1>
-        <p ng-bind-html="item.blok_tekst"></p>
-    </article>
-  -->
-
     <ul class="image image-carousel" rn-carousel rn-carousel-auto-slide="10" rn-carousel-transition="none" rn-carousel-duration="300" rn-carousel-controls-allow-loop>
-
       <li  class="news-items" ng-repeat="item in blocks">
         <article class="news-items" >
           <h1 ng-bind-html="item.blok_titel"> </h1>
@@ -69,22 +58,18 @@ h1{
           <p ng-bind-html="item.blok_tekst"></p>
         </article>
       </li>
-
     </ul>
-
-  <!--
-  <slick class="image-carousel" init-onload=true data="blocks">
-    <li  class="" ng-repeat="item in blocks">
-      <article class="news-items"lazy-image lazy-src="// item.blok_afbeelding //" >
-          <h1 ng-bind-html="item.blok_titel"> </h1>
-          <p ng-bind-html="item.blok_tekst"></p>
-      </article>
-    </li>
-  </slick>
--->
-
 </section>
 
+
+<div id="toggle">
+  <div class="toggle__btn">
+    <div class="toggle__bar bar_top"></div>
+    <div class="toggle__bar bar_bottom"></div>
+    <div class="toggle__btn_txt">verhalen</div>
+
+  </div>
+</div>
 
 <section class="posts" ng-controller="PostsCtrl">
 
@@ -95,11 +80,10 @@ h1{
     </ul>
 
 
-    <article>
+    <article class="feature">
       <h1 ng-bind-html="selectedPost.title.rendered"></h1>
       <div ng-bind-html="selectedPost.content.rendered"></div>
     </article>
-
 
 </section>
 
@@ -131,21 +115,20 @@ h1{
 
 
   
+    <script src="../js/refresh.js"></script>
+    <script src="../js/angular.min.js"></script>
+    <script src="../js/angular-sanitize.min.js"></script>
+    <script src="../js/angular-touch.min.js"></script>
 
+    <script src="../js/angular-carousel.js"></script>
+
+    <script src="../js/news.js"></script>
+    <script src="../js/posts.js"></script>
   
 
   
-   <script src="../js/refresh.js"></script>
-   <script src="../js/angular.min.js"></script>
-   <script src="../js/angular-sanitize.min.js"></script>
-   <script src="../js/angular-touch.min.js"></script>
 
-   <script src="../js/angular-carousel.js"></script>
 
-   <script src="../js/news.js"></script>
-   <script src="../js/posts.js"></script>
-
-  
 
 
 

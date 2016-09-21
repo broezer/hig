@@ -1,4 +1,5 @@
 'use strict';
+console.log('load nieuwsbrief');
 
 var higApp = angular.module('hig', ['ngSanitize', 'ngTouch', 'angular-carousel']);
 

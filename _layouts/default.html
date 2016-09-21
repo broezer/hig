@@ -13,7 +13,7 @@
 </head>
 
 {% if page.url == "/lijst/" or page.url == "/nieuws/" or page.url == "/gif/" %}
-<body class="{{page.bodyclass}}  ">
+<body class="{{page.bodyclass}} " ng-app="hig">
 
 {% else %}
 <body class="{{page.bodyclass}} noselect nomouse"  ng-app="hig">
@@ -40,26 +40,23 @@
   <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
 
 
-  {% if page.url == "/" %}
-   <script src="../js/refresh.js"></script>
+  {% if page.url == "/nieuws/" or page.url == "/" %}
+    <script src="../js/refresh.js"></script>
+    <script src="../js/angular.min.js"></script>
+    <script src="../js/angular-sanitize.min.js"></script>
+    <script src="../js/angular-touch.min.js"></script>
+
+    <script src="../js/angular-carousel.js"></script>
+
+    <script src="../js/news.js"></script>
+    <script src="../js/posts.js"></script>
   {% endif %}
 
   {% if page.url == "/search/" %}
    <script src="../js/unit02.js"></script>
   {% endif %}
 
-  {% if page.url == "/nieuws/" or page.url == "/"  %}
-   <script src="../js/refresh.js"></script>
-   <script src="../js/angular.min.js"></script>
-   <script src="../js/angular-sanitize.min.js"></script>
-   <script src="../js/angular-touch.min.js"></script>
 
-   <script src="../js/angular-carousel.js"></script>
-
-   <script src="../js/news.js"></script>
-   <script src="../js/posts.js"></script>
-
-  {% endif %}
 
 
 

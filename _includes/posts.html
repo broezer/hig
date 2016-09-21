@@ -1,3 +1,12 @@
+<div id="toggle">
+  <div class="toggle__btn">
+    <div class="toggle__bar bar_top"></div>
+    <div class="toggle__bar bar_bottom"></div>
+    <div class="toggle__btn_txt">verhalen</div>
+
+  </div>
+</div>
+
 <section class="posts" ng-controller="PostsCtrl">
 
     <ul>
@@ -7,10 +16,9 @@
     </ul>
 
 
-    <article>
+    <article class="feature">
       <h1 ng-bind-html="selectedPost.title.rendered"></h1>
       <div ng-bind-html="selectedPost.content.rendered"></div>
     </article>
-
 
 </section>

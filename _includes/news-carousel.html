@@ -1,0 +1,18 @@
+<main class="hello">
+  <h1 class="anim">Welkom in <em>Het Industriegebouw</em></h1>
+  <h2 class="anim">Stap gerust dichterbij..</h2>
+  <a class="btn btn--welcome" href="/search" tartget="_self" title="zoek"><span>zoek bedrijf</span> {% include svg/arrow.svg %}</a>
+</main>
+
+
+<section class="news" ng-controller="NewsCtrl">
+    <ul class="image image-carousel" rn-carousel rn-carousel-auto-slide="10" rn-carousel-transition="none" rn-carousel-duration="300" rn-carousel-controls-allow-loop>
+      <li  class="news-items" ng-repeat="item in blocks">
+        <article class="news-items" >
+          <h1 ng-bind-html="item.blok_titel"> </h1>
+          <div class="news-image"  lazy-image lazy-src="//item.blok_afbeelding//" > </div>
+          <p ng-bind-html="item.blok_tekst"></p>
+        </article>
+      </li>
+    </ul>
+</section>
