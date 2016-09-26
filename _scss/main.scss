@@ -107,7 +107,7 @@ header{
 	svg{
 		margin-left:15%;
 		width:50%;
-
+		opacity:0;
 	}
 }
 
@@ -115,6 +115,7 @@ header.invert{
 	background:$black;
 	svg{
 		fill:white;
+		opacity:1;
 	}
 }
 

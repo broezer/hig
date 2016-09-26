@@ -28,17 +28,22 @@
   	//@include shift(1);
     //display:table-cell;
     margin-left:10%;
-      width:90%;
+    width:90%;
     position: relative;
     vertical-align:middle;
     padding-left:5%;
-    padding-top:10%;
+    padding-top:5%;
 
   }
 
   h1.anim{
-    animation: fadeAnimation01 12s infinite;
-
+    //animation: fadeAnimation01 12s infinite;
+    text-align:center;
+    width:70%;
+    margin-left:10%;
+    font-size:rem(48);
+    line-height:rem(54);
+    margin-bottom:rem(54);
     em{
       font-weight:700;
       font-style:normal;
@@ -46,9 +51,14 @@
     }
   }
   h2.anim{
-    animation: fadeAnimation02 12s infinite;
+    //animation: fadeAnimation02 12s infinite;
 
 
+  }
+
+  .logo{
+    width: 70%;
+    margin-left: 10%;
   }
 }
 
