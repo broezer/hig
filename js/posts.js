@@ -37,16 +37,35 @@ higApp
 });
 
 (function($) {
+  //Time function based on http://jsfiddle.net/tJWmH/
+  var interval = 15 * 60 * 1000;
+
+  var timer = 0;
+  function reload(){
+    location.reload();
+
+  };
+
+
+  function f(){
+      var timer= window.setTimeout(reload, interval);
+  }
+
+  $(document).ready(function(){
+    timer = window.setTimeout(reload, interval);
+  });
 
   $('.posts').hide();
   $('.feature').hide();
 
   $('#toggle').click(function() {
     var $this = $(this);
+
     if($this.hasClass('active')){
       $('.posts').hide();
       $this.removeClass('active');
       $('.header').removeClass('invert');
+      timer = window.setTimeout(reload, interval);
     }else if($this.hasClass('article-active')){
       $this.removeClass('article-active').addClass('active');
       $('.feature').hide();
@@ -55,8 +74,24 @@ higApp
       $('.posts').show();
       $this.addClass('active');
       $('.header').addClass('invert');
+      window.clearTimeout(timer);
     }
   });
+
+
+
+})(jQuery);
+
+
+(function($) {
+
+
+
+
+
+
+
+
 
 
 

@@ -80,6 +80,10 @@
   header svg{
     opacity:0;
   }
+
+  header.invert svg{
+    opacity:1;
+  }
 }
 
 @keyframes fadeAnimation01{

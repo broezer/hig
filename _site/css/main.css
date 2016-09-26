@@ -857,6 +857,9 @@ section {
 .welcome header svg {
   opacity: 0; }
 
+.welcome header.invert svg {
+  opacity: 1; }
+
 @-webkit-keyframes fadeAnimation01 {
   0% {
     opacity: 0; }
