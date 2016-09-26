@@ -261,3 +261,27 @@
 		}
 	}
 }
+
+#toggle.toggle--search{
+  background:none;
+  height:rem(80);
+}
+.toggle__btn .toggle__bar--search{
+  background-color: black;
+
+}
+
+.toggle__btn .toggle__bar--search.bar_bottom {
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.toggle__btn .toggle__bar--search.bar_top{
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+.toggle__btn_txt--search{
+  color:black;
+  margin-left:rem(-30);
+}

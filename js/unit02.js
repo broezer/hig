@@ -34,17 +34,13 @@
       $this = $(this);
       var target = $this.attr('unit');
       var floor = $this.attr('floor');
-      //console.log(target);
-      //console.log(direction);
+
       $('g').attr('class', '')
       $(target).attr('class', 'active');
       $(floor).addClass('active');
-      //var direction = $this.attr('direction');
-      //$('.'+ direction).attr('class', direction + ' ' + 'active');
+
       $('body').addClass('active').trigger('blink');
-      //if ($target.hasClass('active')){
-      //}else{
-      //}
+
       window.clearTimeout(timer02);
       timer02 = window.setTimeout(reset, 1000*20);
       window.clearTimeout(timer);
@@ -60,7 +56,7 @@
 
     $this = $(this);
     var target = $this.attr('target');
-    console.log(target);
+
     $('.company--'+ target).show();
 
     window.clearTimeout(timer);

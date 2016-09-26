@@ -107,7 +107,6 @@ header{
 	svg{
 		margin-left:15%;
 		width:50%;
-		opacity:0;
 	}
 }
 
@@ -127,7 +126,7 @@ section{
 
 
 @import "welcome.scss";
-@import "search.scss";
 @import "list.scss";
 @import "news.scss";
-@import "posts.scss"
+@import "posts.scss";
+@import "search.scss";
