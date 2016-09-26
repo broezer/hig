@@ -17,8 +17,11 @@
 
 
     <article class="feature">
-      <h1 ng-bind-html="selectedPost.title.rendered"></h1>
+      <h1 ng-bind-html="selectedPost.title.rendered" ng-show="loading"></h1>
+      <h1 ng-hide="loading">loading</h1>
+
       <div ng-bind-html="selectedPost.content.rendered"></div>
+      <div class="hig-logo">{% include svg/hig-logo.svg %}</div>
     </article>
 
 </section>

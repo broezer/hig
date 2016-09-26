@@ -8,17 +8,28 @@ higApp
      //console.log($scope.blocks);
    });
 
+   $scope.loading = false;
+
    $scope.selectPost = function(e){
      console.log('select post');
+     $scope.loading = false;
+     $scope.selectedPost = [
+
+     ];
+      console.log($scope.loading);
       $('.feature').show();
       $('#toggle').removeClass('active').addClass('article-active');
+
      $http.get('http://www.hetindustriegebouw.nl/wp-json/wp/v2/posts/' + e)
      .success(function(data){
+
        if (data.status === 'error'){
          //console.log(attrs.lazySrc);
        }else{
          $scope.selectedPost = data;
+         $scope.loading = true;
          console.log($scope.selectedPost);
+         console.log($scope.loading);
        }
      });
    }
