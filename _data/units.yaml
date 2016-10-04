@@ -34,6 +34,12 @@
   housenumber: 202
   unit: U06
 
+- name: Bokeh & Pinto
+  floor: 5
+  housenumber: 184
+  unit: U06
+
+
 
 #Vierde verdieping
 - name: Administratiekantoor J. Monster
@@ -68,7 +74,7 @@
   unit: U15
 
 
-- name: Nieuwpoort & Luteijn
+- name: Nieuwpoort Luteijn
   floor: 4
   housenumber: 187
   unit: U12
@@ -91,6 +97,10 @@
   housenumber: 187
   unit: U12
 
+- name: Transmit Music
+  floor: 4
+  housenumber: 187
+  unit: U12
 
 
 - name: Vestia
@@ -158,8 +168,17 @@
   housenumber: 130
   unit: 3.1
 
+- name: Erik Gelderblom
+  floor: 3
+  housenumber: 136
+  unit: U01
 
-- name: Lumick
+- name: HUGE Holding B.V.
+  floor: 3
+  housenumber: 136
+  unit: U01
+
+- name: Pinkyrose B.V.
   floor: 3
   housenumber: 136
   unit: U01
@@ -175,6 +194,21 @@
   floor: 3
   housenumber: 136
   unit: U05
+
+- name: Mieras.org
+  floor: 3
+  housenumber: 136
+  unit: U05
+
+- name: Everco
+  floor: 3
+  housenumber: 136
+  unit: U06
+
+- name: Picturefix
+  floor: 3
+  housenumber: 136
+  unit: U06
 
 
 - name: DEK
@@ -301,7 +335,10 @@
   housenumber:
   unit: D18
 
-
+- name: Gerline Bax
+  floor: 3
+  housenumber:
+  unit: D05
 
 - name: Bruce Moerdjiman
   floor: 3
@@ -432,18 +469,42 @@
 
 
 
-- name: Studio Zico Lopez
+- name: Zico Lopez Design
+  floor: 2
+  housenumber:
+  unit:
+
+- name: Inocencio
   floor: 2
   housenumber:
   unit:
 
 
+- name: Web Accès
+  floor: 2
+  housenumber:
+  unit:
+
+
+- name: Tsjechie Xperience
+  floor: 2
+  housenumber:
+  unit:
+
+- name: Nexus Verus
+  floor: 2
+  housenumber:
+  unit:
+
+- name: Lisa Intérieur
+  floor: 2
+  housenumber:
+  unit:
 
 - name: Treestle
   floor: 2
   housenumber:
   unit:
-
 
 - name: Ships Ink
   floor: 2
@@ -567,6 +628,11 @@
 
 
 - name: Tegendraads
+  floor: 0
+  housenumber:
+  unit:
+
+- name: Studio Libertiny
   floor: 0
   housenumber:
   unit:
