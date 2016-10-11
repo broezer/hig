@@ -216,6 +216,11 @@
   housenumber: 136
   unit: U06
 
+- name: Lumick
+  floor: 3
+  housenumber: 136
+  unit: U06
+
 
 - name: Mr.Watson
   floor: 3
@@ -334,6 +339,11 @@
   floor: 3
   housenumber:
   unit: D18
+
+- name: Buro Blonk
+  floor: 3
+  housenumber:
+  unit: D19
 
 - name: Gerline Bax
   floor: 3
