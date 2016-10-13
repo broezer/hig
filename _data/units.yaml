@@ -350,6 +350,11 @@
   housenumber:
   unit: D05
 
+- name: Jack Keijer
+  floor: 3
+  housenumber:
+  unit: D06
+
 - name: Bruce Moerdjiman
   floor: 3
   housenumber:
