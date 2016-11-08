@@ -287,22 +287,51 @@
   unit: U09
 
 
+- name: People Place Architecture
+  floor: 3
+  housenumber:
+  unit: D02
+
+
 - name: Maurice Geluk
   floor: 3
   housenumber:
   unit: D03
 
+- name: Gerline Bax
+  floor: 3
+  housenumber:
+  unit: D05
 
-- name: Studio Annemiek Tijmes
+- name: Jack Keijer
   floor: 3
   housenumber:
   unit: D06
 
+- name: En-com
+  floor: 3
+  housenumber:
+  unit: D07
+
+- name: Bruce Moerdjiman
+  floor: 3
+  housenumber:
+  unit: D08
 
 - name: TrendCult
   floor: 3
   housenumber:
   unit: D09
+
+- name: Alexander Goverse
+  floor: 3
+  housenumber:
+  unit: D10
+
+- name:  Orange Health Consultants
+  floor: 3
+  housenumber:
+  unit: D11
 
 
 - name: Madelon Baans
@@ -345,33 +374,10 @@
   housenumber:
   unit: D19
 
-- name: Gerline Bax
+- name: Rooseman Holding BV
   floor: 3
   housenumber:
-  unit: D05
-
-- name: Jack Keijer
-  floor: 3
-  housenumber:
-  unit: D06
-
-- name: Bruce Moerdjiman
-  floor: 3
-  housenumber:
-  unit: D08
-
-
-- name: Alexander Goverse
-  floor: 3
-  housenumber:
-  unit: D10
-
-
-- name: En-com
-  floor: 3
-  housenumber:
-  unit: D07
-
+  unit: D20
 
 - name: Vloedlicht
   floor: 3
@@ -546,6 +552,27 @@
   unit: U08
 
 
+- name: Diederik Veenendaal
+  floor: 2
+  housenumber:
+  unit:
+
+- name: LabFour
+  floor: 2
+  housenumber:
+  unit:
+
+- name: B.L. van Gameren Beheer BV
+  floor: 2
+  housenumber:
+  unit:
+
+- name: Panache Creative Communicatie V.O.F.
+  floor: 2
+  housenumber:
+  unit:
+
+
 
 #Eerste verdieping
 
@@ -595,6 +622,12 @@
   floor: 1
   housenumber: 74
   unit: U03
+
+- name: Lola Landscape Architects
+  floor: 1
+  housenumber: 92
+  unit:
+
 
 
 
