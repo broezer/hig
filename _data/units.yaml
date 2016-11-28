@@ -1,4 +1,9 @@
 #Vijfde Verdieping
+- name: Trichis Communicatie en Ontwerp B.V.
+  floor: 5
+  housenumber:
+  unit: U03
+
 - name: Stroom
   floor: 5
   housenumber: 186
@@ -168,6 +173,13 @@
   housenumber: 130
   unit: 3.1
 
+
+- name: Linda Hirzmann
+  floor: 3
+  housenumber: 130
+  unit: 3.1
+
+
 - name: Erik Gelderblom
   floor: 3
   housenumber: 136
@@ -263,7 +275,7 @@
   unit: U02
 
 
-- name: Koffietaco Magazine
+- name: KoffieTcacao Magazine
   floor: 3
   housenumber: 136
   unit: U03
@@ -298,7 +310,12 @@
   housenumber:
   unit: D03
 
-- name: Gerline Bax
+- name: Priscilla Esser / Design Marbles
+  floor: 3
+  housenumber:
+  unit: D04
+
+- name: Serena Williams Ontwerp
   floor: 3
   housenumber:
   unit: D05
@@ -328,10 +345,15 @@
   housenumber:
   unit: D10
 
-- name:  Orange Health Consultants
+- name: Rik Westera
   floor: 3
   housenumber:
   unit: D11
+
+- name: Studio Dirma Janse
+  floor: 3
+  housenumber:
+  unit: D12
 
 
 - name: Madelon Baans
@@ -427,7 +449,7 @@
   unit: U15
 
 
-- name: Karels & Den Besten
+- name: Karelse & Den Besten
   floor: 3
   housenumber:
   unit: U13
@@ -501,7 +523,7 @@
   unit:
 
 
-- name: Web Accès
+- name: Web Acces
   floor: 2
   housenumber:
   unit:
@@ -517,15 +539,12 @@
   housenumber:
   unit:
 
-- name: Lisa Intérieur
+- name: Lisa Interieur
   floor: 2
   housenumber:
   unit:
 
-- name: Treestle
-  floor: 2
-  housenumber:
-  unit:
+
 
 - name: Ships Ink
   floor: 2
@@ -572,6 +591,17 @@
   housenumber:
   unit:
 
+- name: Minimal Video
+  floor: 2
+  housenumber:
+  unit:
+
+- name: Openlab BV
+  floor: 2
+  housenumber:
+  unit:
+
+
 
 
 #Eerste verdieping
@@ -612,16 +642,6 @@
   unit: U07
 
 
-- name: Uscoutfor
-  floor: 1
-  housenumber: 86
-  unit: U06
-
-
-- name: Trichis Communicatie en Ontwerp B.V.
-  floor: 1
-  housenumber: 74
-  unit: U03
 
 - name: Lola Landscape Architects
   floor: 1
