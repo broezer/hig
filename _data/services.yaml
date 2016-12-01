@@ -1,0 +1,47 @@
+- service: Razendsnel internet
+  icon: internet
+
+- service: Bouw en ontwerp team
+  icon: bouw-team
+
+- service: 24/7 toegang
+  icon: acces
+
+- service: Online community
+  icon: online-community
+
+- service: Meeting rooms
+  icon: meeting-rooms
+
+- service: Receptie
+  icon: receptie
+
+- service: Lunch service
+  icon: lunch
+
+- service: Shared data storage
+  icon: cloud
+
+- service: Fietsenstalling
+  icon: fiets
+
+- service: Bike repair
+  icon: fiets-repair
+
+- service: Lezingen
+  icon: lezingen
+
+- service: Personal trainer/gym
+  icon: gym
+
+- service: Kiala punt
+  icon: kiala
+
+- service: Evenementen
+  icon: events
+
+- service: Koffieconcerten
+  icon: koffie-concert
+
+- service: Fotostudio
+  icon: studio

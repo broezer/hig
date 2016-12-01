@@ -1,0 +1,55 @@
+.overview-list{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  li{
+    border-bottom:none;
+    h2{
+      font-size:rem(80);
+      line-height:rem(96);
+      font-weight:700;
+      text-transform: lowercase;
+      width: 90%;
+      margin-left: 5%;
+      text-align:left;
+      margin-bottom:rem(120);
+      margin-top:rem(60);
+    }
+  }
+
+}
+
+.list-companies{
+  li{
+    font-size:rem(40);
+    line-height:rem(48);
+    font-weight:700;
+    text-transform: uppercase;
+    padding-top:rem(6);
+    padding-bottom:rem(4);
+    span:first-child{
+      width: 100%;
+    }
+  }
+}
+
+.list-services{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  li{
+    padding-top:rem(40);
+    padding-bottom:rem(40);
+    width: 33%;
+    text-align:center;
+    .icon-holder{
+      height:rem(100);
+      width:100%;
+    }
+    span{
+      font-size:rem(27);
+      line-height:rem(32);
+    }
+  }
+}
