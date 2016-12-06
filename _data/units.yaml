@@ -157,11 +157,6 @@
   unit: 3.13
 
 
-- name:  Clear:right
-  floor: 3
-  housenumber: 130
-  unit: 3.13
-
 - name:  Voicenode
   floor: 3
   housenumber: 130
