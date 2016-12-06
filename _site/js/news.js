@@ -30,7 +30,7 @@ higApp.controller('NewsCtrl', function ($scope, $http) {
      if ( $scope.news.length > 0) {
        $scope.news.push($scope.first);
        $scope.blocks = $scope.news ;
-       //console.log($scope.blocks);
+       console.log($scope.blocks);
      }
    }
 
