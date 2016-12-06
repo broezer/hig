@@ -123,13 +123,57 @@
   unit: '3.10'
 
 
-
+#Rechterzijvleugel
 
 - name: Grace Tan
   floor: 3
   housenumber: 130
-  unit: 3.2
+  unit: 3.18
 
+- name: Liefdesmomenten
+  floor: 3
+  housenumber: 130
+  unit: 3.18
+
+
+- name:  Below Enemy Lines
+  floor: 3
+  housenumber: 130
+  unit: 3.11
+
+- name:  MO Copywriting
+  floor: 3
+  housenumber: 130
+  unit: 3.11
+
+- name: Testtube B.V.
+  floor: 3
+  housenumber: 130
+  unit: 3.12
+
+- name:  Clear:right
+  floor: 3
+  housenumber: 130
+  unit: 3.13
+
+
+- name:  Clear:right
+  floor: 3
+  housenumber: 130
+  unit: 3.13
+
+- name:  Voicenode
+  floor: 3
+  housenumber: 130
+  unit: 3.13
+
+- name:   Webaccess B.V.
+  floor: 3
+  housenumber: 130
+  unit: 3.16
+
+
+#Linkerzijvleugel
 
 - name: MSO
   floor: 3
@@ -149,11 +193,6 @@
   housenumber:
   unit: 3.7
 
-
-- name: Liefdesmomenten
-  floor: 3
-  housenumber:
-  unit: 3.7
 
 
 - name: Blauwesteeg
@@ -465,6 +504,9 @@
   floor: 3
   housenumber:
   unit: U14
+
+
+
 
 
 #Tweede verdieping
