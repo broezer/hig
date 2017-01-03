@@ -527,13 +527,13 @@
 - name: Uitdekunst!
   floor: 2
   housenumber:
-  unit:
+  unit: 2.1
 
 
 - name: Dajo Brinkman
   floor: 2
   housenumber:
-  unit:
+  unit: 2.24
 
 
 - name: Marked! B.V.
@@ -545,14 +545,13 @@
 - name: BeMe / Njoymarketing
   floor: 2
   housenumber:
-  unit:
-
+  unit: 2.3
 
 
 - name: Zico Lopez Design
   floor: 2
   housenumber:
-  unit:
+  unit: 2.4
 
 - name: Inocencio
   floor: 2
@@ -569,36 +568,41 @@
 - name: Tsjechie Xperience
   floor: 2
   housenumber:
-  unit:
+  unit: 2.5
+
+- name: Fotostudio
+  floor: 2
+  housenumber:
+  unit: 2.6
 
 - name: Nexus Verus
   floor: 2
   housenumber:
-  unit:
+  unit: 2.7
 
 - name: Lisa Interieur
   floor: 2
   housenumber:
-  unit:
+  unit: 2.26
 
 
 
 - name: Ships Ink
   floor: 2
   housenumber:
-  unit:
+  unit: 2.10
 
 
 - name: Flow Logics
   floor: 2
   housenumber:
-  unit:
+  unit: 2.12
 
 
 - name: De cultuurschool
   floor: 2
   housenumber:
-  unit:
+  unit: 2.25
 
 
 
@@ -611,32 +615,32 @@
 - name: Diederik Veenendaal
   floor: 2
   housenumber:
-  unit:
+  unit: 2.14
 
 - name: LabFour
   floor: 2
   housenumber:
-  unit:
+  unit: 2.28
 
 - name: B.L. van Gameren Beheer BV
   floor: 2
   housenumber:
-  unit:
+  unit: 2.28
 
 - name: Panache Creatieve Communicatie
   floor: 2
   housenumber:
-  unit:
+  unit: 2.13
 
 - name: Minimal Video
   floor: 2
   housenumber:
-  unit:
+  unit: 2.2
 
 - name: Openlab BV
   floor: 2
   housenumber:
-  unit:
+  unit: 2.15
 
 - name: MoreApp
   floor: 2
