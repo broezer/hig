@@ -1,0 +1,27 @@
+<div id="toggle">
+  <div class="toggle__btn">
+    <div class="toggle__bar bar_top"></div>
+    <div class="toggle__bar bar_bottom"></div>
+    <div class="toggle__btn_txt">verhalen</div>
+
+  </div>
+</div>
+
+<section class="posts" ng-controller="PostsCtrl">
+
+    <ul>
+      <li ng-repeat="post in posts" >
+        <h2 ng-bind-html="post.title.rendered" id="// post.id //" ng-click="selectPost(post.id)"> </h2>
+      </li>
+    </ul>
+
+
+    <article class="feature">
+      <h1 ng-bind-html="selectedPost.title.rendered" ng-show="loading"></h1>
+      <h1 ng-hide="loading">loading</h1>
+
+      <div ng-bind-html="selectedPost.content.rendered"></div>
+      <div class="hig-logo">{% include svg/hig-logo.svg %}</div>
+    </article>
+
+</section>

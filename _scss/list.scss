@@ -1,0 +1,43 @@
+#overzicht-bedrijven, #gif-templates{
+  text-align: left;
+    clear: both;
+    margin-left: 5%;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.list{
+  text-align:left;
+  width:90%;
+  margin-left:5%;
+}
+
+.list{
+  li{
+    border-bottom:1px solid #ccc;
+    span{
+      display:inline-block
+    }
+    span:first-child{
+      width:30%;
+
+    }
+  }
+}
+
+.overview{
+  width:90%;
+  margin-left:5%;
+  margin-top:rem(30);
+  h2{
+    @extend #overzicht-bedrijven;
+    text-align:center;
+    margin-top:rem(30);
+  }
+  svg{
+    text{
+      display:block;
+      fill: black;
+    }
+  }
+}

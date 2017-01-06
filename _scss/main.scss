@@ -1,0 +1,133 @@
+@import "reset";
+@import "syntax";
+@import "../bower_components/bourbon/app/assets/stylesheets/_bourbon";
+@import "base/grid-settings";
+@import "../bower_components/neat/app/assets/stylesheets/_neat";
+@import "base/base";
+
+#stats{
+	display:none;
+}
+
+g.active rect, g.active polyline, g.active polygon{
+	animation: blink 1s infinite;
+}
+
+g.active text{
+	animation: blinkText 1s infinite;
+
+}
+
+circle.st8{
+	animation: blinkZoom 1s infinite;
+}
+
+
+@keyframes blink{
+    0%{ fill: black; }
+		50%{ fill: black; }
+		51%{ fill: white; }
+    100%{ fill: white; }
+}
+
+@keyframes blinkText{
+    0%{ fill: white; }
+		50%{ fill: white; }
+		51%{ fill: black; }
+    100%{ fill: black; }
+}
+
+@keyframes blinkZoom{
+    0%{ fill: #FFED4C;  }
+    100%{ fill: white; }
+}
+
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+body {
+    background: white;
+    //font: 400 1em/1em 'nimbus-sans', helvetica, arial, sans-serif;
+		margin:0;
+		padding:0;
+		position:absolute;
+		width:100%;
+		height:100%;
+		color:$black;
+		-webkit-font-smoothing: antialiased;
+		@include transition(opacity 300ms ease);
+		visibility: hidden;
+		opacity:0;
+
+}
+
+body.nomouse{
+	cursor:none;
+}
+
+.wf-loading body{
+		visibility: hidden;
+		opacity:0;
+}
+
+.wf-active body{
+    visibility: visible;
+		opacity:1;
+
+  }
+
+img, picture{
+	margin-left:auto;
+	margin-right:auto;
+	position: relative;
+  display: block;
+	height:auto;
+}
+
+header{
+	z-index:1;
+	//margin:0;
+	//padding:0;
+	//margin-top:($base-spacing * 2.5);
+	//margin-bottom:$base-spacing;
+	width:100%;
+	//margin-left:15%;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:99;
+	svg{
+		margin-left:15%;
+		width:50%;
+	}
+}
+
+header.invert{
+	background:$black;
+	svg{
+		fill:white;
+		opacity:1;
+	}
+}
+
+
+section{
+	position:relative;
+}
+
+
+
+@import "welcome.scss";
+@import "list.scss";
+@import "news.scss";
+@import "posts.scss";
+@import "search.scss";
+@import "overview.scss";

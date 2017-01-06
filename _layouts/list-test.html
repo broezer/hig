@@ -1,0 +1,88 @@
+---
+layout: default
+---
+
+{{content}}
+
+{% assign sorted_units = (site.data.units | sort: 'name') %}
+
+<ul class="overview-list" rn-carousel rn-carousel-auto-slide="10" rn-carousel-transition="none" rn-carousel-duration="300" rn-carousel-controls-allow-loop>
+
+  <li>
+
+    <h2>bedrijven</h2>
+
+    <ol class="list list-companies">
+    {% for unit in sorted_units limit:25 offset:0 %}
+        <li><span>{{ unit.name }}</span> </li>
+    {% endfor %}
+    </ol>
+
+  </li>
+
+  <li>
+
+    <h2>bedrijven</h2>
+
+    <ol class="list list-companies">
+    {% for unit in sorted_units limit:25 offset:25 %}
+        <li><span>{{ unit.name }}</span></li>
+    {% endfor %}
+    </ol>
+
+
+  </li>
+
+  <li>
+
+    <h2>bedrijven</h2>
+
+    <ol class="list list-companies">
+    {% for unit in sorted_units limit:25 offset:50 %}
+        <li><span>{{ unit.name }}</span> </li>
+    {% endfor %}
+    </ol>
+
+
+  </li>
+
+  <li>
+    <h2>bedrijven</h2>
+
+    <ol class="list list-companies">
+    {% for unit in sorted_units limit:25 offset:75 %}
+        <li><span>{{ unit.name }}</span> </li>
+    {% endfor %}
+    </ol>
+
+  </li>
+
+  <li>
+
+    <h2>bedrijven</h2>
+
+    <ol class="list list-companies">
+    {% for unit in sorted_units limit:25 offset:100 %}
+        <li><span>{{ unit.name }}</span> </li>
+    {% endfor %}
+    </ol>
+
+  </li>
+
+  <li>
+    <h2>services</h2>
+    {% assign services = (site.data.services) %}
+    <ol class="list list-services">
+    {% for service in services %}
+        <li>
+          <div class="icon-holder">
+            {% include svg/icons/{{ service.icon }}.svg %}
+          </div>
+          <span>{{ service.service }}</span>
+        </li>
+    {% endfor %}
+    </ol>
+  </li>
+
+
+</ul>

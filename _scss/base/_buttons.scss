@@ -1,0 +1,71 @@
+#{$all-buttons}, .btn, .btn:visited {
+  appearance: none;
+  background-color: white;
+  border: 1px solid black;
+  //border-radius: $base-border-radius;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 600;
+  line-height: 1;
+  padding: $small-spacing $base-spacing;
+  text-decoration: none;
+  transition: background-color $base-duration $base-timing;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+  margin-bottom:$small-spacing;
+
+  -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+
+
+  &:hover,
+  &:focus {
+    background-color: black;
+    color: #fff;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+
+    &:hover {
+      background-color: $action-color;
+    }
+  }
+}
+.btn--welcome, .btn--welcome:visited {
+  background:$black;
+  color:white;
+  width:85%;
+  margin-left:5%;
+  text-align:center;
+  margin-top: 7%;
+  margin-bottom: 0%;
+  text-transform:lowercase;
+  padding: $small-spacing/2 $base-spacing/2;
+
+  span{
+
+  }
+  svg{
+    display:inline;
+    width:rem(40);
+    height:rem(40);
+    padding-top:rem(11);
+    margin-left:rem(19)
+   }
+}

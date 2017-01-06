@@ -1,0 +1,758 @@
+#Vijfde Verdieping
+- name: Trichis Communicatie en Ontwerp B.V.
+  floor: 5
+  housenumber:
+  unit: U03
+
+- name: Stroom
+  floor: 5
+  housenumber: 186
+  unit: U01A
+
+
+- name: Magnet.me
+  floor: 5
+  housenumber: 200
+  unit: U05
+
+
+- name: Visser en Visser Chartering B.V.
+  floor: 5
+  housenumber: 190
+  unit: U02
+
+
+- name: Jade Architecten
+  floor: 5
+  housenumber: 196-198
+  unit: U04
+
+
+- name: Jessica Nielsen
+  floor: 5
+  housenumber: 196-198
+  unit: U04
+
+
+- name: Studio Beige
+  floor: 5
+  housenumber: 202
+  unit: U06
+
+- name: Bokeh & Pinto
+  floor: 5
+  housenumber: 184
+  unit: U06
+
+
+
+#Vierde verdieping
+- name: Administratiekantoor J. Monster
+  floor: 4
+  housenumber: 158
+  unit: U04
+
+
+- name: Fimmar B.V.
+  floor: 4
+  housenumber: 158
+  unit: U06
+
+
+
+- name: Intax Tax Consultants
+  floor: 4
+  housenumber: 170
+  unit: U09
+
+
+
+- name: Destan Detachering B.V.
+  floor: 4
+  housenumber: 186
+  unit: U13
+
+
+- name: Helen Keller Stichting
+  floor: 4
+  housenumber: 186
+  unit: U15
+
+
+- name: Nieuwpoort Luteijn
+  floor: 4
+  housenumber: 187
+  unit: U12
+
+
+- name: Nino en Frankie
+  floor: 4
+  housenumber: 187
+  unit: U12
+
+
+- name: Sabine van Zeijl
+  floor: 4
+  housenumber: 187
+  unit: U12
+
+
+- name: Job Smit
+  floor: 4
+  housenumber: 187
+  unit: U12
+
+- name: Transmit Music
+  floor: 4
+  housenumber: 187
+  unit: U12
+
+
+- name: Vestia
+  floor: 4
+  housenumber: 164-168
+  unit: U08
+
+
+
+#Derde verdieping
+
+- name: Het Industriegebouw
+  floor: 3
+  housenumber: 152-154
+  unit: '3.10'
+
+
+#Rechterzijvleugel
+
+- name: Grace Tan
+  floor: 3
+  housenumber: 130
+  unit: 3.18
+
+- name: Liefdesmomenten
+  floor: 3
+  housenumber: 130
+  unit: 3.18
+
+
+- name:  Below Enemy Lines
+  floor: 3
+  housenumber: 130
+  unit: 3.11
+
+- name:  MO Copywriting
+  floor: 3
+  housenumber: 130
+  unit: 3.11
+
+- name: Testtube B.V.
+  floor: 3
+  housenumber: 130
+  unit: 3.12
+
+- name:  Clear:right
+  floor: 3
+  housenumber: 130
+  unit: 3.13
+
+
+- name:  Voicenode
+  floor: 3
+  housenumber: 130
+  unit: 3.13
+
+- name:   Webaccess B.V.
+  floor: 3
+  housenumber: 130
+  unit: 3.16
+
+
+#Linkerzijvleugel
+
+- name: MSO
+  floor: 3
+  housenumber: 130
+  unit: 3.3
+
+
+
+- name: Trin-It
+  floor: 3
+  housenumber: 130
+  unit: 3.4 #3.5 3.6
+
+
+- name: Studio Woesthuis
+  floor: 3
+  housenumber:
+  unit: 3.7
+
+
+
+- name: Blauwesteeg
+  floor: 3
+  housenumber:
+  unit: 3.7
+
+
+- name: VS Logistics B.V.
+  floor: 3
+  housenumber: 130
+  unit: 3.7
+
+
+- name: Bravebox & Digital Creative
+  floor: 3
+  housenumber: 130
+  unit: 3.1
+
+
+- name: Linda Hirzmann
+  floor: 3
+  housenumber: 130
+  unit: 3.1
+
+
+- name: Erik Gelderblom
+  floor: 3
+  housenumber: 136
+  unit: U01
+
+- name: HUGE Holding B.V.
+  floor: 3
+  housenumber: 136
+  unit: U01
+
+- name: Pinkyrose B.V.
+  floor: 3
+  housenumber: 136
+  unit: U01
+
+
+- name: Nieuw Creatief Peil
+  floor: 3
+  housenumber: 136
+  unit: U04
+
+
+- name: Maatwerk
+  floor: 3
+  housenumber: 136
+  unit: U05
+
+- name: Mieras.org
+  floor: 3
+  housenumber: 136
+  unit: U05
+
+- name: Everco
+  floor: 3
+  housenumber: 136
+  unit: U06
+
+- name: Picturefix
+  floor: 3
+  housenumber: 136
+  unit: U06
+
+
+- name: DEK
+  floor: 3
+  housenumber: 136
+  unit: U06
+
+- name: Lumick
+  floor: 3
+  housenumber: 136
+  unit: U06
+
+
+- name: Mr.Watson
+  floor: 3
+  housenumber: 136
+  unit: U07
+
+
+- name: EZ Shopping
+  floor: 3
+  housenumber: 136
+  unit: U08
+
+
+- name: supRmen
+  floor: 3
+  housenumber: 136
+  unit: U08
+
+
+- name: Copperwire
+  floor: 3
+  housenumber: 136
+  unit: U08
+
+
+- name: Goddog
+  floor: 3
+  housenumber: 136
+  unit: U07
+
+
+- name: Terra Cacti
+  floor: 3
+  housenumber: 136
+  unit: U02
+
+- name: Bijcollege
+  floor: 3
+  housenumber: 136
+  unit: U02
+
+
+- name: KoffieTcacao Magazine
+  floor: 3
+  housenumber: 136
+  unit: U03
+
+
+- name: 2MM Enterprises
+  floor: 3
+  housenumber: 136
+  unit: U03
+
+
+- name: Storys
+  floor: 3
+  housenumber: 136
+  unit: U03
+
+
+- name: LuvDaSun
+  floor: 3
+  housenumber:
+  unit: U09
+
+
+- name: People Place Architecture
+  floor: 3
+  housenumber:
+  unit: D02
+
+
+- name: Maurice Geluk
+  floor: 3
+  housenumber:
+  unit: D03
+
+- name: Priscilla Esser / Design Marbles
+  floor: 3
+  housenumber:
+  unit: D04
+
+- name: Serena Williams Ontwerp
+  floor: 3
+  housenumber:
+  unit: D05
+
+- name: Jack Keijer
+  floor: 3
+  housenumber:
+  unit: D06
+
+- name: En-com
+  floor: 3
+  housenumber:
+  unit: D07
+
+- name: Bruce Moerdjiman
+  floor: 3
+  housenumber:
+  unit: D08
+
+- name: TrendCult
+  floor: 3
+  housenumber:
+  unit: D09
+
+- name: Orange Health Consultants
+  floor: 3
+  housenumber:
+  unit: D10
+
+- name: Studio Dirma Janse
+  floor: 3
+  housenumber:
+  unit: D11
+
+- name: Westera & Hooijsma B.V.
+  floor: 3
+  housenumber:
+  unit: D12
+
+
+- name: Madelon Baans
+  floor: 3
+  housenumber:
+  unit: D13
+
+
+- name: Wesley Masius
+  floor: 3
+  housenumber:
+  unit: D14
+
+
+- name: Novo Mngt. B.V.
+  floor: 3
+  housenumber:
+  unit: D15
+
+
+- name: Preference 4 People
+  floor: 3
+  housenumber:
+  unit: D16
+
+
+- name: Joey Peters
+  floor: 3
+  housenumber:
+  unit: D17
+
+
+- name: Mehtap Gungormez
+  floor: 3
+  housenumber:
+  unit: D18
+
+- name: Buro Blonk
+  floor: 3
+  housenumber:
+  unit: D19
+
+- name: Rooseman Holding BV
+  floor: 3
+  housenumber:
+  unit: D20
+
+- name: Vloedlicht
+  floor: 3
+  housenumber:
+  unit: U10
+
+
+- name: Frontaal Film
+  floor: 3
+  housenumber:
+  unit: U10
+
+
+- name: Today's Specials
+  floor: 3
+  housenumber:
+  unit: U11
+
+
+- name: Van Vliet Kroonluchters
+  floor: 3
+  housenumber:
+  unit: U12
+
+
+- name: We Will Drive
+  floor: 3
+  housenumber:
+  unit: U12
+
+
+- name: Sjauf
+  floor: 3
+  housenumber:
+  unit: U12
+
+
+- name: Kone Advies
+  floor: 3
+  housenumber:
+  unit: U15
+
+
+- name: E&O Events
+  floor: 3
+  housenumber:
+  unit: U15
+
+
+- name: Karelse & Den Besten
+  floor: 3
+  housenumber:
+  unit: U13
+
+
+- name: Lijnn
+  floor: 3
+  housenumber:
+  unit: U14
+
+
+- name: Roest Architectuur
+  floor: 3
+  housenumber:
+  unit: U14
+
+
+
+
+
+#Tweede verdieping
+
+- name: RTS Meiser Nederland B.V.
+  floor: 2
+  housenumber:
+  unit: U01
+
+
+- name: Business Translation Services B.V.
+  floor: 2
+  housenumber: 98
+  unit: U02
+
+
+- name: Te Pas Advocaten
+  floor: 2
+  housenumber: 106
+  unit: U05
+
+
+- name: Uitdekunst!
+  floor: 2
+  housenumber:
+  unit: 2.1
+
+
+- name: Dajo Brinkman
+  floor: 2
+  housenumber:
+  unit: 2.24
+
+
+- name: Marked! B.V.
+  floor: 2
+  housenumber:
+  unit:
+
+
+- name: BeMe / Njoymarketing
+  floor: 2
+  housenumber:
+  unit: 2.3
+
+
+- name: Zico Lopez Design
+  floor: 2
+  housenumber:
+  unit: 2.4
+
+- name: Inocencio
+  floor: 2
+  housenumber:
+  unit:
+
+
+- name: Web Acces
+  floor: 2
+  housenumber:
+  unit:
+
+
+- name: Tsjechie Xperience
+  floor: 2
+  housenumber:
+  unit: 2.5
+
+- name: Fotostudio
+  floor: 2
+  housenumber:
+  unit: 2.6
+
+- name: Nexus Verus
+  floor: 2
+  housenumber:
+  unit: 2.7
+
+- name: Lisa Interieur
+  floor: 2
+  housenumber:
+  unit: 2.26
+
+
+
+- name: Ships Ink
+  floor: 2
+  housenumber:
+  unit: 2.10
+
+
+- name: Flow Logics
+  floor: 2
+  housenumber:
+  unit: 2.12
+
+
+- name: De cultuurschool
+  floor: 2
+  housenumber:
+  unit: 2.25
+
+
+
+- name: China Classification Society
+  floor: 2
+  housenumber: 128
+  unit: U08
+
+
+- name: Diederik Veenendaal
+  floor: 2
+  housenumber:
+  unit: 2.14
+
+- name: LabFour
+  floor: 2
+  housenumber:
+  unit: 2.28
+
+- name: B.L. van Gameren Beheer BV
+  floor: 2
+  housenumber:
+  unit: 2.28
+
+- name: Panache Creatieve Communicatie
+  floor: 2
+  housenumber:
+  unit: 2.13
+
+- name: Minimal Video
+  floor: 2
+  housenumber:
+  unit: 2.2
+
+- name: Openlab BV
+  floor: 2
+  housenumber:
+  unit: 2.15
+
+- name: MoreApp
+  floor: 2
+  housenumber:
+  unit: U04U05
+
+- name: Wattsonline BV
+  floor: 2
+  housenumber:
+  unit: U07
+
+
+
+
+
+#Eerste verdieping
+
+
+#U08 = Gs. 90
+#U09 = Gs. 92
+#U10 = Gs. 94
+#U11 = Gs. 96
+
+
+- name: Mediad
+  floor: 1
+  housenumber: 68
+  unit: U01
+
+
+- name: WAQF
+  floor: 1
+  housenumber: 76
+  unit: U02
+
+
+- name: Schagen Lensen & Van Krieken Accountants
+  floor: 1
+  housenumber: 80 84
+  unit: U04_05
+
+- name:  SAM Accountants
+  floor: 1
+  housenumber: 80 84
+  unit: U04_05
+
+
+- name: Mepros
+  floor: 1
+  housenumber: 88
+  unit: U07
+
+
+
+- name: Lola Landscape Architects
+  floor: 1
+  housenumber: 92
+  unit: U09
+
+
+
+
+#Begane Grond
+
+
+- name: Huismeester
+  floor: 0
+  housenumber:
+  unit:
+
+- name: Cafe@home
+  floor: 0
+  housenumber:
+  unit:
+
+
+- name: Elite
+  floor: 0
+  housenumber:
+  unit:
+
+
+- name: Heriz
+  floor: 0
+  housenumber:
+  unit:
+
+
+- name: Vico
+  floor: 0
+  housenumber:
+  unit:
+
+
+- name: Tortu
+  floor: 0
+  housenumber:
+  unit:
+
+
+- name: Resto Rokus
+  floor: 0
+  housenumber:
+  unit:
+
+
+- name: Tegendraads
+  floor: 0
+  housenumber:
+  unit:
+
+- name: Studio Libertiny
+  floor: 0
+  housenumber:
+  unit:

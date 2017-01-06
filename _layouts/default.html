@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
+    {% include css.html %}
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/angular-carousel.min.css">
+
+</head>
+
+{% if page.url == "/lijst/" or page.url == "/nieuws/" or page.url == "/gif/" or page.url == "/overview/" %}
+<body class="{{page.bodyclass}} " ng-app="hig">
+
+{% else %}
+<body class="{{page.bodyclass}} noselect nomouse"  ng-app="hig">
+
+{% endif %}
+
+
+  {% if page.url == "/lijst-test/" %}
+
+  {% else %}
+  <header class="header">
+    <a href="/" title="home">{% include svg/hig.html %}</a>
+  </header>
+
+
+  {% endif %}
+
+    {{content}}
+
+  {% include analytics.html %}
+
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+  <script>
+  WebFont.load({
+    typekit: {
+       id: 'ilj2exe'
+     }
+  });
+  </script>
+
+  <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+
+
+  {% if page.url == "/nieuws/" or page.url == "/" or page.url == "/overview/" %}
+    <script src="../js/angular.min.js"></script>
+    <script src="../js/angular-sanitize.min.js"></script>
+    <script src="../js/angular-touch.min.js"></script>
+
+    <script src="../js/angular-carousel.js"></script>
+
+    <script src="../js/news.js"></script>
+    <script src="../js/posts.js"></script>
+  {% endif %}
+  {% if page.url == "/overview/" %}
+   <script src="../js/refresh.js"></script>
+  {% endif %}
+
+  {% if page.url == "/search/" %}
+   <script src="../js/unit02.js"></script>
+  {% endif %}
+
+
+
+
+
+
+</body>
+</html>

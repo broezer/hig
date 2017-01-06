@@ -1,2 +1,8 @@
 node_modules
 bower_components
+<<<<<<< HEAD
+=======
+_site
+
+.DS_Store
+>>>>>>> gh-pages
