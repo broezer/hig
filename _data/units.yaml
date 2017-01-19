@@ -125,7 +125,12 @@
 
 #Rechterzijvleugel
 
-- name: Grace Tan
+- name: Food in Concept
+  floor: 3
+  housenumber: 130
+  unit: 3.18
+
+- name: Pineut
   floor: 3
   housenumber: 130
   unit: 3.18
