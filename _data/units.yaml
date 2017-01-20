@@ -693,6 +693,11 @@
   unit: U04_05
 
 
+- name: Tekstschrijvers.nl
+  floor: 1
+  housenumber:
+  unit: U06
+
 - name: Mepros
   floor: 1
   housenumber: 88
