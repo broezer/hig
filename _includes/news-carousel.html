@@ -3,9 +3,9 @@
 
 <section class="news" ng-controller="NewsCtrl">
     <ul class="image image-carousel" rn-carousel rn-carousel-auto-slide="10" rn-carousel-transition="none" rn-carousel-duration="300" rn-carousel-controls-allow-loop>
-      <li  class="news-items" ng-repeat="item in blocks">
+      <li  class="news-items" ng-repeat="item in blocks" ng-if="item.blok_date == null || item.blok_date =='' || item.blok_date >= current">
         <!-- Nieuwbrief -->
-        <article class="news-items" ng-if="item.acf_fc_layout == 'nieuwsbrief_blokken__blok_nieuw'" >
+        <article class="news-items" ng-if="item.acf_fc_layout == 'nieuwsbrief_blokken__blok_nieuw' " >
           <h1 ng-bind-html="item.blok_titel"> </h1>
           <div class="news-image"  lazy-image lazy-src="//item.blok_afbeelding//" > </div>
           <p ng-bind-html="item.blok_tekst"></p>
@@ -17,7 +17,7 @@
           <p ng-bind-html="item.blok_cms[0].post_content"></p>
         </article>
         <!-- Pushbericht -->
-        <article class="news-items" ng-if=item.type >
+        <article class="news-items" ng-if="item.type == 'pushbericht'" >
           <h1 ng-bind-html="item.title.rendered"> </h1>
           <!-- <div class="news-image"  lazy-image lazy-src="//item.featured_media//" > </div> -->
           <p ng-bind-html="item.acf.feat_tekst"></p>

@@ -14,6 +14,20 @@ higApp.controller('NewsCtrl', function ($scope, $http) {
   $scope.news = [];
   $scope.pushbericht = [];
 
+  Date.prototype.yyyymmdd = function() {
+  var mm = this.getMonth() + 1; // getMonth() is zero-based
+  var dd = this.getDate();
+
+    return [this.getFullYear(),
+            (mm>9 ? '' : '0') + mm,
+            (dd>9 ? '' : '0') + dd
+           ].join('');
+  };
+
+  var date = new Date();
+  $scope.current = date.yyyymmdd();
+  console.log($scope.current );
+
   $http.get('http://www.hetindustriegebouw.nl/wp-json/wp/v2/nieuwsbrief')
    .success(function(data){
      $scope.news = data[0].acf.nieuwsbrief_blokken;
