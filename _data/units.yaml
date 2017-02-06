@@ -297,12 +297,6 @@
   unit: U08
 
 
-- name: Goddog
-  floor: 3
-  housenumber: 136
-  unit: U07
-
-
 - name: Terra Cacti
   floor: 3
   housenumber: 136
@@ -647,6 +641,12 @@
   housenumber:
   unit: 2.15
 
+- name: Lifestylebureau Karin Kuijpers B.V.
+  floor: 2
+  housenumber:
+  unit: 2.11
+
+
 - name: MoreApp
   floor: 2
   housenumber:
@@ -656,6 +656,7 @@
   floor: 2
   housenumber:
   unit: U07
+
 
 
 
@@ -763,6 +764,21 @@
   unit:
 
 - name: Studio Libertiny
+  floor: 0
+  housenumber:
+  unit:
+
+- name: Club K V.O.F.
+  floor: 0
+  housenumber:
+  unit:
+
+- name: Design Studio Wouter Storm
+  floor: 0
+  housenumber:
+  unit:
+
+- name: Studio Elise Zoetmulder
   floor: 0
   housenumber:
   unit:
