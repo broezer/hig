@@ -167,6 +167,11 @@
   housenumber: 130
   unit: 3.13
 
+- name:  Gameye
+  floor: 3
+  housenumber: 130
+  unit: 3.13
+
 - name:   Webaccess B.V.
   floor: 3
   housenumber: 130
