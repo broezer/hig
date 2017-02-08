@@ -30,8 +30,30 @@ higApp.controller('NewsCtrl', function ($scope, $http) {
 
   $http.get('http://www.hetindustriegebouw.nl/wp-json/wp/v2/nieuwsbrief')
    .success(function(data){
-     $scope.news = data[0].acf.nieuwsbrief_blokken;
-     both();
+     //$scope.news = data[0].acf.nieuwsbrief_blokken;
+     var values = data[0].acf.nieuwsbrief_blokken;
+     console.log(values);
+     $.each(values, function(){
+       var item = $(this);
+       console.log(item[0].blok_date);
+       var itemDate =  item[0].blok_date;
+       if(itemDate == null || itemDate=='' ||itemDate >= $scope.current){
+         console.log(item[0]);
+         var block = item[0]
+         $scope.news.push(block);
+         console.log($scope.news);
+       }
+     });
+
+
+     setTimeout(function () {
+       $scope.$apply(function () {
+           //$scope.new = "Timeout called!";
+           console.log('call function');
+           both();
+         });
+     }, 2000);
+
    });
 
    $http.get('http://www.hetindustriegebouw.nl/wp-json/wp/v2/pushbericht')
