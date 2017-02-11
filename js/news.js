@@ -58,8 +58,15 @@ higApp.controller('NewsCtrl', function ($scope, $http) {
 
    $http.get('http://www.hetindustriegebouw.nl/wp-json/wp/v2/pushbericht')
     .success(function(data){
-      $scope.first = data[0];
-      both();
+      var pushDate = data[0].acf.feat_data;
+      if(pushDate == null || pushDate=='' ||pushDate >= $scope.current){
+        $scope.first = data[0];
+        both();
+      }else{
+        both();
+      }
+
+
     });
 
    var both = function(){
