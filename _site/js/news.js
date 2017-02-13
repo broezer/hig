@@ -13,6 +13,7 @@ higApp.controller('NewsCtrl', function ($scope, $http) {
   $scope.blocks = [];
   $scope.news = [];
   $scope.pushbericht = [];
+  $scope.services = {type: 'services' , title:'Services', image: '../assets/svg/services.svg'} ;
 
   Date.prototype.yyyymmdd = function() {
   var mm = this.getMonth() + 1; // getMonth() is zero-based
@@ -33,6 +34,7 @@ higApp.controller('NewsCtrl', function ($scope, $http) {
      //$scope.news = data[0].acf.nieuwsbrief_blokken;
      var values = data[0].acf.nieuwsbrief_blokken;
      console.log(values);
+     $scope.news.push($scope.services);
      $.each(values, function(){
        var item = $(this);
        console.log(item[0].blok_date);
@@ -61,7 +63,6 @@ higApp.controller('NewsCtrl', function ($scope, $http) {
       var pushDate = data[0].acf.feat_data;
       if(pushDate == null || pushDate=='' ||pushDate >= $scope.current){
         $scope.first = data[0];
-        both();
       }else{
         both();
       }
@@ -101,3 +102,19 @@ higApp
      });
    };
  });
+
+ higApp
+ .directive('bgImage', function($http) {
+    return function($scope, element, attrs){
+      attrs.$observe('bgSrc', function(){
+           var url = attrs.bgSrc;
+            element.css({
+             'background-image': 'url(' + url +')',
+             'background-size' : 'contain',
+             'height' : '75%'
+           });
+            //console.log($scope.postImg);
+
+      });
+    };
+  });

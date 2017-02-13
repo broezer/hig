@@ -23,6 +23,12 @@
           <p ng-bind-html="item.acf.feat_tekst"></p>
 
         </article>
+        <!-- Services -->
+        <article class="news-items" ng-if="item.type == 'services'" >
+          <h1 ng-bind-html="item.title"> </h1>
+          <div class="news-image"  bg-image bg-src="//item.image//" > </div>
+
+        </article>
       </li>
 
     </ul>
