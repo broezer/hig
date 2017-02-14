@@ -47,6 +47,12 @@
 
 
 #Vierde verdieping
+
+- name: Kaaps
+  floor: 4
+  housenumber:
+  unit: U01
+
 - name: Administratiekantoor J. Monster
   floor: 4
   housenumber: 158
@@ -78,6 +84,10 @@
   housenumber: 186
   unit: U15
 
+- name: Online Marketing
+  floor: 4
+  housenumber: 186
+  unit: U16
 
 - name: Nieuwpoort Luteijn
   floor: 4
