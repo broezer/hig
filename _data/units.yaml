@@ -646,6 +646,11 @@
   housenumber:
   unit: 2.13
 
+- name: De Wijnwijven
+  floor: 2
+  housenumber:
+  unit: 2.13
+
 - name: Minimal Video
   floor: 2
   housenumber:
