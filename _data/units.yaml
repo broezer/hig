@@ -1,5 +1,10 @@
 #Vijfde Verdieping
-- name: Trichis Communicatie en Ontwerp B.V.
+- name: Trichis
+  floor: 5
+  housenumber:
+  unit: U03
+
+- name: Nine CA Rotterdam
   floor: 5
   housenumber:
   unit: U03
