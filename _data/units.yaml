@@ -351,8 +351,15 @@
   housenumber:
   unit: U09
 
+#Desks
 
-- name: People Place Architecture
+- name: JobByBid
+  floor: 3
+  housenumber:
+  unit: D01
+
+
+- name: Brilliant Cases
   floor: 3
   housenumber:
   unit: D02
@@ -363,7 +370,7 @@
   housenumber:
   unit: D03
 
-- name: Priscilla Esser / Design Marbles
+- name: Design Marbles
   floor: 3
   housenumber:
   unit: D04
@@ -378,7 +385,7 @@
   housenumber:
   unit: D06
 
-- name: En-com
+- name: en-com
   floor: 3
   housenumber:
   unit: D07
@@ -398,7 +405,7 @@
   housenumber:
   unit: D10
 
-- name: Studio Dirma Janse
+- name: Maarten's Solutions
   floor: 3
   housenumber:
   unit: D11
@@ -433,13 +440,13 @@
   unit: D16
 
 
-- name: Joey Peters
+- name: Martin Memelink Fotografie
   floor: 3
   housenumber:
   unit: D17
 
 
-- name: Mehtap Gungormez
+- name: Francis Liesting Grafische Vormgeving
   floor: 3
   housenumber:
   unit: D18
@@ -453,6 +460,27 @@
   floor: 3
   housenumber:
   unit: D20
+
+- name: Eivind Bratterud
+  floor: 3
+  housenumber:
+  unit: D21
+
+- name: JWVPGM
+  floor: 3
+  housenumber:
+  unit: D22
+
+- name: Silver Arrows Multimedia
+  floor: 3
+  housenumber:
+  unit: D23
+
+- name: Beckand Photography
+  floor: 3
+  housenumber:
+  unit: D24
+
 
 - name: Vloedlicht
   floor: 3
