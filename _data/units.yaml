@@ -440,10 +440,10 @@
   unit: D16
 
 
-- name: Martin Memelink Fotografie
-  floor: 3
-  housenumber:
-  unit: D17
+#- name: Martin Memelink Fotografie
+#  floor: 3
+#  housenumber:
+#  unit: D17
 
 
 - name: Francis Liesting Grafische Vormgeving
