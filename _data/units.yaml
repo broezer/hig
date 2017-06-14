@@ -128,6 +128,10 @@
   housenumber: 164-168
   unit: U08
 
+- name: Raymond Heijnen
+  floor: 4
+  housenumber:
+  unit:
 
 
 #Derde verdieping
@@ -152,9 +156,18 @@
 
 - name: Liefdesmomenten
   floor: 3
-  housenumber: 130
-  unit: 3.18
+  housenumber:
+  unit:
 
+- name: Grace tan Fotografie
+  floor: 3
+  housenumber:
+  unit:
+
+- name: Studio Woesthuis
+  floor: 3
+  housenumber:
+  unit:
 
 - name:  Below Enemy Lines
   floor: 3
@@ -219,6 +232,17 @@
   floor: 3
   housenumber:
   unit: 3.7
+
+- name: Bazou
+  floor: 3
+  housenumber:
+  unit:
+
+
+- name: Room Revolution
+  floor: 3
+  housenumber:
+  unit:
 
 
 - name: VS Logistics B.V.
@@ -700,20 +724,83 @@
   unit: 2.11
 
 
-- name: MoreApp
+- name: Guest Wise
   floor: 2
   housenumber:
-  unit: U04U05
+  unit:
+
+
+- name:  BMG Group
+  floor: 2
+  housenumber:
+  unit:
+
+
 
 - name: Wattsonline BV
   floor: 2
   housenumber:
   unit: U07
 
+- name: Alexandra Frida
+  floor: 2
+  housenumber:
+  unit:
 
+- name: Blake Seven
+  floor: 2
+  housenumber:
+  unit:
 
+- name: Blue Chili Creative
+  floor: 2
+  housenumber:
+  unit:
 
+- name: Bruidbeld
+  floor: 2
+  housenumber:
+  unit:
 
+- name: Four Loves Sakes
+  floor: 2
+  housenumber:
+  unit:
+
+- name: Groter Dan
+  floor: 2
+  housenumber:
+  unit:
+
+- name: Leidmotiv
+  floor: 2
+  housenumber:
+  unit:
+
+- name: Little Indians
+  floor: 2
+  housenumber:
+  unit:
+
+- name: Viadeklup
+  floor: 2
+  housenumber:
+  unit:
+
+- name: November Events
+  floor: 2
+  housenumber:
+  unit:
+
+- name: Mister Rotterdam
+  floor: 2
+  housenumber:
+  unit:
+
+- name: Uniek in Ontwerk
+  floor: 2
+  housenumber:
+  unit:
 
 #Eerste verdieping
 
@@ -764,16 +851,17 @@
   housenumber: 92
   unit: U09
 
+- name: Tiledmedia
+  floor: 2
+  housenumber:
+  unit:
+
 
 
 
 #Begane Grond
 
 
-- name: Huismeester
-  floor: 0
-  housenumber:
-  unit:
 
 - name: Cafe@home
   floor: 0
@@ -811,8 +899,8 @@
   unit:
 
 
-- name: Tegendraads
-  floor: 0
+- name: By Jarmusch
+  floor: 2
   housenumber:
   unit:
 
