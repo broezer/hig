@@ -39,6 +39,11 @@
   unit: U04
 
 
+- name: Blue Fish
+  floor: 5
+  housenumber: 184
+  unit: U05
+
 - name: Studio Beige
   floor: 5
   housenumber: 202
@@ -47,16 +52,26 @@
 - name: Bokeh & Pinto
   floor: 5
   housenumber: 184
-  unit: U06
+  unit: U07
+
+- name: Kaaps
+  floor: 5
+  housenumber: 184
+  unit: U10U11
+
+- name: Maradona
+  floor: 5
+  housenumber: 184
+  unit: U09
+
+
+
+
 
 
 
 #Vierde verdieping
 
-- name: Kaaps
-  floor: 4
-  housenumber:
-  unit: U01
 
 - name: Administratiekantoor J. Monster
   floor: 4
@@ -87,7 +102,7 @@
 - name: Helen Keller Stichting
   floor: 4
   housenumber: 186
-  unit: U15
+  unit: U05
 
 - name: OnlineMarketing.nl B.V.
   floor: 4
@@ -133,6 +148,11 @@
   housenumber:
   unit:
 
+- name: AFFR Architectuur Filmfestival Rotterdam
+  floor: 4
+  housenumber:
+  unit: U03
+
 
 #Derde verdieping
 
@@ -157,17 +177,17 @@
 - name: Liefdesmomenten
   floor: 3
   housenumber:
-  unit:
+  unit: 3.18
 
 - name: Grace tan Fotografie
   floor: 3
   housenumber:
-  unit:
+  unit: 3.18
 
 - name: Studio Woesthuis
   floor: 3
   housenumber:
-  unit:
+  unit: 3.18
 
 - name:  Below Enemy Lines
   floor: 3
@@ -236,13 +256,13 @@
 - name: Bazou
   floor: 3
   housenumber:
-  unit:
+  unit: 3.2
 
 
 - name: Room Revolution
   floor: 3
   housenumber:
-  unit:
+  unit: 3.2
 
 
 - name: VS Logistics B.V.
@@ -583,10 +603,7 @@
   unit: U01
 
 
-- name: Business Translation Services B.V.
-  floor: 2
-  housenumber: 98
-  unit: U02
+
 
 
 - name: Te Pas Advocaten
@@ -724,17 +741,16 @@
   unit: 2.11
 
 
-- name: Guest Wise
+- name: Guestwise
   floor: 2
   housenumber:
-  unit:
+  unit: 2.9
 
 
 - name:  BMG Group
   floor: 2
   housenumber:
-  unit:
-
+  unit: 2.9
 
 
 - name: Wattsonline BV
@@ -742,25 +758,25 @@
   housenumber:
   unit: U07
 
-- name: Alexandra Frida
+- name: Alexander Frida
   floor: 2
   housenumber:
-  unit:
+  unit: U02
 
 - name: Blake Seven
   floor: 2
   housenumber:
-  unit:
+  unit: U07B
 
 - name: Blue Chili Creative
   floor: 2
   housenumber:
-  unit:
+  unit: U11
 
-- name: Bruidbeld
+- name: Bruidbeeld
   floor: 2
   housenumber:
-  unit:
+  unit: U09
 
 - name: Four Loves Sakes
   floor: 2
@@ -775,12 +791,12 @@
 - name: Leidmotiv
   floor: 2
   housenumber:
-  unit:
+  unit: 2.12
 
 - name: Little Indians
   floor: 2
   housenumber:
-  unit:
+  unit: U07A
 
 - name: Viadeklup
   floor: 2
@@ -795,12 +811,15 @@
 - name: Mister Rotterdam
   floor: 2
   housenumber:
-  unit:
+  unit: 2.24
 
 - name: Uniek in Ontwerk
   floor: 2
   housenumber:
-  unit:
+  unit: U11
+
+
+
 
 #Eerste verdieping
 
@@ -852,11 +871,19 @@
   unit: U09
 
 - name: Tiledmedia
-  floor: 2
+  floor: 1
   housenumber:
-  unit:
+  unit: U04
 
+- name: Business Translation Services B.V.
+  floor: 1
+  housenumber: 98
+  unit: U03
 
+- name: T-minus
+  floor: 1
+  housenumber: 98
+  unit: U07
 
 
 #Begane Grond
@@ -900,7 +927,12 @@
 
 
 - name: By Jarmusch
-  floor: 2
+  floor: 0
+  housenumber:
+  unit:
+
+- name: MVRDV
+  floor: 0
   housenumber:
   unit:
 

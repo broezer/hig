@@ -32,7 +32,7 @@ higApp.controller('NewsCtrl', function ($scope, $http) {
   $http.get('http://www.hetindustriegebouw.nl/wp-json/wp/v2/nieuwsbrief')
    .success(function(data){
      //$scope.news = data[0].acf.nieuwsbrief_blokken;
-     var values = data[0].acf.nieuwsbrief_blokken;
+    var values = data[0].acf.nieuwsbrief_blokken;
      console.log(values);
      $scope.news.push($scope.services);
      $.each(values, function(){
