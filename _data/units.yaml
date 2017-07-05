@@ -1,10 +1,10 @@
 #Vijfde Verdieping
-- name: Trichis
+- name: Trichis Communicatie & Ontwerp B.V.
   floor: 5
   housenumber:
   unit: U03
 
-- name: Nine CA Rotterdam
+- name: Bubblefish Interactive B.V.
   floor: 5
   housenumber:
   unit: U03
@@ -49,17 +49,13 @@
   housenumber: 202
   unit: U06
 
-- name: Bokeh & Pinto
-  floor: 5
-  housenumber: 184
-  unit: U07
 
 - name: Kaaps
   floor: 5
   housenumber: 184
   unit: U10U11
 
-- name: Maradona
+- name: Maradona Creative Agency
   floor: 5
   housenumber: 184
   unit: U09
@@ -78,25 +74,17 @@
   housenumber: 158
   unit: U04
 
-
-- name: Fimmar B.V.
-  floor: 4
-  housenumber: 158
-  unit: U06
-
-
-
 - name: Intax Tax Consultants
   floor: 4
   housenumber: 170
-  unit: U09
+  unit: U07
 
 
 
 - name: Destan Detachering B.V.
   floor: 4
   housenumber: 186
-  unit: U13
+  unit: U06
 
 
 - name: Helen Keller Stichting
@@ -109,46 +97,15 @@
   housenumber: 186
   unit: U16
 
-- name: Nieuwpoort Luteijn
-  floor: 4
-  housenumber: 187
-  unit: U12
-
-
-- name: Nino en Frankie
-  floor: 4
-  housenumber: 187
-  unit: U12
-
-
-- name: Sabine van Zeijl
-  floor: 4
-  housenumber: 187
-  unit: U12
-
-
-- name: Job Smit
-  floor: 4
-  housenumber: 187
-  unit: U12
-
-- name: Transmit Music
-  floor: 4
-  housenumber: 187
-  unit: U12
-
 
 - name: Vestia
   floor: 4
   housenumber: 164-168
   unit: U08
 
-- name: Raymond Heijnen
-  floor: 4
-  housenumber:
-  unit:
 
-- name: AFFR Architectuur Filmfestival Rotterdam
+
+- name: AFFR | Architectuur Film Festival Rotterdam
   floor: 4
   housenumber:
   unit: U03
@@ -225,10 +182,15 @@
   housenumber: 130
   unit: 3.16
 
+- name: Designlinq
+  floor: 3
+  housenumber: 130
+  unit: 3.16
+
 
 #Linkerzijvleugel
 
-- name: MSO
+- name: MSO Management
   floor: 3
   housenumber: 130
   unit: 3.3
@@ -240,11 +202,6 @@
   housenumber: 130
   unit: 3.4 #3.5 3.6
 
-
-- name: Studio Woesthuis
-  floor: 3
-  housenumber:
-  unit: 3.7
 
 
 
@@ -259,7 +216,7 @@
   unit: 3.2
 
 
-- name: Room Revolution
+- name: RoomRevolution
   floor: 3
   housenumber:
   unit: 3.2
@@ -271,7 +228,7 @@
   unit: 3.7
 
 
-- name: Bravebox & Digital Creative
+- name: Bravebox
   floor: 3
   housenumber: 130
   unit: 3.1
@@ -288,7 +245,7 @@
   housenumber: 136
   unit: U01
 
-- name: HUGE Holding B.V.
+- name: The Huge Network
   floor: 3
   housenumber: 136
   unit: U01
@@ -310,23 +267,7 @@
   housenumber: 136
   unit: U05
 
-- name: Mieras.org
-  floor: 3
-  housenumber: 136
-  unit: U05
-
 - name: Everco
-  floor: 3
-  housenumber: 136
-  unit: U06
-
-- name: Picturefix
-  floor: 3
-  housenumber: 136
-  unit: U06
-
-
-- name: DEK
   floor: 3
   housenumber: 136
   unit: U06
@@ -397,10 +338,7 @@
 
 #Desks
 
-- name: JobByBid
-  floor: 3
-  housenumber:
-  unit: D01
+
 
 
 - name: Brilliant Cases
@@ -449,12 +387,9 @@
   housenumber:
   unit: D10
 
-- name: Maarten's Solutions
-  floor: 3
-  housenumber:
-  unit: D11
 
-- name: Westera & Hooijsma B.V.
+
+- name: Rik Westra
   floor: 3
   housenumber:
   unit: D12
@@ -482,6 +417,12 @@
   floor: 3
   housenumber:
   unit: D16
+
+- name: The Brand Company
+  floor: 3
+  housenumber:
+  unit: D16
+
 
 
 #- name: Martin Memelink Fotografie
@@ -562,7 +503,7 @@
   unit: U12
 
 
-- name: Kone Advies
+- name: Kone Advies en Organisatiebureau BV
   floor: 3
   housenumber:
   unit: U15
@@ -597,20 +538,21 @@
 
 #Tweede verdieping
 
-- name: RTS Meiser Nederland B.V.
+
+- name: Raymond Heijnen
+  floor: 2
+  housenumber:
+  unit: U03
+
+- name: Huismeester
+  floor: 2
+  housenumber:
+  unit: U03
+
+- name: RST Meiser Nederland B.V.
   floor: 2
   housenumber:
   unit: U01
-
-
-
-
-
-- name: Te Pas Advocaten
-  floor: 2
-  housenumber: 106
-  unit: U05
-
 
 - name: Uitdekunst!
   floor: 2
@@ -618,25 +560,13 @@
   unit: 2.1
 
 
-- name: Dajo Brinkman
-  floor: 2
-  housenumber:
-  unit: 2.24
-
-
-- name: Marked! B.V.
-  floor: 2
-  housenumber:
-  unit:
-
-
-- name: BeMe / Njoymarketing
+- name: Njoymarketing
   floor: 2
   housenumber:
   unit: 2.3
 
 
-- name: Zico Lopez Design
+- name: Studio Zico Lopes
   floor: 2
   housenumber:
   unit: 2.4
@@ -668,14 +598,14 @@
   housenumber:
   unit: 2.7
 
-- name: Lisa Interieur
+- name: LISA Interieur en Architectuur
   floor: 2
   housenumber:
   unit: 2.26
 
 
 
-- name: Ships Ink
+- name: Ships Ink B.V.
   floor: 2
   housenumber:
   unit: 2.10
@@ -730,7 +660,7 @@
   housenumber:
   unit: 2.2
 
-- name: Openlab BV
+- name: testalize.me
   floor: 2
   housenumber:
   unit: 2.15
@@ -753,12 +683,14 @@
   unit: 2.9
 
 
-- name: Wattsonline BV
+
+
+- name: Alexandra Frida
   floor: 2
   housenumber:
-  unit: U07
+  unit: U02
 
-- name: Alexander Frida
+- name: Roffa Mon Amour
   floor: 2
   housenumber:
   unit: U02
@@ -798,12 +730,7 @@
   housenumber:
   unit: U07A
 
-- name: Viadeklup
-  floor: 2
-  housenumber:
-  unit:
-
-- name: November Events
+- name: klup
   floor: 2
   housenumber:
   unit:
@@ -813,13 +740,47 @@
   housenumber:
   unit: 2.24
 
-- name: Uniek in Ontwerk
+- name: Uniek in Ontwerp
   floor: 2
   housenumber:
   unit: U11
 
 
+- name: Nieuwpoort Luteijn
+  floor: 2
+  housenumber:
+  unit: U05
 
+
+- name: Nino en Frankie
+  floor: 2
+  housenumber:
+  unit: U05
+
+- name: Transmit Music
+  floor: 2
+  housenumber:
+  unit: U05
+
+- name: The Phoney Club
+  floor: 2
+  housenumber:
+  unit: U05
+
+- name: Loes op Locatie
+  floor: 2
+  housenumber:
+  unit: U07A
+
+- name: Putter Producties
+  floor: 2
+  housenumber:
+  unit: U07A
+
+- name: Be Me
+  floor: 2
+  housenumber:
+  unit: 2.3
 
 #Eerste verdieping
 
@@ -858,13 +819,6 @@
   housenumber:
   unit: U06
 
-- name: Mepros
-  floor: 1
-  housenumber: 88
-  unit: U07
-
-
-
 - name: Lola Landscape Architects
   floor: 1
   housenumber: 92
@@ -888,7 +842,10 @@
 
 #Begane Grond
 
-
+- name: Alfredo's Taquaria
+  floor: 0
+  housenumber:
+  unit:
 
 - name: Cafe@home
   floor: 0
@@ -937,16 +894,6 @@
   unit:
 
 - name: Studio Libertiny
-  floor: 0
-  housenumber:
-  unit:
-
-- name: Club K V.O.F.
-  floor: 0
-  housenumber:
-  unit:
-
-- name: Design Studio Wouter Storm
   floor: 0
   housenumber:
   unit:
