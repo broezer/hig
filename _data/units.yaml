@@ -337,9 +337,10 @@
   unit: U09
 
 #Desks
-
-
-
+- name: Frans-Jan Ontwerp en DTP 
+  floor: 3
+  housenumber:
+  unit: D01
 
 - name: Brilliant Cases
   floor: 3
