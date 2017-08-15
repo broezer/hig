@@ -60,6 +60,15 @@
   housenumber: 184
   unit: U09
 
+- name: Maatwerk Online
+  floor: 5
+  housenumber: 184
+  unit: U10
+
+- name: Onlinemarketing.nl B.V.
+  floor: 5
+  housenumber: 184
+  unit: U10
 
 
 
@@ -92,11 +101,6 @@
   housenumber: 186
   unit: U05
 
-- name: OnlineMarketing.nl B.V.
-  floor: 4
-  housenumber: 186
-  unit: U16
-
 
 - name: Vestia
   floor: 4
@@ -109,6 +113,40 @@
   floor: 4
   housenumber:
   unit: U03
+
+- name: Contra
+  floor: 4
+  housenumber:
+  unit: U11
+
+- name: Grndpa
+  floor: 4
+  housenumber:
+  unit: U11
+
+- name: The Phoney Club
+  floor: 4
+  housenumber:
+  unit: U11
+
+- name: The Phoney Club
+  floor: 4
+  housenumber:
+  unit: U11
+
+- name: Transmit Music
+  floor: 2
+  housenumber:
+  unit: U11
+
+
+- name: Weave
+  floor: 2
+  housenumber:
+  unit: U01
+
+
+
 
 
 #Derde verdieping
@@ -142,6 +180,11 @@
   unit: 3.18
 
 - name: Studio Woesthuis
+  floor: 3
+  housenumber:
+  unit: 3.18
+
+- name: Blauwesteeg
   floor: 3
   housenumber:
   unit: 3.18
@@ -185,7 +228,7 @@
 - name: Designlinq
   floor: 3
   housenumber: 130
-  unit: 3.16
+  unit: 3.17
 
 
 #Linkerzijvleugel
@@ -202,13 +245,6 @@
   housenumber: 130
   unit: 3.4 #3.5 3.6
 
-
-
-
-- name: Blauwesteeg
-  floor: 3
-  housenumber:
-  unit: 3.7
 
 - name: Bazou
   floor: 3
@@ -337,7 +373,7 @@
   unit: U09
 
 #Desks
-- name: Frans-Jan Ontwerp en DTP 
+- name: Frans-Jan Ontwerp en DTP
   floor: 3
   housenumber:
   unit: D01
@@ -373,7 +409,7 @@
   housenumber:
   unit: D07
 
-- name: Bruce Moerdjiman
+- name: Frozenman Consultancy
   floor: 3
   housenumber:
   unit: D08
@@ -388,6 +424,10 @@
   housenumber:
   unit: D10
 
+- name: James King INC.
+  floor: 3
+  housenumber:
+  unit: D11
 
 
 - name: Rik Westra
@@ -514,6 +554,11 @@
   floor: 3
   housenumber:
   unit: U15
+
+- name: testalize.me
+  floor: 2
+  housenumber:
+  unit: U.15
 
 
 - name: Karelse & Den Besten
@@ -661,10 +706,6 @@
   housenumber:
   unit: 2.2
 
-- name: testalize.me
-  floor: 2
-  housenumber:
-  unit: 2.15
 
 - name: Lifestylebureau Karin Kuijpers B.V.
   floor: 2
@@ -752,21 +793,6 @@
   housenumber:
   unit: U05
 
-
-- name: Nino en Frankie
-  floor: 2
-  housenumber:
-  unit: U05
-
-- name: Transmit Music
-  floor: 2
-  housenumber:
-  unit: U05
-
-- name: The Phoney Club
-  floor: 2
-  housenumber:
-  unit: U05
 
 - name: Loes op Locatie
   floor: 2
@@ -879,6 +905,16 @@
 
 
 - name: Resto Rokus
+  floor: 0
+  housenumber:
+  unit:
+
+- name: Bruce Moerdjiman
+  floor: 0
+  housenumber:
+  unit:
+
+- name: Titia Hahne Fotografie
   floor: 0
   housenumber:
   unit:
