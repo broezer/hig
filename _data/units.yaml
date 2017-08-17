@@ -39,11 +39,6 @@
   unit: U04
 
 
-- name: Blue Fish
-  floor: 5
-  housenumber: 184
-  unit: U05
-
 - name: Studio Beige
   floor: 5
   housenumber: 202
@@ -76,12 +71,6 @@
 
 
 #Vierde verdieping
-
-
-- name: Administratiekantoor J. Monster
-  floor: 4
-  housenumber: 158
-  unit: U04
 
 - name: Intax Tax Consultants
   floor: 4
@@ -618,12 +607,6 @@
   unit: 2.4
 
 - name: Inocencio
-  floor: 2
-  housenumber:
-  unit:
-
-
-- name: Web Acces
   floor: 2
   housenumber:
   unit:
