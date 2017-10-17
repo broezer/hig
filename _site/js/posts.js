@@ -1,8 +1,24 @@
 'use strict';
 
+var myVar;
+
+function myFunction() {
+		myVar =   window.setTimeout(function(){
+			$('.posts').hide();
+			$('#toggle').removeClass('active');
+			$('.header').removeClass('invert');
+			timer = window.setTimeout(reload, interval);
+		}, 10 * 1000);
+}
+
+function myStopFunction() {
+	window.clearTimeout(myVar);
+	console.log('stop');
+}
+
 higApp
 .controller('PostsCtrl', function ($scope, $http) {
-  $http.get('http://www.hetindustriegebouw.nl/wp-json/wp/v2/posts?filter[posts_per_page]=-1')
+  $http.get('http://www.hetindustriegebouw.nl/wp-json/wp/v2/posts?per_page=20')
    .success(function(data){
      $scope.posts = data;
      //console.log($scope.blocks);
@@ -19,7 +35,7 @@ higApp
       console.log($scope.loading);
       $('.feature').show();
       $('#toggle').removeClass('active').addClass('article-active');
-
+			myStopFunction();
      $http.get('http://www.hetindustriegebouw.nl/wp-json/wp/v2/posts/' + e)
      .success(function(data){
 
@@ -58,6 +74,10 @@ higApp
   $('.posts').hide();
   $('.feature').hide();
 
+
+
+
+
   $('#toggle').click(function() {
     var $this = $(this);
 
@@ -69,12 +89,14 @@ higApp
     }else if($this.hasClass('article-active')){
       $this.removeClass('article-active').addClass('active');
       $('.feature').hide();
+			myFunction();
     }
     else{
       $('.posts').show();
       $this.addClass('active');
       $('.header').addClass('invert');
       window.clearTimeout(timer);
+			myFunction();
     }
   });
 
