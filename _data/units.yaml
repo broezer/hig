@@ -7,7 +7,13 @@
 - name: Bubblefish Interactive B.V.
   floor: 5
   housenumber:
+  unit: U01B
+
+- name: Nieuwland Endzaak
+  floor: 5
+  housenumber:
   unit: U03
+
 
 - name: Stroom
   floor: 5
@@ -218,6 +224,13 @@
   floor: 3
   housenumber: 130
   unit: 3.17
+
+- name: Pixel X
+  floor: 3
+  housenumber: 130
+  unit: 3.18
+
+
 
 
 #Linkerzijvleugel
@@ -700,6 +713,21 @@
 
 
 - name: Weblab.nl
+  floor: 2
+  housenumber:
+  unit:
+
+- name: ThePerfectWedding.nl
+  floor: 2
+  housenumber:
+  unit:
+
+- name: MiniMe.nl
+  floor: 2
+  housenumber:
+  unit:
+
+- name: ThePerfectYou.nl
   floor: 2
   housenumber:
   unit:
