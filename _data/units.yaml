@@ -169,11 +169,6 @@
   housenumber:
   unit: 3.18
 
-- name: Grace tan Fotografie
-  floor: 3
-  housenumber:
-  unit: 3.18
-
 - name:
   floor: 3
   housenumber:
@@ -190,6 +185,11 @@
   unit: 3.11
 
 - name:  MO Copywriting
+  floor: 3
+  housenumber: 130
+  unit: 3.11
+
+- name:  Ron Schuijt
   floor: 3
   housenumber: 130
   unit: 3.11
@@ -235,7 +235,7 @@
 
 #Linkerzijvleugel
 
-- name: MSO Management
+- name:
   floor: 3
   housenumber: 130
   unit: 3.3
@@ -384,7 +384,7 @@
   unit: U09
 
 #Desks
-- name: Frans-Jan Ontwerp en DTP
+- name:
   floor: 3
   housenumber:
   unit: D01
