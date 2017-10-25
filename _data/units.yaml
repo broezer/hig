@@ -9,7 +9,7 @@
   housenumber:
   unit: U01B
 
-- name: Nieuwland Endzaak
+- name: Nieuwland Endezaak
   floor: 5
   housenumber:
   unit: U03
@@ -809,7 +809,7 @@
   unit: U11
 
 
-- name: Nieuwpoort Luteijn
+- name: 
   floor: 2
   housenumber:
   unit: U05
