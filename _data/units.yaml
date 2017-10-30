@@ -225,7 +225,7 @@
   housenumber: 130
   unit: 3.17
 
-- name: Pixel X
+- name: PixelX
   floor: 3
   housenumber: 130
   unit: 3.18
@@ -809,7 +809,7 @@
   unit: U11
 
 
-- name: 
+- name:
   floor: 2
   housenumber:
   unit: U05
