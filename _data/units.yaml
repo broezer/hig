@@ -616,7 +616,7 @@
   unit:
 
 
-- name: Tsjechie Xperience
+- name: Juuve
   floor: 2
   housenumber:
   unit: 2.5
@@ -626,10 +626,6 @@
   housenumber:
   unit: 2.6
 
-- name: Nexus Verus
-  floor: 2
-  housenumber:
-  unit: 2.7
 
 - name:
   floor: 2
@@ -692,12 +688,6 @@
   floor: 2
   housenumber:
   unit: 2.2
-
-
-- name: Lifestylebureau Karin Kuijpers B.V.
-  floor: 2
-  housenumber:
-  unit: 2.11
 
 
 - name: Guestwise
@@ -886,6 +876,11 @@
   floor: 1
   housenumber: 98
   unit: U07
+
+- name: Nexus Verus
+  floor: 1
+  housenumber: 98
+  unit: U08
 
 
 #Begane Grond
