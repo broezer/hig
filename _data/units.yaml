@@ -452,10 +452,6 @@
   housenumber:
   unit: D13
 
-- name: De Fiscale Zaak
-  floor: 3
-  housenumber:
-  unit: D14
 
 - name: Frans-Jan Ontwerp en DTP
   floor: 3
@@ -818,7 +814,22 @@
 - name: Be Me
   floor: 2
   housenumber:
-  unit: 2.3
+  unit: U04
+
+- name: Beeckk
+  floor: 2
+  housenumber:
+  unit: U04
+
+- name: Alexandra Frida
+  floor: 2
+  housenumber:
+  unit: U04
+
+- name: Buro P&O
+  floor: 2
+  housenumber:
+  unit: U04
 
 #Eerste verdieping
 
