@@ -831,6 +831,11 @@
   housenumber:
   unit: U04
 
+- name: Flabberguest
+  floor: 2
+  housenumber:
+  unit: U04
+
 #Eerste verdieping
 
 
