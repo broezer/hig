@@ -384,12 +384,12 @@
   unit: U09
 
 #Desks
-- name:
+- name: Nimsys.
   floor: 3
   housenumber:
   unit: D01
 
-- name: Brilliant Cases
+- name: Animating Science
   floor: 3
   housenumber:
   unit: D02
@@ -400,7 +400,7 @@
   housenumber:
   unit: D03
 
-- name: Renee Ooms Design & Technology
+- name: René Ooms Design & Technology
   floor: 3
   housenumber:
   unit: D04
@@ -425,32 +425,32 @@
   housenumber:
   unit: D08
 
-- name: TrendCult
-  floor: 3
-  housenumber:
-  unit: D09
 
 - name: Orange Health Consultants
   floor: 3
   housenumber:
   unit: D10
 
-- name:
+- name: PPP Powerhouse
   floor: 3
   housenumber:
   unit: D11
 
+- name: Summum Engineering
+  floor: 3
+  housenumber:
+  unit: D11
 
 - name: Rik Westra
   floor: 3
   housenumber:
-  unit: D12
+  unit: D13
 
 
-- name: Madelon Baans
+- name: The Wildside Company
   floor: 3
   housenumber:
-  unit: D13
+  unit: D14
 
 
 - name: Frans-Jan Ontwerp en DTP
@@ -458,7 +458,7 @@
   housenumber:
   unit: D15
 
-- name: Preference 4 People
+- name: Madelon Baans
   floor: 3
   housenumber:
   unit: D16
@@ -474,7 +474,7 @@
   housenumber:
   unit: D18
 
-- name: Buro Blonk
+- name: Paka Studios
   floor: 3
   housenumber:
   unit: D19
@@ -898,6 +898,10 @@
   housenumber: 98
   unit: U08
 
+- name: Bitfactory
+  floor: 1
+  housenumber: 98
+  unit: U11
 
 #Begane Grond
 
