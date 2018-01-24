@@ -124,19 +124,20 @@
   housenumber:
   unit: U11
 
-- name: The Phoney Club
+- name: GI-Travel
   floor: 4
   housenumber:
-  unit: U11
+  unit: U12
 
-- name: Transmit Music
-  floor: 2
+- name: Zeetours
+  floor: 4
   housenumber:
-  unit: U11
+  unit: U13
+
 
 
 - name: Weave
-  floor: 2
+  floor: 4
   housenumber:
   unit: U01
 
@@ -544,10 +545,6 @@
   housenumber:
   unit: U15
 
-- name: testalize.me
-  floor: 2
-  housenumber:
-  unit: U.15
 
 
 - name: Karelse & Den Besten
@@ -600,17 +597,10 @@
   housenumber:
   unit: 2.3
 
-
-- name: Studio Zico Lopes
-  floor: 2
-  housenumber:
-  unit: 2.4
-
 - name: Inocencio
   floor: 2
   housenumber:
   unit:
-
 
 - name: Juuve
   floor: 2
@@ -660,31 +650,11 @@
   housenumber:
   unit: 2.14
 
-- name: LabFour
-  floor: 2
-  housenumber:
-  unit: 2.28
-
-- name: Treat Channel
-  floor: 2
-  housenumber:
-  unit: 2.28
-
-- name: Panache Creatieve Communicatie
-  floor: 2
-  housenumber:
-  unit: 2.13
 
 - name: De Wijnwijven
   floor: 2
   housenumber:
   unit: 2.13
-
-- name: Minimal Video
-  floor: 2
-  housenumber:
-  unit: 2.2
-
 
 - name: Guestwise
   floor: 2
@@ -769,10 +739,6 @@
   housenumber:
   unit:
 
-- name: Leidmotiv
-  floor: 2
-  housenumber:
-  unit: 2.12
 
 - name:
   floor: 2
@@ -792,8 +758,12 @@
 - name: Uniek in Ontwerp
   floor: 2
   housenumber:
-  unit: U11
+  unit: U10
 
+- name: Uitdekunst!
+  floor: 2
+  housenumber:
+  unit: U11
 
 - name:
   floor: 2
@@ -809,7 +779,7 @@
 - name: Putter Producties
   floor: 2
   housenumber:
-  unit: U07A
+  unit: U10
 
 - name: Be Me
   floor: 2
