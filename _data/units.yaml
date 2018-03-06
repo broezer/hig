@@ -187,20 +187,6 @@
   housenumber: 130
   unit: 3.2
 
-- name:
-  floor: 3
-  housenumber:
-  unit: 3.18
-
-- name:
-  floor: 3
-  housenumber:
-  unit: 3.18
-
-- name:
-  floor: 3
-  housenumber:
-  unit: 3.18
 
 - name:  Below Enemy Lines
   floor: 3
@@ -257,12 +243,6 @@
 
 
 #Linkerzijvleugel
-
-- name:
-  floor: 3
-  housenumber: 130
-  unit: 3.3
-
 
 
 - name: Trin-It
@@ -654,15 +634,10 @@
   unit: U03
 
 
-- name:
+- name: Loes op Locatie
   floor: 2
   housenumber:
-  unit: U07B
-
-- name: Blue Chili Creative
-  floor: 2
-  housenumber:
-  unit: U10
+  unit: U07A
 
 - name: Bruidbeeld
   floor: 2
@@ -680,58 +655,26 @@
   unit: U09
 
 
-- name: Uitdekunst!
-  floor: 2
-  housenumber:
-  unit: U11
-
-- name:
-  floor: 2
-  housenumber:
-  unit: U07A
-
-
 - name: Uniek in Ontwerp
   floor: 2
   housenumber:
   unit: U10
 
-- name:
+- name: Blue Chili Creative
   floor: 2
   housenumber:
-  unit: U05
+  unit: U10
 
-
-- name: Loes op Locatie
-  floor: 2
-  housenumber:
-  unit: U07A
 
 - name: Putter Producties
   floor: 2
   housenumber:
   unit: U10
 
-- name: Be Me
+- name: Uitdekunst!
   floor: 2
   housenumber:
-  unit: U04
-
-- name: Beeckk
-  floor: 2
-  housenumber:
-  unit: U04
-
-
-- name: Buro P&O
-  floor: 2
-  housenumber:
-  unit: U04
-
-- name: Flabberguest
-  floor: 2
-  housenumber:
-  unit: U04
+  unit: U11
 
 
 - name: BEECKK Ruimtemakers
