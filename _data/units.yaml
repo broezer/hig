@@ -106,20 +106,46 @@
   housenumber:
   unit: U03
 
+- name: Rotterdamse VVD
+  floor: 4
+  housenumber:
+  unit: U04
+
+
+- name: Weblab.nl
+  floor: 4
+  housenumber:
+  unit: U9
+
+- name: ThePerfectWedding.nl
+  floor: 4
+  housenumber:
+  unit: U9
+
+- name: MiniMe.nl
+  floor: 4
+  housenumber:
+  unit: U9
+
+- name: ThePerfectYou.nl
+  floor: 4
+  housenumber:
+  unit: U9
+
 - name: Contra
   floor: 4
   housenumber:
-  unit: U11
+  unit: U10
 
 - name: Grndpa
   floor: 4
   housenumber:
-  unit: U11
+  unit: U10
 
 - name: The Phoney Club
   floor: 4
   housenumber:
-  unit: U11
+  unit: U10
 
 - name: GI-Travel
   floor: 4
@@ -130,7 +156,6 @@
   floor: 4
   housenumber:
   unit: U13
-
 
 
 - name: Weave
@@ -382,7 +407,7 @@
   unit: U09
 
 #Desks
-- name: Nimsys.
+- name: Nimsys
   floor: 3
   housenumber:
   unit: D01
@@ -437,7 +462,7 @@
 - name: Summum Engineering
   floor: 3
   housenumber:
-  unit: D11
+  unit: D12
 
 - name: Rik Westra
   floor: 3
@@ -567,6 +592,10 @@
 
 #Tweede verdieping
 
+- name: RST Meiser Nederland B.V.
+  floor: 2
+  housenumber:
+  unit: U01
 
 - name: Raymond Heijnen
   floor: 2
@@ -578,62 +607,27 @@
   housenumber:
   unit: U03
 
-- name: RST Meiser Nederland B.V.
+
+- name: Floodlight
   floor: 2
   housenumber:
-  unit: U01
+  unit: U04
 
-- name: Uitdekunst!
+- name: Vloedlicht
   floor: 2
   housenumber:
-  unit: 2.1
+  unit: U04
 
-
-- name: Njoymarketing
+- name: Frontaal Film
   floor: 2
   housenumber:
-  unit: 2.3
+  unit: U04
 
-- name: Inocencio
-  floor: 2
-  housenumber:
-  unit:
 
 - name: Juuve
   floor: 2
   housenumber:
   unit: 2.5
-
-- name: Fotostudio
-  floor: 2
-  housenumber:
-  unit: 2.6
-
-
-- name:
-  floor: 2
-  housenumber:
-  unit: 2.26
-
-
-
-- name:
-  floor: 2
-  housenumber:
-  unit: 2.10
-
-
-- name: Flow Logics
-  floor: 2
-  housenumber:
-  unit: 2.12
-
-
-- name:
-  floor: 2
-  housenumber:
-  unit: 2.25
-
 
 
 - name: China Classification Society
@@ -642,16 +636,6 @@
   unit: U08
 
 
-- name: Summum Engineering
-  floor: 2
-  housenumber:
-  unit: 2.14
-
-
-- name: De Wijnwijven
-  floor: 2
-  housenumber:
-  unit: 2.13
 
 - name: Guestwise
   floor: 2
@@ -664,52 +648,11 @@
   housenumber:
   unit: 2.9
 
-
-- name: Weblab.nl
-  floor: 2
-  housenumber:
-  unit:
-
-- name: ThePerfectWedding.nl
-  floor: 2
-  housenumber:
-  unit:
-
-- name: MiniMe.nl
-  floor: 2
-  housenumber:
-  unit:
-
-- name: ThePerfectYou.nl
-  floor: 2
-  housenumber:
-  unit:
-
-- name: Vloedlicht
-  floor: 2
-  housenumber:
-  unit: U03
-
-
-- name: Frontaal Film
-  floor: 2
-  housenumber:
-  unit: U03
-
 - name: A 'la Cart Advocaten
   floor: 2
   housenumber:
   unit: U03
 
-- name: Alexandra Frida
-  floor: 2
-  housenumber:
-  unit: U02
-
-- name:
-  floor: 2
-  housenumber:
-  unit: U02
 
 - name:
   floor: 2
@@ -719,7 +662,7 @@
 - name: Blue Chili Creative
   floor: 2
   housenumber:
-  unit: U11
+  unit: U10
 
 - name: Bruidbeeld
   floor: 2
@@ -729,38 +672,29 @@
 - name: Four Loves Sakes
   floor: 2
   housenumber:
-  unit:
+  unit: U09
 
 - name: Groter Dan
   floor: 2
   housenumber:
-  unit:
+  unit: U09
 
+
+- name: Uitdekunst!
+  floor: 2
+  housenumber:
+  unit: U11
 
 - name:
   floor: 2
   housenumber:
   unit: U07A
 
-- name: klup
-  floor: 2
-  housenumber:
-  unit:
-
-- name: Mister Rotterdam
-  floor: 2
-  housenumber:
-  unit: 2.24
 
 - name: Uniek in Ontwerp
   floor: 2
   housenumber:
   unit: U10
-
-- name: Uitdekunst!
-  floor: 2
-  housenumber:
-  unit: U11
 
 - name:
   floor: 2
@@ -788,10 +722,6 @@
   housenumber:
   unit: U04
 
-- name: Alexandra Frida
-  floor: 2
-  housenumber:
-  unit: U04
 
 - name: Buro P&O
   floor: 2
@@ -802,6 +732,103 @@
   floor: 2
   housenumber:
   unit: U04
+
+
+- name: BEECKK Ruimtemakers
+  floor: 2
+  housenumber:
+  unit: 2.0
+
+- name: Buro P&O
+  floor: 2
+  housenumber:
+  unit: 2.1
+
+- name: Flabberguest
+  floor: 2
+  housenumber:
+  unit: 2.1
+
+- name: Be Me
+  floor: 2
+  housenumber:
+  unit: 2.2
+
+
+- name: SmartUp Network
+  floor: 2
+  housenumber:
+  unit: 2.2
+
+- name: LISA Interieur en archirectuur
+  floor: 2
+  housenumber:
+  unit: 2.
+
+- name: Leidmotiv
+  floor: 2
+  housenumber:
+  unit: 2.4
+
+
+- name: Headed
+  floor: 2
+  housenumber:
+  unit: 2.4
+
+- name: Juuve
+  floor: 2
+  housenumber:
+  unit: 2.5
+
+- name: Mister Rotterdam
+  floor: 2
+  housenumber:
+  unit: 2.6
+
+
+- name: Sales Shape
+  floor: 2
+  housenumber:
+  unit: 2.6
+
+
+- name: YEM Advies
+  floor: 2
+  housenumber:
+  unit: 2.6
+
+- name: Guestwise
+  floor: 2
+  housenumber:
+  unit: 2.7
+
+- name: BMP Group
+  floor: 2
+  housenumber:
+  unit: 2.7
+
+
+
+- name: VIEP
+  floor: 2
+  housenumber:
+  unit: D10
+
+- name: Uberfit Nutrition
+  floor: 2
+  housenumber:
+  unit: D11
+
+- name: Uberfit Nutrition
+  floor: 2
+  housenumber:
+  unit: D12
+
+- name: Tiny Towl
+  floor: 2
+  housenumber:
+  unit: D13
 
 #Eerste verdieping
 
@@ -848,7 +875,7 @@
 - name: Tiledmedia
   floor: 1
   housenumber:
-  unit: U04
+  unit: U03A
 
 - name: Business Translation Services B.V.
   floor: 1
