@@ -423,7 +423,7 @@
   housenumber:
   unit: D07
 
-- name: Frozenman Consultancy
+- name: Leading Edge
   floor: 3
   housenumber:
   unit: D08
@@ -751,7 +751,15 @@
   housenumber:
   unit: 2.7
 
+- name: Ki2 Organisatieadvies & Internal Branding
+  floor: 2
+  housenumber:
+  unit: D06
 
+- name: Prisca Fotografie & Storytelling
+  floor: 2
+  housenumber:
+  unit: D08
 
 - name: VIEP
   floor: 2
@@ -772,6 +780,11 @@
   floor: 2
   housenumber:
   unit: D13
+
+- name: Tiny Towl
+  floor: 2
+  housenumber:
+  unit: De School van Vandaag
 
 #Eerste verdieping
 
