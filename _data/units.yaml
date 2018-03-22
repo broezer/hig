@@ -781,10 +781,10 @@
   housenumber:
   unit: D13
 
-- name: Tiny Towl
+- name: De School van Vandaag
   floor: 2
   housenumber:
-  unit: De School van Vandaag
+  unit: D16
 
 #Eerste verdieping
 
