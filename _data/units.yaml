@@ -106,11 +106,6 @@
   housenumber:
   unit: U03
 
-- name: Rotterdamse VVD
-  floor: 4
-  housenumber:
-  unit: U04
-
 
 - name: Weblab.nl
   floor: 4
@@ -449,13 +444,6 @@
   housenumber:
   unit: D13
 
-
-- name: The Wildside Company
-  floor: 3
-  housenumber:
-  unit: D14
-
-
 - name: Frans-Jan Ontwerp en DTP
   floor: 3
   housenumber:
@@ -470,12 +458,6 @@
   floor: 3
   housenumber:
   unit: D17
-
-
-- name: Francis Liesting Grafische Vormgeving
-  floor: 3
-  housenumber:
-  unit: D18
 
 - name: Paka Studios
   floor: 3
@@ -751,6 +733,11 @@
   housenumber:
   unit: 2.7
 
+- name: PRKKLS
+  floor: 2
+  housenumber:
+  unit: D04
+
 - name: Ki2 Organisatieadvies & Internal Branding
   floor: 2
   housenumber:
@@ -760,6 +747,11 @@
   floor: 2
   housenumber:
   unit: D08
+
+- name: Graniero Italian Editing
+  floor: 2
+  housenumber:
+  unit: D09
 
 - name: VIEP
   floor: 2
@@ -780,6 +772,11 @@
   floor: 2
   housenumber:
   unit: D13
+
+- name: h é j o concepts
+  floor: 2
+  housenumber:
+  unit: D14
 
 - name: De School van Vandaag
   floor: 2
