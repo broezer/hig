@@ -549,7 +549,20 @@
   unit: U14
 
 
+- name: Maaskantine
+  floor: 3
+  housenumber:
+  unit: MK
 
+- name: Johan Cruyff Room
+  floor: 3
+  housenumber:
+  unit: JC
+
+- name: Dirk Kuyt Room
+  floor: 3
+  housenumber:
+  unit: DK
 
 
 #Tweede verdieping
@@ -783,6 +796,17 @@
   housenumber:
   unit: D16
 
+
+- name: Ruud Lubbers Keuken
+  floor: 2
+  housenumber:
+  unit: RL
+
+- name: Riek Bakker Room
+  floor: 2
+  housenumber:
+  unit: RB
+
 #Eerste verdieping
 
 
@@ -790,6 +814,11 @@
 #U09 = Gs. 92
 #U10 = Gs. 94
 #U11 = Gs. 96
+
+- name: Johanna Hudig Room
+  floor: 1
+  housenumber:
+  unit: JH
 
 
 - name: Mediad

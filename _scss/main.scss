@@ -124,6 +124,16 @@ section{
 }
 
 
+#F2RL, #F3MK{
+	path, polyline, polygon{
+		fill:white;
+	}
+}
+#F3MK{
+	text{
+		font-size: 13px;
+	}
+}
 
 @import "welcome.scss";
 @import "list.scss";

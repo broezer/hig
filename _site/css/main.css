@@ -803,6 +803,12 @@ header.invert {
 section {
   position: relative; }
 
+#F2RL path, #F2RL polyline, #F2RL polygon, #F3MK path, #F3MK polyline, #F3MK polygon {
+  fill: white; }
+
+#F3MK text {
+  font-size: 13px; }
+
 .image {
   background: url(/assets/img/HIG02.jpg);
   background-size: cover;
