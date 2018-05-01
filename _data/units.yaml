@@ -434,10 +434,7 @@
   housenumber:
   unit: D11
 
-- name: Summum Engineering
-  floor: 3
-  housenumber:
-  unit: D12
+
 
 - name: Rik Westra
   floor: 3
@@ -639,7 +636,7 @@
   housenumber:
   unit: U09
 
-- name: Four Loves Sakes
+- name: Four Loves Sake
   floor: 2
   housenumber:
   unit: U09
@@ -666,10 +663,7 @@
   housenumber:
   unit: U10
 
-- name: Uitdekunst!
-  floor: 2
-  housenumber:
-  unit: U11
+
 
 
 - name: BEECKK Ruimtemakers
@@ -701,18 +695,23 @@
 - name: LISA Interieur en archirectuur
   floor: 2
   housenumber:
-  unit: 2.
+  unit: 2.2
 
 - name: Leidmotiv
   floor: 2
   housenumber:
-  unit: 2.4
+  unit: 2.3
 
 
 - name: Headed
   floor: 2
   housenumber:
-  unit: 2.4
+  unit: 2.3
+
+- name: SpringCo.
+  floor: 2
+  housenumber:
+  unit: 2.3
 
 - name: Juuve
   floor: 2
@@ -745,6 +744,26 @@
   floor: 2
   housenumber:
   unit: 2.7
+
+- name: Uitdekunst!
+  floor: 2
+  housenumber:
+  unit: 2.8
+
+- name: Bruisadvies
+  floor: 2
+  housenumber:
+  unit: 2.9
+
+- name: Joey Peters
+  floor: 2
+  housenumber:
+  unit: 2.10
+
+- name: Summum Engineering
+  floor: 2
+  housenumber:
+  unit: 2.11
 
 - name: PRKKLS
   floor: 2
@@ -781,12 +800,12 @@
   housenumber:
   unit: D12
 
-- name: Tiny Towl
+- name: h é j o concepts
   floor: 2
   housenumber:
   unit: D13
 
-- name: h é j o concepts
+- name: Tiny Towl
   floor: 2
   housenumber:
   unit: D14
