@@ -50,6 +50,11 @@
   housenumber: 202
   unit: U06
 
+- name: Salon Salon
+  floor: 5
+  housenumber: 202
+  unit: U06
+
 
 - name: Kaaps
   floor: 5
@@ -106,6 +111,36 @@
   housenumber:
   unit: U03
 
+
+- name: Barrelproof Company
+  floor: 4
+  housenumber:
+  unit: U8
+
+- name: Food in Concept
+  floor: 4
+  housenumber:
+  unit: U8
+
+- name: Pineut
+  floor: 4
+  housenumber:
+  unit: U8
+
+- name: Uberfit Nutrition
+  floor: 4
+  housenumber:
+  unit: U8
+
+- name: United Retail Brands
+  floor: 4
+  housenumber:
+  unit: U8
+
+- name: Bitfactory
+  floor: 4
+  housenumber:
+  unit: U8
 
 - name: Weblab.nl
   floor: 4
@@ -172,17 +207,7 @@
 
 #Rechterzijvleugel
 
-- name: Food in Concept
-  floor: 3
-  housenumber: 130
-  unit: 3.2
-
-- name: Pineut
-  floor: 3
-  housenumber: 130
-  unit: 3.2
-
-
+-
 - name:  Below Enemy Lines
   floor: 3
   housenumber: 130
@@ -219,6 +244,12 @@
   housenumber: 130
   unit: 3.13
 
+- name:  MoreApp
+  floor: 3
+  housenumber: 130
+  unit: 3.145
+
+
 - name:   Webaccess B.V.
   floor: 3
   housenumber: 130
@@ -246,16 +277,50 @@
   unit: 3.4 #3.5 3.6
 
 
+ name: Food in Concept
+  floor: 3
+  housenumber: 130
+  unit: 3.2
+
 - name: Bazou
   floor: 3
-  housenumber:
+  housenumber: 130
   unit: 3.2
 
-
-- name: RoomRevolution
+- name: Lette de Wit Projecten
   floor: 3
-  housenumber:
+  housenumber: 130
   unit: 3.2
+
+- name: Maurice Monteiro Marketing & Communicatie
+  floor: 3
+  housenumber: 130
+  unit: 3.2
+
+- name: Mariska Oudheusden
+  floor: 3
+  housenumber: 130
+  unit: 3.2
+
+- name: Room Revolution
+  floor: 3
+  housenumber: 130
+  unit: 3.2
+
+- name: Uyterlinde Projecten & Events
+  floor: 3
+  housenumber: 130
+  unit: 3.2
+
+- name: Ventiv
+  floor: 3
+  housenumber: 130
+  unit: 3.2
+
+- name: testalize.me
+  floor: 3
+  housenumber: 130
+  unit: 3.3
 
 
 - name: VS Logistics B.V.
@@ -441,6 +506,11 @@
   housenumber:
   unit: D13
 
+- name: Bureau Convoi
+  floor: 3
+  housenumber:
+  unit: D15
+
 - name: Frans-Jan Ontwerp en DTP
   floor: 3
   housenumber:
@@ -456,12 +526,17 @@
   housenumber:
   unit: D17
 
+- name: Design Marbles
+  floor: 3
+  housenumber:
+  unit: D18
+
 - name: Paka Studios
   floor: 3
   housenumber:
   unit: D19
 
-- name: Nandooh design
+- name: MoonInsight Group B.V.
   floor: 3
   housenumber:
   unit: D20
@@ -569,6 +644,11 @@
   housenumber:
   unit: U01
 
+- name: StudioSpass
+  floor: 2
+  housenumber:
+  unit: U02
+
 - name: Raymond Heijnen
   floor: 2
   housenumber:
@@ -596,10 +676,6 @@
   unit: U04
 
 
-- name: Juuve
-  floor: 2
-  housenumber:
-  unit: 2.5
 
 
 - name: China Classification Society
@@ -608,17 +684,6 @@
   unit: U08
 
 
-
-- name: Guestwise
-  floor: 2
-  housenumber:
-  unit: 2.9
-
-
-- name:  BMG Group
-  floor: 2
-  housenumber:
-  unit: 2.9
 
 - name: A 'la Cart Advocaten
   floor: 2
@@ -755,7 +820,17 @@
   housenumber:
   unit: 2.9
 
-- name: Joey Peters
+- name: Joey Peters Online Marketing
+  floor: 2
+  housenumber:
+  unit: 2.10
+
+- name:  Deneuve
+  floor: 2
+  housenumber:
+  unit: 2.10
+
+- name:  The USP Company
   floor: 2
   housenumber:
   unit: 2.10
@@ -764,6 +839,18 @@
   floor: 2
   housenumber:
   unit: 2.11
+
+#2de Desks
+
+- name: Graent
+  floor: 2
+  housenumber:
+  unit: D01
+
+- name: Kindvall
+  floor: 2
+  housenumber:
+  unit: D02
 
 - name: PRKKLS
   floor: 2
@@ -826,6 +913,8 @@
   housenumber:
   unit: RB
 
+
+
 #Eerste verdieping
 
 
@@ -846,11 +935,16 @@
   unit: U01
 
 
+
 - name: WAQF
   floor: 1
   housenumber: 76
   unit: U02
 
+- name: Tiledmedia
+  floor: 1
+  housenumber:
+  unit: U03A
 
 - name: Schagen Lensen & Van Krieken Accountants
   floor: 1
@@ -873,10 +967,7 @@
   housenumber: 92
   unit: U09
 
-- name: Tiledmedia
-  floor: 1
-  housenumber:
-  unit: U03A
+
 
 - name: Business Translation Services B.V.
   floor: 1
@@ -893,10 +984,22 @@
   housenumber: 98
   unit: U08
 
-- name: Bitfactory
+- name: Friedenberg Consultancy
   floor: 1
   housenumber: 98
-  unit: U11
+  unit: U08
+
+- name: Kees de Boekhouder
+  floor: 1
+  housenumber: 98
+  unit: U08
+
+- name: Stichting Lokaal
+  floor: 1
+  housenumber: 98
+  unit: U08
+
+
 
 #Begane Grond
 
