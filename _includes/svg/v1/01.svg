@@ -5,12 +5,14 @@
 <style type="text/css">
 	.st0{fill:none;stroke:#000000;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st1{fill:none;}
-	.st2{enable-background:new    ;}
-	.st3{font-family:'Helvetica';}
-	.st4{font-size:6px;}
-	.st5{font-size:12px;}
-	.st6{letter-spacing:21;}
-	.st7{letter-spacing:30;}
+	.st2{font-family:'Helvetica';}
+	.st3{font-size:6px;}
+	.st4{font-size:12px;}
+	.st5{letter-spacing:21;}
+	.st6{letter-spacing:30;}
+	.st7{enable-background:new    ;}
+	.st8{font-family:'MyriadPro-Regular';}
+	.st9{font-size:7px;}
 </style>
 <g id="outline">
 	<polyline class="st0" points="550.2,153.9 548.8,153.9 548.8,161.9 550.2,161.9 550.2,153.9 	"/>
@@ -75,55 +77,76 @@
 </g>
 <g id="F1JH">
 	<polyline class="st0" points="551.8,177.8 526.4,177.8 526.4,195.3 551.8,195.3 551.8,177.8 	"/>
-	<text transform="matrix(1 0 0 1 527.4 185.1239)" class="st2"><tspan x="0" y="0" class="st3 st4">Johanna </tspan><tspan x="0" y="7.2" class="st3 st4">Hudig</tspan></text>
-</g>
-<g id="F1U11">
-	<polyline class="st0" points="624.8,5.7 521.8,5.7 521.8,141.8 624.8,141.8 624.8,5.7 	"/>
-	<text transform="matrix(1 0 0 1 554.8867 80.3573)" class="st3 st5">U11</text>
+	<text transform="matrix(1 0 0 1 527.4 185.1239)" class="st2 st3">Johanna </text>
+	<text transform="matrix(1 0 0 1 527.4 192.3239)" class="st2 st3">Hudig</text>
 </g>
 <g id="F1U04_05">
 	<polygon class="st0" points="350.6,210.8 350.6,253.1 316.6,253.1 282.6,253.1 282.6,210.8 190.7,210.8 190.7,295.4 316.6,295.4 
 		453.8,295.4 453.8,210.8 	"/>
-	<text transform="matrix(1 0 0 1 221.8867 269.8353)" class="st3 st5">U04       </text>
-	<text transform="matrix(1 0 0 1 267.2866 269.8353)" class="st3 st5 st6"> </text>
-	<text transform="matrix(1 0 0 1 293.8867 269.8353)" class="st3 st5 st7">  </text>
-	<text transform="matrix(1 0 0 1 365.8867 269.8353)" class="st3 st5"> U05</text>
+	<text transform="matrix(1 0 0 1 221.8867 269.8353)" class="st2 st4">U04       </text>
+	<text transform="matrix(1 0 0 1 267.2866 269.8353)" class="st2 st4 st5"> </text>
+	<text transform="matrix(1 0 0 1 293.8867 269.8353)" class="st2 st4 st6">  </text>
+	<text transform="matrix(1 0 0 1 365.8867 269.8353)" class="st2 st4"> U05</text>
 </g>
 <g id="F1U02">
 	<polyline class="st0" points="62.8,210.8 8.4,210.8 8.4,141.8 62.8,141.8 62.8,210.8 	"/>
-	<text transform="matrix(1 0 0 1 28.5532 179.3573)" class="st3 st5">U02</text>
+	<text transform="matrix(1 0 0 1 28.5532 179.3573)" class="st2 st4">U02</text>
 </g>
 <g id="F1U03">
 	<polyline class="st0" points="8.4,210.8 111.5,210.8 111.5,295.4 8.4,295.4 8.4,210.8 	"/>
-	<text transform="matrix(1 0 0 1 51.2202 262.6351)" class="st3 st5">U 03</text>
+	<text transform="matrix(1 0 0 1 51.2202 262.6351)" class="st2 st4">U 03</text>
 </g>
 <g id="F1U03A">
 	<polyline class="st0" points="111.5,210.8 190.7,210.8 190.7,295.4 111.5,295.4 111.5,210.8 	"/>
-	<text transform="matrix(1 0 0 1 133.6536 262.6349)" class="st3 st5">U 03A</text>
+	<text transform="matrix(1 0 0 1 133.6536 262.6349)" class="st2 st4">U 03A</text>
 </g>
 <g id="F1U10">
 	<polyline class="st0" points="570.1,195.3 570.1,141.8 624.8,141.8 624.8,210.8 590.8,210.8 590.8,195.3 570.1,195.3 	"/>
-	<text transform="matrix(1 0 0 1 592.7002 179.3573)" class="st3 st5">U10</text>
+	<text transform="matrix(1 0 0 1 592.7002 179.3573)" class="st2 st4">U10</text>
 </g>
 <g id="F1U09">
-	<text transform="matrix(1 0 0 1 577.8501 269.8353)" class="st3 st5">U09</text>
+	<text transform="matrix(1 0 0 1 577.8501 269.8353)" class="st2 st4">U09</text>
 	<polyline class="st0" points="555.8,210.8 555.8,295.4 624.8,295.4 624.8,210.8 590.8,210.8 590.8,195.3 570.1,195.3 570.1,210.8 
 		555.8,210.8 	"/>
 </g>
 <g id="F1U06">
 	<polyline class="st0" points="453.8,210.8 487.8,210.8 487.8,295.4 453.8,295.4 453.8,210.8 	"/>
-	<text transform="matrix(1 0 0 1 458.5171 269.8353)" class="st3 st5">U 06</text>
+	<text transform="matrix(1 0 0 1 458.5171 269.8353)" class="st2 st4">U 06</text>
 </g>
 <g id="F1U07">
 	<polyline class="st0" points="487.8,295.4 521.8,295.4 521.8,210.8 487.8,210.8 487.8,295.4 	"/>
-	<text transform="matrix(1 0 0 1 491.1831 269.8353)" class="st3 st5">U 07</text>
+	<text transform="matrix(1 0 0 1 491.1831 269.8353)" class="st2 st4">U 07</text>
 </g>
 <g id="F1U01">
 	<polyline class="st0" points="8.4,141.8 111.5,141.8 111.5,5.7 8.4,5.7 8.4,141.8 	"/>
-	<text transform="matrix(1 0 0 1 50.5532 71.3573)" class="st3 st5">U01</text>
+	<text transform="matrix(1 0 0 1 50.5532 71.3573)" class="st2 st4">U01</text>
 </g>
 <g id="F1U08">
 	<polyline class="st0" points="521.8,295.4 555.8,295.4 555.8,210.8 521.8,210.8 521.8,295.4 	"/>
-	<text transform="matrix(1 0 0 1 529.8501 269.8353)" class="st3 st5">U08</text>
+	<text transform="matrix(1 0 0 1 529.8501 269.8353)" class="st2 st4">U08</text>
+</g>
+<g id="F115">
+	<polyline class="st0" points="570.2,28 590.4,28 590.5,3.2 624.8,3.2 625,28 625,73.8 570.2,73.8 570.2,28 	"/>
+	<text id="_x33_.16" transform="matrix(1.0645 0 0 1 587.7586 61.7147)" class="st2 st4">1.5</text>
+</g>
+<g id="F117">
+	<polyline class="st0" points="570.2,73.8 625,73.8 625,141.8 570.2,141.8 570.2,73.8 	"/>
+	<text id="_x33_.18" transform="matrix(1.0645 0 0 1 587.7586 126.7151)" class="st2 st4">1.7</text>
+</g>
+<g id="F113">
+	<polyline class="st0" points="521.9,39.8 558.2,39.8 558.2,73.8 521.9,73.8 521.9,39.8 	"/>
+	<text id="_x33_.13" transform="matrix(1.0645 0 0 1 527.7586 62.7151)" class="st2 st4">1.3</text>
+</g>
+<g id="F112">
+	<polyline class="st0" points="558.1,73.8 521.8,73.8 521.8,107.9 558.1,107.9 558.1,73.8 	"/>
+	<text id="_x33_.12" transform="matrix(1.0645 0 0 1 527.7054 93.3817)" class="st2 st4">1.2</text>
+</g>
+<g id="F111">
+	<polyline class="st0" points="558.1,107.9 521.9,107.9 521.9,141.8 558.1,141.8 558.1,107.9 	"/>
+	<text id="_x33_.11" transform="matrix(1.0645 0 0 1 527.7586 127.3817)" class="st2 st4">1.1</text>
+</g>
+<g id="F1KVD">
+	<polyline class="st0" points="555.8,28 590,28 590,3.2 555.8,3.2 555.8,28 	"/>
+	<text transform="matrix(1 0 0 1 559.8 12.9581)" class="st7"><tspan x="0" y="0" class="st8 st9">Kees van  </tspan><tspan x="0" y="8.4" class="st8 st9">Dongen</tspan></text>
 </g>
 </svg>

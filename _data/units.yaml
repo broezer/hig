@@ -77,10 +77,6 @@
   unit: U10
 
 
-
-
-
-
 #Vierde verdieping
 
 - name: Intax Tax Consultants
@@ -115,27 +111,27 @@
 - name: Barrelproof Company
   floor: 4
   housenumber:
-  unit: U8
+  unit: U08B
 
 - name: Food in Concept
   floor: 4
   housenumber:
-  unit: U8
+  unit: U08A
 
 - name: Pineut
   floor: 4
   housenumber:
-  unit: U8
+  unit: U08A
 
 - name: Uberfit Nutrition
   floor: 4
   housenumber:
-  unit: U8
+  unit: U08C
 
 - name: United Retail Brands
   floor: 4
   housenumber:
-  unit: U8
+  unit: U08C
 
 - name: Bitfactory
   floor: 4
@@ -194,6 +190,11 @@
   unit: U01
 
 
+- name: Neelie Kroes Room
+  floor: 4
+  housenumber:
+  unit: NK
+
 
 
 
@@ -207,7 +208,6 @@
 
 #Rechterzijvleugel
 
--
 - name:  Below Enemy Lines
   floor: 3
   housenumber: 130
@@ -277,7 +277,7 @@
   unit: 3.4 #3.5 3.6
 
 
- name: Food in Concept
+- name: Food in Concept
   floor: 3
   housenumber: 130
   unit: 3.2
@@ -913,6 +913,11 @@
   housenumber:
   unit: RB
 
+- name: Jeanette Markus Room
+  floor: 2
+  housenumber:
+  unit: JM
+
 
 
 #Eerste verdieping
@@ -987,19 +992,22 @@
 - name: Friedenberg Consultancy
   floor: 1
   housenumber: 98
-  unit: U08
+  unit: 1.2
 
 - name: Kees de Boekhouder
   floor: 1
   housenumber: 98
-  unit: U08
+  unit: 1.7
 
 - name: Stichting Lokaal
   floor: 1
   housenumber: 98
-  unit: U08
+  unit: 1.5
 
-
+- name: Kees van Dongen Room
+  floor: 1
+  housenumber: 98
+  unit: KVD
 
 #Begane Grond
 
