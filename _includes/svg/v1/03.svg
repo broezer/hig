@@ -102,9 +102,9 @@
 	<polyline class="st0" points="83.4,5.5 83.4,27.4 60,27.4 60,39.6 14.4,39.6 14.2,5.5 83.4,5.5 	"/>
 	<text transform="matrix(1 0 0 1 33.4102 24.1815)" class="st1 st2">3.1</text>
 </g>
-<g id="F332">
-	<polyline class="st0" points="60,39.6 14.4,39.6 14.4,107.7 60,107.7 60,39.6 	"/>
-	<text transform="matrix(1 0 0 1 31.7437 72.515)" class="st1 st2">3.2</text>
+<g id="F332B">
+	<polyline class="st0" points="60,73.6 14.4,73.6 14.4,107.7 60,107.7 60,73.6 	"/>
+	<text transform="matrix(1 0 0 1 25.4103 94.5145)" class="st1 st2">3.2 B</text>
 </g>
 <g id="F333">
 	<polyline class="st0" points="60,107.7 14.4,107.7 14.4,141.6 60,141.6 60,107.7 	"/>
@@ -273,7 +273,8 @@
 </g>
 <g id="F3JC">
 	<rect x="561.7" y="211.3" class="st0" width="35" height="33"/>
-	<text transform="matrix(1 0 0 1 568.0786 226.2002)"><tspan x="0" y="0" class="st4 st5">Johan </tspan><tspan x="0" y="8.4" class="st4 st5">Cruyff</tspan></text>
+	<text transform="matrix(1 0 0 1 568.0786 226.2002)" class="st4 st5">Johan </text>
+	<text transform="matrix(1 0 0 1 568.0786 234.6002)" class="st4 st5">Cruyff</text>
 </g>
 <g id="F3DK">
 	<polyline class="st0" points="425.5,295.2 459.7,295.2 459.7,274 425.5,274 425.5,295.2 	"/>
@@ -281,6 +282,10 @@
 </g>
 <g id="F3MK">
 	<polyline class="st6" points="363,262 459.7,262 459.7,211.2 363,211.2 363,262 	"/>
-	<text transform="matrix(0.9545 0 0 1 376.3105 244.3002)" class="st4 st7">Maaskantine</text>
+	<text transform="matrix(0.9545 0 0 1 376.3105 244.3003)" class="st4 st7">Maaskantine</text>
+</g>
+<g id="F332A">
+	<polyline class="st0" points="60,39.6 14.4,39.6 14.4,73.6 60,73.6 60,39.6 	"/>
+	<text transform="matrix(1 0 0 1 25.4103 60.4395)" class="st1 st2">3.2 A</text>
 </g>
 </svg>

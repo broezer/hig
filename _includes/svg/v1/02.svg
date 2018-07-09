@@ -14,8 +14,7 @@
 	.st8{fill:none;}
 	.st9{fill:none;stroke:#000000;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st10{font-size:6px;}
-	.st11{enable-background:new    ;}
-	.st12{font-size:7px;}
+	.st11{font-size:7px;}
 </style>
 <g id="outline">
 	<polyline class="st0" points="551.4,154.6 550,154.6 550,162.5 551.4,162.5 551.4,154.6 	"/>
@@ -181,16 +180,17 @@
 	<polygon class="st0" points="552.3,250.1 552.3,272.8 552.3,295.4 585,295.4 585,272.8 585,250.1 	"/>
 	<text id="_x32_.13" transform="matrix(1 0 0 1 557.8115 275.6866)" class="st2 st3">2.13</text>
 </g>
-<g id="F2214">
-	<polygon class="st0" points="585,250.1 585,272.8 585,295.4 625.9,295.4 625.9,272.8 625.9,250.1 	"/>
-	<text id="_x32_.14" transform="matrix(1 0 0 1 593.8115 275.6866)" class="st2 st3">2.14</text>
+<g id="F2214" class="st4">
+	<polygon class="st5" points="585,250.1 585,272.8 585,295.4 625.9,295.4 625.9,272.8 625.9,250.1 	"/>
+	<text id="_x32_.14" transform="matrix(1 0 0 1 593.8115 275.6866)" class="st6 st2 st3">2.14</text>
 </g>
-<g id="F2215">
-	<polygon class="st0" points="591.9,211.9 591.9,231.1 591.9,250.1 625.8,250.1 625.8,231.1 625.8,211.9 	"/>
-	<text id="_x32_.15" transform="matrix(1 0 0 1 597.6865 235.3537)" class="st2 st3">2.15</text>
+<g id="F2215" class="st4">
+	<polygon class="st5" points="591.9,211.9 591.9,231.1 591.9,250.1 625.8,250.1 625.8,231.1 625.8,211.9 	"/>
+	<text id="_x32_.15" transform="matrix(1 0 0 1 597.6865 235.3537)" class="st6 st2 st3">2.15</text>
 </g>
 <g id="F2U100">
-	<polygon class="st0" points="580.4,142.4 580.4,177.1 580.4,211.4 625.8,211.4 625.8,177.1 625.8,142.4 	"/>
+	<polygon class="st0" points="625.8,250.1 625.8,230.5 625.8,211.4 625.8,210.8 625.8,177.1 625.8,142.4 580.4,142.4 580.4,177.1 
+		580.4,211.4 591.9,211.4 591.9,230.5 591.9,250.1 585,250.1 585,272.8 585,295.4 625.9,295.4 625.9,272.8 625.9,250.1 	"/>
 	<text id="_x32_.15_2_" transform="matrix(1 0 0 1 589.6865 181.6537)" class="st2 st3">U100</text>
 </g>
 <g id="F220">
@@ -367,12 +367,13 @@
 	<polygon class="st0" points="112.7,74.5 112.7,74.4 112.7,40.4 67.1,40.4 67.1,74.4 67.1,74.5 	"/>
 	<text transform="matrix(1 0 0 1 85.353 67.0202)" class="st2 st3">U04</text>
 </g>
-<g id="F2U">
+<g id="F2U99">
 	<polygon class="st0" points="9.7,142.4 9.7,177.1 9.7,211.4 55.1,211.4 55.1,177.1 55.1,142.4 	"/>
-	<text id="_x32_.15_3_" transform="matrix(1 0 0 1 18.9866 181.6537)" class="st2 st3">U</text>
+	<text id="_x32_.15_3_" transform="matrix(1 0 0 1 18.9866 181.6537)" class="st2 st3">U99</text>
 </g>
 <g id="F2JM">
 	<polyline class="st9" points="353.8,295.4 388,295.4 388,266.5 353.8,266.5 353.8,295.4 	"/>
-	<text transform="matrix(1 0 0 1 358.2002 277.9581)" class="st11"><tspan x="0" y="0" class="st2 st12">Jeanette</tspan><tspan x="0" y="8.4" class="st2 st12">Markus</tspan></text>
+	<text transform="matrix(1 0 0 1 358.2002 277.9581)" class="st2 st11">Jeanette</text>
+	<text transform="matrix(1 0 0 1 358.2002 286.3581)" class="st2 st11">Markus</text>
 </g>
 </svg>

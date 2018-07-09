@@ -269,33 +269,33 @@
 - name: Bazou
   floor: 3
   housenumber: 130
-  unit: 3.2
+  unit: 3.2B
 
 - name: Lette de Wit Projecten
   floor: 3
   housenumber: 130
-  unit: 3.2
+  unit: 3.2A
 
 - name: Maurice Monteiro Marketing & Communicatie
   floor: 3
   housenumber: 130
-  unit: 3.2
+  unit: 3.2A
 
 - name: Mariska Oudheusden
   floor: 3
   housenumber: 130
-  unit: 3.2
+  unit: 3.2A
 
 
 - name: Uyterlinde Projecten & Events
   floor: 3
   housenumber: 130
-  unit: 3.2
+  unit: 3.2A
 
 - name: Ventiv
   floor: 3
   housenumber: 130
-  unit: 3.2
+  unit: 3.2A
 
 - name: testalize.me
   floor: 3
@@ -609,10 +609,6 @@
 
 
 #Tweede verdieping
-- name: A 'la Cart Advocaten
-  floor: 2
-  housenumber:
-  unit:
 
 - name: RST Meiser Nederland B.V.
   floor: 2
@@ -663,8 +659,12 @@
 - name: A 'la Cart Advocaten
   floor: 2
   housenumber:
-  unit: U03
+  unit: U99
 
+- name: Weave
+  floor: 2
+  housenumber:
+  unit: U100
 
 - name: Loes op Locatie
   floor: 2
