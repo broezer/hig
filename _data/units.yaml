@@ -97,11 +97,6 @@
   housenumber: 186
   unit: U05
 
-
-
-
-
-
 - name: AFFR | Architectuur Film Festival Rotterdam
   floor: 4
   housenumber:
@@ -182,12 +177,6 @@
   floor: 4
   housenumber:
   unit: U13
-
-
-- name: Weave
-  floor: 4
-  housenumber:
-  unit: U01
 
 
 - name: Neelie Kroes Room
@@ -277,11 +266,6 @@
   unit: 3.4 #3.5 3.6
 
 
-- name: Food in Concept
-  floor: 3
-  housenumber: 130
-  unit: 3.2
-
 - name: Bazou
   floor: 3
   housenumber: 130
@@ -302,10 +286,6 @@
   housenumber: 130
   unit: 3.2
 
-- name: Room Revolution
-  floor: 3
-  housenumber: 130
-  unit: 3.2
 
 - name: Uyterlinde Projecten & Events
   floor: 3
@@ -328,11 +308,6 @@
   housenumber: 130
   unit: 3.7
 
-
-- name: Bravebox
-  floor: 3
-  housenumber: 130
-  unit: 3.1
 
 
 - name: Linda Hirzmann
@@ -364,6 +339,11 @@
 
 
 - name: Maatwerk
+  floor: 3
+  housenumber: 136
+  unit: U05
+
+- name: All This and More
   floor: 3
   housenumber: 136
   unit: U05
@@ -468,15 +448,6 @@
   housenumber:
   unit: D04
 
-- name: Serena Williams Ontwerp
-  floor: 3
-  housenumber:
-  unit: D05
-
-- name: Jack Keijer
-  floor: 3
-  housenumber:
-  unit: D06
 
 - name: en-com
   floor: 3
@@ -638,6 +609,10 @@
 
 
 #Tweede verdieping
+- name: A 'la Cart Advocaten
+  floor: 2
+  housenumber:
+  unit:
 
 - name: RST Meiser Nederland B.V.
   floor: 2
@@ -722,11 +697,6 @@
   housenumber:
   unit: U10
 
-
-- name: Putter Producties
-  floor: 2
-  housenumber:
-  unit: U10
 
 
 
@@ -821,6 +791,11 @@
   unit: 2.9
 
 - name: Joey Peters Online Marketing
+  floor: 2
+  housenumber:
+  unit: 2.10
+
+- name: Loes Sikkes
   floor: 2
   housenumber:
   unit: 2.10
@@ -941,10 +916,6 @@
 
 
 
-- name: WAQF
-  floor: 1
-  housenumber: 76
-  unit: U02
 
 - name: Tiledmedia
   floor: 1
@@ -1040,12 +1011,6 @@
   unit:
 
 
-- name: Tortu
-  floor: 0
-  housenumber:
-  unit:
-
-
 - name: Resto Rokus
   floor: 0
   housenumber:
@@ -1078,6 +1043,11 @@
   unit:
 
 - name: Studio Elise Zoetmulder
+  floor: 0
+  housenumber:
+  unit:
+
+- name: Lou-La
   floor: 0
   housenumber:
   unit:
