@@ -374,6 +374,11 @@
   housenumber: 136
   unit: U07
 
+- name: En-com / MOMENTR
+  floor: 3
+  housenumber: 136
+  unit: U07
+
 - name: EZ Shopping
   floor: 3
   housenumber: 136
@@ -449,7 +454,7 @@
   unit: D04
 
 
-- name: en-com
+- name: En-com / MOMENTR
   floor: 3
   housenumber:
   unit: D07
