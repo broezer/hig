@@ -882,6 +882,16 @@
   housenumber:
   unit: D16
 
+- name: Foodshed
+  floor: 2
+  housenumber:
+  unit: D34
+
+- name: Pianta Pasta﻿
+  floor: 2
+  housenumber:
+  unit: D34
+
 
 - name: Ruud Lubbers Keuken
   floor: 2
