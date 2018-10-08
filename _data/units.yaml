@@ -425,11 +425,30 @@
   housenumber: 136
   unit: U03
 
+- name: Frans-Jan Ontwerp en DTP
+  floor: 3
+  housenumber:
+  unit: U06
+
+- name: Creative Soul Solutions
+  floor: 3
+  housenumber:
+  unit: U06
 
 - name: LuvDaSun
   floor: 3
   housenumber:
   unit: U09
+
+- name: Sappi Rotterdam
+  floor: 3
+  housenumber:
+  unit: U10
+
+- name: Da Silva Fotografie
+  floor: 3
+  housenumber:
+  unit: U02
 
 #Desks
 - name: Nimsys
@@ -453,13 +472,17 @@
   housenumber:
   unit: D04
 
+- name: Finbarr McComb Architect
+  floor: 3
+  housenumber:
+  unit: D07
 
 - name: En-com / MOMENTR
   floor: 3
   housenumber:
   unit: D07
 
-- name: Leading Edge
+- name: Technologietemmers
   floor: 3
   housenumber:
   unit: D08
@@ -475,22 +498,11 @@
   housenumber:
   unit: D11
 
-
-
 - name: Rik Westra
   floor: 3
   housenumber:
   unit: D13
 
-- name: Bureau Convoi
-  floor: 3
-  housenumber:
-  unit: D15
-
-- name: Frans-Jan Ontwerp en DTP
-  floor: 3
-  housenumber:
-  unit: D15
 
 - name: Madelon Baans
   floor: 3
@@ -537,10 +549,6 @@
   housenumber:
   unit: D24
 
-- name: NieuwpoortLuteijn
-  floor: 3
-  housenumber:
-  unit: U10
 
 - name: Today's Specials
   floor: 3
@@ -692,15 +700,7 @@
   unit: U09
 
 
-- name: Uniek in Ontwerp
-  floor: 2
-  housenumber:
-  unit: U10
 
-- name: Blue Chili Creative
-  floor: 2
-  housenumber:
-  unit: U10
 
 
 
@@ -798,24 +798,29 @@
 - name: Joey Peters Online Marketing
   floor: 2
   housenumber:
-  unit: 2.10
+  unit: "2.10"
 
 - name: Loes Sikkes
   floor: 2
   housenumber:
-  unit: 2.10
+  unit: "2.10"
 
 - name:  Deneuve
   floor: 2
   housenumber:
-  unit: 2.10
+  unit: "2.10"
 
 - name:  The USP Company
   floor: 2
   housenumber:
-  unit: 2.10
+  unit: "2.10"
 
 - name: Summum Engineering
+  floor: 2
+  housenumber:
+  unit: 2.11
+
+- name: Leading Edge
   floor: 2
   housenumber:
   unit: 2.11
@@ -831,6 +836,11 @@
   floor: 2
   housenumber:
   unit: D02
+
+- name: Data Science Workshops B.V.
+  floor: 2
+  housenumber:
+  unit: D03
 
 - name: PRKKLS
   floor: 2
@@ -862,15 +872,11 @@
   housenumber:
   unit: D11
 
-- name: Uberfit Nutrition
+- name: Conversation Next
   floor: 2
   housenumber:
   unit: D12
 
-- name: h é j o concepts
-  floor: 2
-  housenumber:
-  unit: D13
 
 - name: Tiny Towl
   floor: 2
@@ -882,16 +888,35 @@
   housenumber:
   unit: D16
 
-- name: Foodshed
+- name: Ha, creatie en ontwerp
+  floor: 2
+  housenumber:
+  unit: D18
+
+- name: Blue Chili Creative
+  floor: 2
+  housenumber:
+  unit: D21
+
+- name: Uniek in Ontwerp
+  floor: 2
+  housenumber:
+  unit: D22
+
+- name: Marine Finance House
+  floor: 2
+  housenumber:
+  unit: D24
+
+- name: Adviesbureau W-inst Rotterdam
+  floor: 2
+  housenumber:
+  unit: D27
+
+- name: Ecolicense
   floor: 2
   housenumber:
   unit: D34
-
-- name: Pianta Pasta﻿
-  floor: 2
-  housenumber:
-  unit: D34
-
 
 - name: Ruud Lubbers Keuken
   floor: 2

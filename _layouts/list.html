@@ -8,7 +8,7 @@ layout: default
 <ol class="list">
 {% for unit in sorted_units %}
 
-    <li><span>{{ unit.name }}</span> <span> Verdieping: {{unit.floor}} </span> | <spanm>{{ unit.unit | default }} </span></li>
+    <li><span>{{ unit.name }}</span> <span> Verdieping: {{unit.floor}} </span> | <span>{{ unit.unit | default }} </span></li>
 {% endfor %}
 </ol>
 <div class="overview">
