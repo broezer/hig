@@ -56,6 +56,11 @@
   }
   &.floor02{
     top:0;
+		&.active{
+      text{
+        display:block;
+      }
+    }
   }
   &.floor01{
     top:60px;

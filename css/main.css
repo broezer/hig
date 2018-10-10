@@ -1277,6 +1277,8 @@ section.posts {
       display: block; }
   .map.floor02 {
     top: 0; }
+    .map.floor02.active text {
+      display: block; }
   .map.floor01 {
     top: 60px; }
   .map.floor00 {
