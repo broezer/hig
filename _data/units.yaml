@@ -379,6 +379,11 @@
   housenumber: 136
   unit: U07
 
+- name: Anglers
+  floor: 3
+  housenumber: 136
+  unit: U07
+
 - name: EZ Shopping
   floor: 3
   housenumber: 136
@@ -800,7 +805,7 @@
   housenumber:
   unit: "2.10"
 
-- name: Loes Sikkes Visual Communication 
+- name: Loes Sikkes Visual Communication
   floor: 2
   housenumber:
   unit: "2.10"
