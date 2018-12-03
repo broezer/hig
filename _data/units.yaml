@@ -97,16 +97,8 @@
   housenumber: 186
   unit: U05
 
-- name: AFFR | Architectuur Film Festival Rotterdam
-  floor: 4
-  housenumber:
-  unit: U03
 
 
-- name: Barrelproof Company
-  floor: 4
-  housenumber:
-  unit: U08B
 
 - name: Food in Concept
   floor: 4
@@ -118,12 +110,27 @@
   housenumber:
   unit: U08A
 
-- name: Uberfit Nutrition
+- name: Clockworks Data Innovation
+  floor: 4
+  housenumber:
+  unit: U08B
+
+- name: Studio Broei
+  floor: 4
+  housenumber:
+  unit: U08B
+
+- name: Sjauf
   floor: 4
   housenumber:
   unit: U08C
 
-- name: United Retail Brands
+- name: Van Vliet Kroonluchters
+  floor: 4
+  housenumber:
+  unit: U08C
+
+- name: We Will Drive
   floor: 4
   housenumber:
   unit: U08C
@@ -153,20 +160,10 @@
   housenumber:
   unit: U9
 
-- name: Contra
+- name: Codeglue
   floor: 4
   housenumber:
-  unit: U10
-
-- name: Grndpa
-  floor: 4
-  housenumber:
-  unit: U10
-
-- name: The Phoney Club
-  floor: 4
-  housenumber:
-  unit: U10
+  unit: U10U11
 
 - name: GI-Travel
   floor: 4
@@ -276,11 +273,6 @@
   housenumber: 130
   unit: 3.2A
 
-- name: Maurice Monteiro Marketing & Communicatie
-  floor: 3
-  housenumber: 130
-  unit: 3.2A
-
 - name: Mariska Oudheusden
   floor: 3
   housenumber: 130
@@ -364,7 +356,7 @@
   unit: U06
 
 
-- name: Mr.Watson
+- name: Anglers
   floor: 3
   housenumber: 136
   unit: U07
@@ -379,10 +371,11 @@
   housenumber: 136
   unit: U07
 
-- name: Anglers
+- name: Ugle
   floor: 3
   housenumber: 136
   unit: U07
+
 
 - name: EZ Shopping
   floor: 3
@@ -453,7 +446,7 @@
 - name: Da Silva Fotografie
   floor: 3
   housenumber:
-  unit: U02
+  unit: U10
 
 #Desks
 - name: Nimsys
@@ -480,7 +473,7 @@
 - name: Finbarr McComb Architect
   floor: 3
   housenumber:
-  unit: D07
+  unit: D06
 
 - name: En-com / MOMENTR
   floor: 3
@@ -514,10 +507,7 @@
   housenumber:
   unit: D16
 
-- name: The Brand Company
-  floor: 3
-  housenumber:
-  unit: D17
+
 
 - name: Design Marbles
   floor: 3
@@ -529,7 +519,7 @@
   housenumber:
   unit: D19
 
-- name: MoonInsight Group B.V.
+- name: Joram de Bruyne Photography
   floor: 3
   housenumber:
   unit: D20
@@ -539,27 +529,15 @@
   housenumber:
   unit: D21
 
-- name: JWVG Trade & Compliance B.V.
-  floor: 3
-  housenumber:
-  unit: D22
-
-- name: Silver Arrows Multimedia
-  floor: 3
-  housenumber:
-  unit: D23
-
 - name: Beckand Photography
   floor: 3
   housenumber:
   unit: D24
 
-
-- name: Today's Specials
+- name: Kone Advies en Organisatiebureau BV
   floor: 3
   housenumber:
   unit: U11
-
 
 - name: Van Vliet Kroonluchters
   floor: 3
@@ -579,16 +557,11 @@
   unit: U12
 
 
-- name: Kone Advies en Organisatiebureau BV
+- name: Today's Specials
   floor: 3
   housenumber:
   unit: U15
 
-
-- name: E&O Events
-  floor: 3
-  housenumber:
-  unit: U15
 
 
 
@@ -628,15 +601,16 @@
 
 #Tweede verdieping
 
+- name: A 'la Cart Advocaten
+  floor: 2
+  housenumber:
+  unit: U99
+
 - name: RST Meiser Nederland B.V.
   floor: 2
   housenumber:
   unit: U01
 
-- name: StudioSpass
-  floor: 2
-  housenumber:
-  unit: U02
 
 - name: Raymond Heijnen
   floor: 2
@@ -689,21 +663,17 @@
   housenumber:
   unit: U07A
 
-- name: Bruidbeeld
-  floor: 2
-  housenumber:
+
+
+- name: The Phoney Club
+  floor: 1
+  housenumber: 98
   unit: U09
 
-- name: Four Loves Sake
-  floor: 2
-  housenumber:
-  unit: U09
-
-- name: Groter Dan
-  floor: 2
-  housenumber:
-  unit: U09
-
+- name: Contra
+  floor: 1
+  housenumber: 98
+  unit: U10
 
 
 
@@ -872,7 +842,7 @@
   housenumber:
   unit: D10
 
-- name: Uberfit Nutrition
+- name: PL fondsenwerving & projecten
   floor: 2
   housenumber:
   unit: D11
@@ -882,6 +852,10 @@
   housenumber:
   unit: D12
 
+- name: Vergras Communicatie
+  floor: 2
+  housenumber:
+  unit: D13
 
 - name: Tiny Towl
   floor: 2
@@ -898,15 +872,18 @@
   housenumber:
   unit: D18
 
-- name: Blue Chili Creative
+- name: Imfuel
   floor: 2
   housenumber:
-  unit: D21
+  unit: D19
 
-- name: Uniek in Ontwerp
+- name: Irnacreatief
   floor: 2
   housenumber:
-  unit: D22
+  unit: D19
+
+
+
 
 - name: Marine Finance House
   floor: 2
@@ -917,6 +894,16 @@
   floor: 2
   housenumber:
   unit: D27
+
+- name: Forfyre
+  floor: 2
+  housenumber:
+  unit: D28
+
+- name: Bureau Sluijters
+  floor: 2
+  housenumber:
+  unit: D30
 
 - name: Ecolicense
   floor: 2
@@ -1000,10 +987,6 @@
   housenumber: 98
   unit: U07
 
-- name: Nexus Verus
-  floor: 1
-  housenumber: 98
-  unit: U08
 
 - name: Friedenberg Consultancy
   floor: 1
@@ -1087,10 +1070,6 @@
   housenumber:
   unit:
 
-- name: Studio Elise Zoetmulder
-  floor: 0
-  housenumber:
-  unit:
 
 - name: Lou-La
   floor: 0
