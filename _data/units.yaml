@@ -79,25 +79,33 @@
 
 #Vierde verdieping
 
-- name: Intax Tax Consultants
+
+
+
+- name: Prime Sportbusiness
   floor: 4
   housenumber: 170
-  unit: U07
+  unit: U01
 
-
-
-- name: Destan Detachering B.V.
+- name: Clubgeist
   floor: 4
-  housenumber: 186
-  unit: U06
-
+  housenumber: 170
+  unit: U04
 
 - name: Helen Keller Stichting
   floor: 4
   housenumber: 186
   unit: U05
 
+- name: Destan Detachering B.V.
+  floor: 4
+  housenumber: 186
+  unit: U06
 
+- name: Intax Tax Consultants
+  floor: 4
+  housenumber: 170
+  unit: U07
 
 
 - name: Food in Concept
@@ -194,10 +202,6 @@
 
 #Rechterzijvleugel
 
-- name:  Below Enemy Lines
-  floor: 3
-  housenumber: 130
-  unit: 3.11
 
 - name:  MO Copywriting
   floor: 3
@@ -209,28 +213,11 @@
   housenumber: 130
   unit: 3.11
 
-- name: Testtube B.V.
-  floor: 3
-  housenumber: 130
-  unit: 3.12
-
-- name:  Clear:right
-  floor: 3
-  housenumber: 130
-  unit: 3.13
 
 
-- name:  Voicenode
-  floor: 3
-  housenumber: 130
-  unit: 3.13
 
-- name:  Gameye
-  floor: 3
-  housenumber: 130
-  unit: 3.13
 
-- name:  MoreApp
+- name:  Kynda
   floor: 3
   housenumber: 130
   unit: 3.145
@@ -448,6 +435,13 @@
   housenumber:
   unit: U10
 
+
+- name: E&O Events
+  floor: 3
+  housenumber:
+  unit: U10
+
+
 #Desks
 - name: Nimsys
   floor: 3
@@ -464,11 +458,6 @@
   floor: 3
   housenumber:
   unit: D03
-
-- name: René Ooms Design & Technology
-  floor: 3
-  housenumber:
-  unit: D04
 
 - name: Finbarr McComb Architect
   floor: 3
@@ -496,11 +485,6 @@
   housenumber:
   unit: D11
 
-- name: Rik Westra
-  floor: 3
-  housenumber:
-  unit: D13
-
 
 - name: Madelon Baans
   floor: 3
@@ -508,21 +492,10 @@
   unit: D16
 
 
-
-- name: Design Marbles
-  floor: 3
-  housenumber:
-  unit: D18
-
 - name: Paka Studios
   floor: 3
   housenumber:
   unit: D19
-
-- name: Joram de Bruyne Photography
-  floor: 3
-  housenumber:
-  unit: D20
 
 - name: Eivind Bratterud
   floor: 3
@@ -534,27 +507,6 @@
   housenumber:
   unit: D24
 
-- name: Kone Advies en Organisatiebureau BV
-  floor: 3
-  housenumber:
-  unit: U11
-
-- name: Van Vliet Kroonluchters
-  floor: 3
-  housenumber:
-  unit: U12
-
-
-- name: We Will Drive
-  floor: 3
-  housenumber:
-  unit: U12
-
-
-- name: Sjauf
-  floor: 3
-  housenumber:
-  unit: U12
 
 
 - name: Today's Specials
@@ -565,10 +517,27 @@
 
 
 
-- name: Karelse & Den Besten
+- name: New Normal
+  floor: 3
+  housenumber:
+  unit: U12
+
+- name: Ben Bergsma
   floor: 3
   housenumber:
   unit: U13
+
+- name:  Voicenode
+  floor: 3
+  housenumber: 130
+  unit: U13
+
+- name:  Clear:right
+  floor: 3
+  housenumber: 130
+  unit: U13
+
+
 
 
 - name: Lijnn
@@ -600,11 +569,6 @@
 
 
 #Tweede verdieping
-
-- name: A 'la Cart Advocaten
-  floor: 2
-  housenumber:
-  unit: U99
 
 - name: RST Meiser Nederland B.V.
   floor: 2
@@ -666,19 +630,14 @@
 
 
 - name: The Phoney Club
-  floor: 1
+  floor: 2
   housenumber: 98
   unit: U09
 
 - name: Contra
-  floor: 1
+  floor: 2
   housenumber: 98
   unit: U10
-
-
-
-
-
 
 
 - name: BEECKK Ruimtemakers
@@ -802,21 +761,6 @@
 
 #2de Desks
 
-- name: Saskia Kempers - Sustainable Concepts & Creatie
-  floor: 2
-  housenumber:
-  unit: D01
-
-- name: Kindvall
-  floor: 2
-  housenumber:
-  unit: D02
-
-- name: Data Science Workshops B.V.
-  floor: 2
-  housenumber:
-  unit: D03
-
 - name: PRKKLS
   floor: 2
   housenumber:
@@ -857,15 +801,12 @@
   housenumber:
   unit: D13
 
-- name: Tiny Towl
+- name: Rotmeiden
   floor: 2
   housenumber:
   unit: D14
 
-- name: De School van Vandaag
-  floor: 2
-  housenumber:
-  unit: D16
+
 
 - name: Ha, creatie en ontwerp
   floor: 2
@@ -926,6 +867,16 @@
   unit: JM
 
 
+- name: Data Science Workshops B.V.
+  floor: 2
+  housenumber:
+  unit: U07B
+
+
+- name: PRKKLS
+  floor: 2
+  housenumber:
+  unit: U07B
 
 #Eerste verdieping
 
@@ -946,13 +897,16 @@
   housenumber: 68
   unit: U01
 
-
+- name: GRNDPA
+  floor: 1
+  housenumber: 68
+  unit: U02
 
 
 - name: Tiledmedia
   floor: 1
   housenumber:
-  unit: U03A
+  unit: U99
 
 - name: Schagen Lensen & Van Krieken Accountants
   floor: 1
@@ -969,6 +923,12 @@
   floor: 1
   housenumber:
   unit: U06
+
+
+- name: Kees de Boekhouder
+  floor: 1
+  housenumber: 92
+  unit: U08
 
 - name: Lola Landscape Architects
   floor: 1
@@ -987,21 +947,27 @@
   housenumber: 98
   unit: U07
 
+- name: De Regelmeisjes
+  floor: 1
+  housenumber: 98
+  unit: 1.1
+
 
 - name: Friedenberg Consultancy
   floor: 1
   housenumber: 98
   unit: 1.2
 
-- name: Kees de Boekhouder
-  floor: 1
-  housenumber: 98
-  unit: 1.7
 
 - name: Stichting Lokaal
   floor: 1
   housenumber: 98
   unit: 1.5
+
+- name: MoreApp
+  floor: 1
+  housenumber: 98
+  unit: 1.7
 
 - name: Kees van Dongen Room
   floor: 1
