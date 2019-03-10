@@ -64,17 +64,17 @@
 - name: Maradona Creative Agency
   floor: 5
   housenumber: 184
-  unit: U09
+  unit: U08
 
 - name: Maatwerk Online
   floor: 5
   housenumber: 184
-  unit: U10
+  unit: U07
 
 - name: Onlinemarketing.nl B.V.
   floor: 5
   housenumber: 184
-  unit: U10
+  unit: U07
 
 
 #Vierde verdieping
@@ -145,27 +145,27 @@
 - name: Bitfactory
   floor: 4
   housenumber:
-  unit: U8
+  unit: U08
 
 - name: Weblab.nl
   floor: 4
   housenumber:
-  unit: U9
+  unit: U09
 
 - name: ThePerfectWedding.nl
   floor: 4
   housenumber:
-  unit: U9
+  unit: U09
 
 - name: MiniMe.nl
   floor: 4
   housenumber:
-  unit: U9
+  unit: U09
 
 - name: ThePerfectYou.nl
   floor: 4
   housenumber:
-  unit: U9
+  unit: U09
 
 - name: Codeglue
   floor: 4
