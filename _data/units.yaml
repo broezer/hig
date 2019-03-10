@@ -352,7 +352,7 @@
   housenumber: 136
   unit: U07
 
-- name: En-com / MOMENTR
+- name: Momentr
   floor: 3
   housenumber: 136
   unit: U07
@@ -414,11 +414,6 @@
   housenumber:
   unit: U06
 
-- name: Creative Soul Solutions
-  floor: 3
-  housenumber:
-  unit: U06
-
 - name: LuvDaSun
   floor: 3
   housenumber:
@@ -463,7 +458,7 @@
   housenumber:
   unit: D06
 
-- name: En-com / MOMENTR
+- name: En-com
   floor: 3
   housenumber:
   unit: D07
@@ -609,12 +604,6 @@
   housenumber: 128
   unit: U08
 
-
-
-- name: A 'la Cart Advocaten
-  floor: 2
-  housenumber:
-  unit: U99
 
 - name: Weave
   floor: 2
