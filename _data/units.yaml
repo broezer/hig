@@ -749,7 +749,10 @@
 
 #2de Desks
 
-
+- name: Data Science Workshops B.V.
+  floor: 2
+  housenumber:
+  unit: D03
 
 - name: Ki2 Organisatieadvies & Internal Branding
   floor: 2
@@ -852,7 +855,14 @@
   unit: JM
 
 
-- name: Data Science Workshops B.V.
+
+
+- name: Ki2
+  floor: 2
+  housenumber:
+  unit: U07B
+
+- name: Kindvall
   floor: 2
   housenumber:
   unit: U07B
