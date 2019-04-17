@@ -5,11 +5,9 @@
     {% for unit in sorted_units %}
 
       <a href=""  class="btn company company--{{ unit.name | slice: 0, 1 }}" unit="#F{{unit.floor}}{{unit.unit |  remove: "." }}" floor=".floor0{{ unit.floor}}">
-        {% if unit.floor == 3 or unit.floor == 2 %}
+        
           <dt>{{ unit.name }}</dt> <dd>F{{unit.floor}} | {{ unit.unit | default }}</dd>
-        {% else %}
-          <dt>{{ unit.name }}</dt> <dd>F{{unit.floor}}</dd>
-        {% endif %}
+        
       </a>
     {% endfor %}
 

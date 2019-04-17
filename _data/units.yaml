@@ -433,7 +433,7 @@
 - name: E&O Events
   floor: 3
   housenumber:
-  unit: U10
+  unit: U11
 
 
 #Desks
@@ -468,6 +468,11 @@
   housenumber:
   unit: D08
 
+- name: Claritekst
+  floor: 3
+  housenumber:
+  unit: D09
+
 
 - name: Orange Health Consultants
   floor: 3
@@ -485,21 +490,44 @@
   housenumber:
   unit: D16
 
+- name: Skyne 
+  floor: 3
+  housenumber:
+  unit: D17
 
 - name: Paka Studios
   floor: 3
   housenumber:
   unit: D19
 
+- name: Javid Jooshesh
+  floor: 3
+  housenumber:
+  unit: D20
+
 - name: Eivind Bratterud
   floor: 3
   housenumber:
   unit: D21
 
+
+- name: Versterre Van Vijfeyken Advies & Ontwerp 
+  floor: 3
+  housenumber:
+  unit: D23
+
+
+
 - name: Beckand Photography
   floor: 3
   housenumber:
+  unit: D23
+
+- name: Eduard Pafberg
+  floor: 3
+  housenumber:
   unit: D24
+
 
 
 
@@ -514,12 +542,12 @@
 - name: New Normal
   floor: 3
   housenumber:
-  unit: U12
+  unit: 3.12
 
 - name: Ben Bergsma
   floor: 3
   housenumber:
-  unit: U13
+  unit: 3.13
 
 - name:  Voicenode
   floor: 3
@@ -529,7 +557,7 @@
 - name:  Clear:right
   floor: 3
   housenumber: 130
-  unit: U13
+  unit: 3.13
 
 
 
@@ -754,7 +782,7 @@
   housenumber:
   unit: D03
 
-- name: Ki2 Organisatieadvies & Internal Branding
+- name: Buro Toebast 
   floor: 2
   housenumber:
   unit: D06
@@ -812,6 +840,10 @@
   unit: D19
 
 
+- name: PDS Transferfoil
+  floor: 2
+  housenumber:
+  unit: D22
 
 
 - name: Marine Finance House
@@ -822,7 +854,7 @@
 - name: Adviesbureau W-inst Rotterdam
   floor: 2
   housenumber:
-  unit: D27
+  unit: D26
 
 - name: Forfyre
   floor: 2
@@ -834,10 +866,26 @@
   housenumber:
   unit: D30
 
+- name: Deirdre Enthoven 
+  floor: 2
+  housenumber:
+  unit: D31
+
+- name: Soulutions 
+  floor: 2
+  housenumber:
+  unit: D32
+
 - name: Ecolicense
   floor: 2
   housenumber:
   unit: D34
+
+- name: Climate Focus
+  floor: 2
+  housenumber:
+  unit: D36D37D38D39D40
+
 
 - name: Ruud Lubbers Keuken
   floor: 2
@@ -928,7 +976,7 @@
 - name: Lola Landscape Architects
   floor: 1
   housenumber: 92
-  unit: U09
+  unit: U09U10
 
 
 
@@ -974,65 +1022,66 @@
 - name: Alfredo's Taquaria
   floor: 0
   housenumber:
-  unit:
+  unit: 204
 
 - name: Cafe@home
   floor: 0
   housenumber:
-  unit:
+  unit: 52
 
 
 - name: Elite
   floor: 0
   housenumber:
-  unit:
+  unit: 56
 
 
 - name: Heriz
   floor: 0
   housenumber:
-  unit:
+  unit: 214
+
+
+- name: Evernow
+  floor: 0
+  housenumber:
+  unit: 206
 
 
 - name: Vico
   floor: 0
   housenumber:
-  unit:
+  unit: 60
 
 
-- name: Resto Rokus
+- name: Rook
   floor: 0
   housenumber:
-  unit:
+  unit: 212
 
 - name: Bruce Moerdjiman
   floor: 0
   housenumber:
-  unit:
+  unit: 212
 
 - name: Titia Hahne Fotografie
   floor: 0
-  housenumber:
-  unit:
+  housenumber: 212
+  unit: 212
 
 
 - name: By Jarmusch
   floor: 0
   housenumber:
-  unit:
+  unit: 64
 
 - name: MVRDV
   floor: 0
   housenumber:
-  unit:
-
-- name: Studio Libertiny
-  floor: 0
-  housenumber:
-  unit:
+  unit: MVRDV
 
 
 - name: Lou-La
   floor: 0
   housenumber:
-  unit:
+  unit: 208

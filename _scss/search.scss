@@ -43,6 +43,13 @@
   text{
     display:none;
   }
+  &.floor00, &.floor01, &.floor02, &.floor03, &.floor04, &.floor05{
+    &.active{
+      text{
+        display:block;
+      }
+    }
+  }
   &.floor04{
     top:-120px;
   }
@@ -68,7 +75,7 @@
   &.floor00{
     top:120px;
   }
-  &.inactive{
+  &.inactive{ 
     opacity:0.1;
   }
   text{

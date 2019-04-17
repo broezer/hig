@@ -1269,6 +1269,8 @@ section.posts {
   transition: all 300ms ease-in; }
   .map text {
     display: none; }
+  .map.floor00.active text, .map.floor01.active text, .map.floor02.active text, .map.floor03.active text, .map.floor04.active text, .map.floor05.active text {
+    display: block; }
   .map.floor04 {
     top: -120px; }
   .map.floor03 {
