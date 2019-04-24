@@ -151,8 +151,8 @@
 	<polyline class="st0" points="521.8,295.4 555.8,295.4 555.8,210.8 521.8,210.8 521.8,295.4 	"/>
 	<text transform="matrix(1 0 0 1 529.8501 269.8353)" class="st2 st3">212</text>
 </g>
-<g id="F0MVRDV_1_">
-	<polygon id="F0MVRDV" class="st7" points="485.9,35.8 485.9,3.2 147.3,3.2 147.3,35.8 111.4,35.8 111.4,141.8 521.8,141.8 
+<g id="F0MVRDV">
+	<polygon id="" class="st7" points="485.9,35.8 485.9,3.2 147.3,3.2 147.3,35.8 111.4,35.8 111.4,141.8 521.8,141.8 
 		521.8,35.8 	"/>
 </g>
 <rect id="Entree" x="281.8" y="210.8" class="st7" width="69.8" height="84.6"/>
