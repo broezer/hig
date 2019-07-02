@@ -55,11 +55,16 @@
   housenumber: 202
   unit: U06
 
+- name: Van Tijenterras
+  floor: 5
+  housenumber: 202
+  unit: U07
+
 
 - name: Kaaps
   floor: 5
   housenumber: 184
-  unit: U10U11
+  unit: U10
 
 - name: Maradona Creative Agency
   floor: 5
@@ -87,7 +92,7 @@
   housenumber: 170
   unit: U01
 
-- name: Clubgeist
+- name: Anglers
   floor: 4
   housenumber: 170
   unit: U04
@@ -96,11 +101,6 @@
   floor: 4
   housenumber: 186
   unit: U05
-
-- name: Destan Detachering B.V.
-  floor: 4
-  housenumber: 186
-  unit: U06
 
 - name: Intax Tax Consultants
   floor: 4
@@ -222,11 +222,6 @@
   unit: 3.145
 
 
-- name:   Webaccess B.V.
-  floor: 3
-  housenumber: 130
-  unit: 3.16
-
 - name: Designlinq
   floor: 3
   housenumber: 130
@@ -254,18 +249,8 @@
   housenumber: 130
   unit: 3.2B
 
-- name: Lette de Wit Projecten
-  floor: 3
-  housenumber: 130
-  unit: 3.2A
 
-- name: Mariska Oudheusden
-  floor: 3
-  housenumber: 130
-  unit: 3.2A
-
-
-- name: Uyterlinde Projecten & Events
+- name: Bureau Door
   floor: 3
   housenumber: 130
   unit: 3.2A
@@ -294,17 +279,12 @@
   unit: 3.1
 
 
-- name: Erik Gelderblom
+- name: Madelon Baans Sport & Communicatie
   floor: 3
   housenumber: 136
   unit: U01
 
-- name: The Huge Network
-  floor: 3
-  housenumber: 136
-  unit: U01
-
-- name: Pinkyrose B.V.
+- name: Crossfit Wildhearts 
   floor: 3
   housenumber: 136
   unit: U01
@@ -341,12 +321,6 @@
   housenumber: 136
   unit: U06
 
-
-- name: Anglers
-  floor: 3
-  housenumber: 136
-  unit: U07
-
 - name: Novo Mngt. B.V.
   floor: 3
   housenumber: 136
@@ -358,6 +332,11 @@
   unit: U07
 
 - name: Ugle
+  floor: 3
+  housenumber: 136
+  unit: U07
+
+- name: CVTW
   floor: 3
   housenumber: 136
   unit: U07
@@ -463,11 +442,6 @@
   housenumber:
   unit: D07
 
-- name: Technologietemmers
-  floor: 3
-  housenumber:
-  unit: D08
-
 - name: Claritekst
   floor: 3
   housenumber:
@@ -485,15 +459,20 @@
   unit: D11
 
 
-- name: Madelon Baans
+- name: First Floor Real Estate 
   floor: 3
   housenumber:
-  unit: D16
+  unit: D11
 
 - name: Skyne 
   floor: 3
   housenumber:
   unit: D17
+
+- name: Skyne 
+  floor: 3
+  housenumber:
+  unit: D18
 
 - name: Paka Studios
   floor: 3
@@ -515,7 +494,6 @@
   floor: 3
   housenumber:
   unit: D23
-
 
 
 - name: Beckand Photography
@@ -677,7 +655,7 @@
   unit: 2.2
 
 
-- name: SmartUp Network
+- name: Ha, creatie en ontwerp
   floor: 2
   housenumber:
   unit: 2.2
@@ -745,10 +723,16 @@
   housenumber:
   unit: 2.9
 
-- name: Joey Peters Online Marketing
+- name: Anne Pater
   floor: 2
   housenumber:
   unit: "2.10"
+
+- name: Marketingcirkel 
+  floor: 2
+  housenumber:
+  unit: "2.10"
+
 
 - name: Loes Sikkes Visual Communication
   floor: 2
@@ -770,10 +754,6 @@
   housenumber:
   unit: 2.11
 
-- name: Leading Edge
-  floor: 2
-  housenumber:
-  unit: 2.11
 
 #2de Desks
 
@@ -782,27 +762,28 @@
   housenumber:
   unit: D03
 
+- name: Monkeys & Bananas
+  floor: 2
+  housenumber:
+  unit: D06
+
 - name: Buro Toebast 
   floor: 2
   housenumber:
   unit: D06
 
-- name: Prisca Fotografie & Storytelling
-  floor: 2
-  housenumber:
-  unit: D08
 
 - name: Graniero Italian Editing
   floor: 2
   housenumber:
   unit: D09
 
-- name: VIEP
+- name: Huis op zak
   floor: 2
   housenumber:
   unit: D10
-
-- name: PL fondsenwerving & projecten
+ 
+- name: Sparkle Digital
   floor: 2
   housenumber:
   unit: D11
@@ -817,24 +798,13 @@
   housenumber:
   unit: D13
 
-- name: Rotmeiden
+- name: PL fondsenwerving & projecten
   floor: 2
   housenumber:
   unit: D14
 
 
-
-- name: Ha, creatie en ontwerp
-  floor: 2
-  housenumber:
-  unit: D18
-
 - name: Imfuel
-  floor: 2
-  housenumber:
-  unit: D19
-
-- name: Irnacreatief
   floor: 2
   housenumber:
   unit: D19
@@ -856,7 +826,7 @@
   housenumber:
   unit: D26
 
-- name: Forfyre
+- name: Bart Cosijn Gespreksleiding
   floor: 2
   housenumber:
   unit: D28
@@ -871,7 +841,7 @@
   housenumber:
   unit: D31
 
-- name: Soulutions 
+- name: Super Happy
   floor: 2
   housenumber:
   unit: D32
@@ -984,6 +954,11 @@
   floor: 1
   housenumber: 98
   unit: U03
+
+- name: Clubgeist
+  floor: 1
+  housenumber: 98
+  unit: U03A
 
 - name: T-minus
   floor: 1
