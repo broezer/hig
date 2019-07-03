@@ -633,6 +633,15 @@
   housenumber: 98
   unit: U10
 
+- name: Synopel
+  floor: 2
+  housenumber: 98
+  unit: U11
+
+- name: Blueroom B.V. 
+  floor: 2
+  housenumber: 98
+  unit: U11
 
 - name: BEECKK Ruimtemakers
   floor: 2
