@@ -107,6 +107,11 @@
   housenumber: 170
   unit: U07
 
+- name: Robelco Tax Services 
+  floor: 4
+  housenumber: 170
+  unit: U07
+
 - name: Food in Concept
   floor: 4
   housenumber:
@@ -255,6 +260,11 @@
   housenumber: 130
   unit: 3.2A
 
+- name: Le Concepteur 
+  floor: 3
+  housenumber: 130
+  unit: 3.2A
+
 - name: Ventiv
   floor: 3
   housenumber: 130
@@ -302,6 +312,11 @@
   unit: U05
 
 - name: All This and More
+  floor: 3
+  housenumber: 136
+  unit: U05
+
+- name: Paksa Studios
   floor: 3
   housenumber: 136
   unit: U05
@@ -421,16 +436,6 @@
   housenumber:
   unit: D01
 
-- name: Animating Science
-  floor: 3
-  housenumber:
-  unit: D02
-
-
-- name: Maurice Geluk
-  floor: 3
-  housenumber:
-  unit: D03
 
 - name: Finbarr McComb Architect
   floor: 3
@@ -462,7 +467,7 @@
 - name: First Floor Real Estate 
   floor: 3
   housenumber:
-  unit: D11
+  unit: D13
 
 - name: Skyne 
   floor: 3
@@ -474,10 +479,6 @@
   housenumber:
   unit: D18
 
-- name: Paka Studios
-  floor: 3
-  housenumber:
-  unit: D19
 
 - name: Javid Jooshesh
   floor: 3
@@ -537,6 +538,10 @@
   housenumber: 130
   unit: 3.13
 
+- name:  HBP Consult 
+  floor: 3
+  housenumber: 130
+  unit: 3.16
 
 
 
@@ -766,15 +771,16 @@
 
 #2de Desks
 
-- name: Data Science Workshops B.V.
+
+- name: Teamsmaken
   floor: 2
   housenumber:
-  unit: D03
+  unit: D04
 
 - name: Monkeys & Bananas
   floor: 2
   housenumber:
-  unit: D06
+  unit: D05
 
 - name: Buro Toebast 
   floor: 2
@@ -782,10 +788,10 @@
   unit: D06
 
 
-- name: Graniero Italian Editing
+- name: Wild Digital 
   floor: 2
   housenumber:
-  unit: D09
+  unit: D08
 
 - name: Huis op zak
   floor: 2
@@ -839,11 +845,6 @@
   floor: 2
   housenumber:
   unit: D28
-
-- name: Bureau Sluijters
-  floor: 2
-  housenumber:
-  unit: D30
 
 - name: Deirdre Enthoven 
   floor: 2
@@ -1003,6 +1004,12 @@
 
 #Begane Grond
 
+
+- name: Old Scuola 
+  floor: 0
+  housenumber:
+  unit: 1
+
 - name: Alfredo's Taquaria
   floor: 0
   housenumber:
@@ -1012,12 +1019,6 @@
   floor: 0
   housenumber:
   unit: 52
-
-
-- name: Elite
-  floor: 0
-  housenumber:
-  unit: 56
 
 
 - name: Heriz
@@ -1037,6 +1038,11 @@
   housenumber:
   unit: 60
 
+
+- name: Nondisclosure 
+  floor: 0
+  housenumber:
+  unit: 212
 
 - name: Rook
   floor: 0
@@ -1064,8 +1070,35 @@
   housenumber:
   unit: MVRDV
 
+- name: MVRDV Extentie
+  floor: 0
+  housenumber:
+  unit: 13
+
 
 - name: Lou-La
   floor: 0
   housenumber:
   unit: 208
+
+
+- name: Héroine restaurant & bar 
+  floor: 0
+  housenumber:
+  unit: 12
+
+- name: Studio Beige / Salon Salon 
+  floor: 0
+  housenumber:
+  unit: 62
+
+
+- name: Elite Sportcenter
+  floor: 0
+  housenumber:
+  unit: 58
+
+- name: TheRoundSquare.nl
+  floor: 0
+  housenumber:
+  unit: 58
