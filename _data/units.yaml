@@ -44,17 +44,6 @@
   housenumber: 196-198
   unit: U04
 
-
-- name: Studio Beige
-  floor: 5
-  housenumber: 202
-  unit: U06
-
-- name: Salon Salon
-  floor: 5
-  housenumber: 202
-  unit: U06
-
 - name: Van Tijenterras
   floor: 5
   housenumber: 202
@@ -98,6 +87,11 @@
   unit: U04
 
 - name: Helen Keller Stichting
+  floor: 4
+  housenumber: 186
+  unit: U05
+
+- name: PDS Transferfoil
   floor: 4
   housenumber: 186
   unit: U05
@@ -326,11 +320,6 @@
   housenumber: 136
   unit: U06
 
-- name: Creative Soul Solutions
-  floor: 3
-  housenumber: 136
-  unit: U06
-
 - name: Netwerkkleed
   floor: 3
   housenumber: 136
@@ -408,6 +397,12 @@
   housenumber:
   unit: U06
 
+- name: Cora Verhagen
+  floor: 3
+  housenumber:
+  unit: U06
+
+
 - name: LuvDaSun
   floor: 3
   housenumber:
@@ -458,16 +453,11 @@
   housenumber:
   unit: D10
 
-- name: PPP Powerhouse
-  floor: 3
-  housenumber:
-  unit: D11
-
 
 - name: First Floor Real Estate 
   floor: 3
   housenumber:
-  unit: D13
+  unit: D14
 
 - name: Skyne 
   floor: 3
@@ -479,6 +469,10 @@
   housenumber:
   unit: D18
 
+- name: Best Flex
+  floor: 3
+  housenumber:
+  unit: D20
 
 - name: Javid Jooshesh
   floor: 3
@@ -693,9 +687,9 @@
 - name: SpringCo.
   floor: 2
   housenumber:
-  unit: 2.3
+  unit: 2.4
 
-- name: Juuve
+- name: SpringCo.
   floor: 2
   housenumber:
   unit: 2.5
@@ -771,6 +765,10 @@
 
 #2de Desks
 
+- name: Martijn Smits DTP VORMGEVING
+  floor: 2
+  housenumber:
+  unit: D03
 
 - name: Teamsmaken
   floor: 2
@@ -824,11 +822,6 @@
   housenumber:
   unit: D19
 
-
-- name: PDS Transferfoil
-  floor: 2
-  housenumber:
-  unit: D22
 
 
 - name: Marine Finance House
