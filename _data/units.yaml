@@ -26,6 +26,10 @@
   housenumber: 200
   unit: U05
 
+- name: inbo Rotterdam
+  floor: 5
+  housenumber: 200
+  unit: U06
 
 - name: Visser en Visser Chartering B.V.
   floor: 5
@@ -275,6 +279,10 @@
   housenumber: 130
   unit: 3.7
 
+- name: OTFLOW
+  floor: 3
+  housenumber: 130
+  unit: 3.1
 
 
 - name: Linda Hirzmann
@@ -364,12 +372,12 @@
   unit: U08
 
 
-- name: Terra Cacti
+- name: Bijcollege
   floor: 3
   housenumber: 136
   unit: U02
 
-- name: Bijcollege
+- name: Eetcafe Opa BV 
   floor: 3
   housenumber: 136
   unit: U02
@@ -913,21 +921,12 @@
   housenumber: 68
   unit: U01
 
-- name: GRNDPA
-  floor: 1
-  housenumber: 68
-  unit: U02
-
 
 - name: Tiledmedia
   floor: 1
   housenumber:
   unit: U99
 
-- name: Schagen Lensen & Van Krieken Accountants
-  floor: 1
-  housenumber: 80 84
-  unit: U04_05
 
 - name:  SAM Accountants
   floor: 1
