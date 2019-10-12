@@ -770,7 +770,7 @@ body.nomouse {
 
 .wf-loading body {
   visibility: hidden;
-  opacity: 0; }
+  opacity: 1; }
 
 .wf-active body {
   visibility: visible;
@@ -815,7 +815,6 @@ section {
   top: 0;
   left: 0;
   z-index: 99999999;
-  background: red;
   width: 100%;
   height: 100%;
   background-image: url("../assets/wedding.jpg");
@@ -832,7 +831,7 @@ section {
 
 .welcome {
   position: relative;
-  background: #FFED4C;
+  opacity: 0;
   width: 100%;
   height: 100%;
   top: 0;
@@ -841,8 +840,6 @@ section {
   text-align: left;
   display: table;
   font-size: 54px;
-  -webkit-animation: backgroundColor 24s infinite;
-          animation: backgroundColor 24s infinite;
   overflow: hidden; }
   .welcome .hello {
     margin-left: 10%;
