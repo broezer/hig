@@ -135,9 +135,24 @@ section{
 	}
 }
 
+#wedding{
+	position: fixed;
+	top:0;
+	left:0;
+	z-index:99999999;
+	background:red;
+	width:100%;
+	height:100%;
+	background-image:url('../assets/wedding.jpg');
+	background-position: center;
+	background-size:cover;
+}
+
 @import "welcome.scss";
 @import "list.scss";
 @import "news.scss";
 @import "posts.scss";
 @import "search.scss";
 @import "overview.scss";
+
+

@@ -776,7 +776,8 @@ body.nomouse {
   visibility: visible;
   opacity: 1; }
 
-img, picture {
+img,
+picture {
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -808,6 +809,18 @@ section {
 
 #F3MK text {
   font-size: 13px; }
+
+#wedding {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999999;
+  background: red;
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/wedding.jpg");
+  background-position: center;
+  background-size: cover; }
 
 .image {
   background: url(/assets/img/HIG02.jpg);
