@@ -54,7 +54,7 @@ higApp
 
 (function($) {
   //Time function based on http://jsfiddle.net/tJWmH/
-  var interval = 60 * 60 * 1000;
+  var interval = 15 * 60 * 1000;
 
   var timer = 0;
   function reload(){
