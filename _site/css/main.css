@@ -1360,7 +1360,9 @@ section.posts {
 .search-companies {
   clear: both;
   width: 100%;
-  position: relative; }
+  position: relative;
+  max-height: 44vh;
+  overflow-y: scroll; }
 
 .companies {
   -webkit-column-count: 1;
