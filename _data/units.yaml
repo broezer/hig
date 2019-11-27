@@ -770,8 +770,18 @@
   housenumber:
   unit: 2.11
 
+- name: Climate Focus
+  floor: 2
+  housenumber:
+  unit: 2.12
+
 
 #2de Desks
+
+- name: Adviesbureau W-inst 
+  floor: 2
+  housenumber:
+  unit: D02
 
 - name: Martijn Smits DTP VORMGEVING
   floor: 2
@@ -788,17 +798,12 @@
   housenumber:
   unit: D05
 
-- name: Buro Toebast 
+- name: MyFoodCoach
   floor: 2
   housenumber:
   unit: D06
 
-- name: Wild Digital 
-  floor: 2
-  housenumber:
-  unit: D07
-
-- name: Wild Digital 
+- name: Urban Dialogue
   floor: 2
   housenumber:
   unit: D08
@@ -833,6 +838,25 @@
   housenumber:
   unit: D14
 
+- name: Wild Digital 
+  floor: 2
+  housenumber:
+  unit: D151617
+
+- name: Angel's Omnichannel Retailing
+  floor: 2
+  housenumber:
+  unit: D18
+
+- name: Brandplant
+  floor: 2
+  housenumber:
+  unit: D19
+
+- name: Marine Finance House
+  floor: 2
+  housenumber:
+  unit: D20
 
 - name: Marine Finance House
   floor: 2
@@ -844,21 +868,10 @@
   housenumber:
   unit: D26
 
-- name: Bart Cosijn Gespreksleiding
-  floor: 2
-  housenumber:
-  unit: D28
-
-
 - name: Super Happy
   floor: 2
   housenumber:
   unit: D32
-
-- name: Ecolicense
-  floor: 2
-  housenumber:
-  unit: D34
 
 - name: Climate Focus
   floor: 2
@@ -949,12 +962,6 @@
   unit: U09U10
 
 
-
-- name: Business Translation Services B.V.
-  floor: 1
-  housenumber: 98
-  unit: U03
-
 - name: Clubgeist
   floor: 1
   housenumber: 98
@@ -1015,13 +1022,6 @@
   floor: 0
   housenumber:
   unit: 214
-
-
-- name: Evernow
-  floor: 0
-  housenumber:
-  unit: 206
-
 
 - name: Vico
   floor: 0
