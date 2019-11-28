@@ -4,7 +4,7 @@ layout: default
 
 {{content}}
 
-{% assign sorted_units = (site.data.units | sort: 'name') %}
+{% assign sorted_units = site.data.units | sort: 'name' %}
 <ol class="list">
 {% for unit in sorted_units %}
 

@@ -4,7 +4,7 @@ layout: default
 
 {{content}}
 
-{% assign sorted_units = (site.data.units | sort: 'name') %}
+{% assign sorted_units = site.data.units | sort: 'name' %}
 
 <ul class="overview-list" rn-carousel rn-carousel-auto-slide="10" rn-carousel-transition="none" rn-carousel-duration="300" rn-carousel-controls-allow-loop>
 
@@ -71,7 +71,7 @@ layout: default
 
   <li>
     <h2>services</h2>
-    {% assign services = (site.data.services) %}
+    {% assign services = site.data.services %}
     <ol class="list list-services">
     {% for service in services %}
         <li>
