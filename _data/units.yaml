@@ -110,40 +110,6 @@
   housenumber: 170
   unit: U07
 
-- name: Food in Concept
-  floor: 4
-  housenumber:
-  unit: U08A
-
-- name: Pineut
-  floor: 4
-  housenumber:
-  unit: U08A
-
-- name: Clockworks Data Innovation
-  floor: 4
-  housenumber:
-  unit: U08B
-
-- name: Studio Broei
-  floor: 4
-  housenumber:
-  unit: U08B
-
-- name: Sjauf
-  floor: 4
-  housenumber:
-  unit: U08C
-
-- name: Van Vliet Kroonluchters
-  floor: 4
-  housenumber:
-  unit: U08C
-
-- name: We Will Drive
-  floor: 4
-  housenumber:
-  unit: U08C
 
 - name: Bitfactory
   floor: 4
@@ -258,6 +224,11 @@
   housenumber: 130
   unit: 3.2A
 
+- name: De Rode Wolf
+  floor: 3
+  housenumber: 130
+  unit: 3.2A
+
 - name: Le Concepteur 
   floor: 3
   housenumber: 130
@@ -268,16 +239,21 @@
   housenumber: 130
   unit: 3.2A
 
+- name: Nicoline Rodenburg Fotografie 
+  floor: 3
+  housenumber: 130
+  unit: 3.2A
+
+- name: Moniek Kuipers
+  floor: 3
+  housenumber: 130
+  unit: 3.2A
+
+
 - name: testalize.me
   floor: 3
   housenumber: 130
   unit: 3.3
-
-
-- name: VS Logistics B.V.
-  floor: 3
-  housenumber: 130
-  unit: 3.7
 
 - name: OTFLOW
   floor: 3
@@ -416,16 +392,10 @@
   housenumber:
   unit: U09
 
-- name: Sappi Rotterdam
+- name: Skyne
   floor: 3
   housenumber:
-  unit: U10
-
-- name: Da Silva Fotografie
-  floor: 3
-  housenumber:
-  unit: U10
-
+  unit: U09
 
 - name: E&O Events
   floor: 3
@@ -467,12 +437,12 @@
   housenumber:
   unit: D14
 
-- name: Skyne 
+- name: Wijnvan010
   floor: 3
   housenumber:
-  unit: D17
+  unit: D16
 
-- name: Skyne 
+- name: Bureau Maas Marketing & Communicatie
   floor: 3
   housenumber:
   unit: D18
@@ -583,6 +553,11 @@
   unit: U01
 
 
+- name: "&Flux"
+  floor: 2
+  housenumber:
+  unit: U03
+
 - name: Raymond Heijnen
   floor: 2
   housenumber:
@@ -627,13 +602,6 @@
   floor: 2
   housenumber:
   unit: U07A
-
-
-
-- name: The Phoney Club
-  floor: 2
-  housenumber: 98
-  unit: U09
 
 - name: Contra
   floor: 2
@@ -682,12 +650,6 @@
   unit: 2.2
 
 - name: Leidmotiv
-  floor: 2
-  housenumber:
-  unit: 2.3
-
-
-- name: Headed
   floor: 2
   housenumber:
   unit: 2.3
@@ -755,12 +717,12 @@
   housenumber:
   unit: "2.10"
 
-- name:  Deneuve
+- name:  The USP Company
   floor: 2
   housenumber:
   unit: "2.10"
 
-- name:  The USP Company
+- name:  ROOS
   floor: 2
   housenumber:
   unit: "2.10"
@@ -774,6 +736,17 @@
   floor: 2
   housenumber:
   unit: 2.12
+
+- name: Clockworks Data Innovation
+  floor: 2
+  housenumber:
+  unit: 2.12
+
+- name: Studio Broei
+  floor: 2
+  housenumber:
+  unit: 2.12
+
 
 
 #2de Desks
@@ -808,6 +781,11 @@
   housenumber:
   unit: D08
 
+- name: Bart Cosijn Gespreksleiding
+  floor: 2
+  housenumber:
+  unit: D08
+
 - name: Linda de Geus
   floor: 2
   housenumber:
@@ -817,8 +795,8 @@
   floor: 2
   housenumber:
   unit: D10
- 
-- name: Sparkle Digital
+
+- name: Martijnbaten.nl
   floor: 2
   housenumber:
   unit: D11
@@ -872,11 +850,6 @@
   floor: 2
   housenumber:
   unit: D32
-
-- name: Climate Focus
-  floor: 2
-  housenumber:
-  unit: D36D37D38D39D40
 
 
 - name: Ruud Lubbers Keuken
@@ -939,11 +912,32 @@
   unit: U99
 
 
-- name:  SAM Accountants
+- name: BTS Translation Services 
   floor: 1
-  housenumber: 80 84
-  unit: U04_05
+  housenumber: 68
+  unit: U03
 
+
+- name: Intellegence Group
+  floor: 1
+  housenumber: 68
+  unit: U04
+
+
+- name: "&Werf"
+  floor: 1
+  housenumber: 68
+  unit: U04
+
+- name: Academie voor Arbeidsmarktcommunicatie
+  floor: 1
+  housenumber: 68
+  unit: U04
+
+- name: VS Logistics B.V.
+  floor: 1
+  housenumber: 68
+  unit: U05
 
 - name: Tekstschrijvers.nl
   floor: 1
@@ -972,12 +966,6 @@
   housenumber: 98
   unit: U07
 
-- name: De Regelmeisjes
-  floor: 1
-  housenumber: 98
-  unit: 1.1
-
-
 - name: Friedenberg Consultancy
   floor: 1
   housenumber: 98
@@ -988,11 +976,6 @@
   floor: 1
   housenumber: 98
   unit: 1.5
-
-- name: MoreApp
-  floor: 1
-  housenumber: 98
-  unit: 1.7
 
 - name: Kees van Dongen Room
   floor: 1
@@ -1033,22 +1016,6 @@
   floor: 0
   housenumber:
   unit: 212
-
-- name: Rook
-  floor: 0
-  housenumber:
-  unit: 212
-
-- name: Bruce Moerdjiman
-  floor: 0
-  housenumber:
-  unit: 212
-
-- name: Titia Hahne Fotografie
-  floor: 0
-  housenumber: 212
-  unit: 212
-
 
 - name: By Jarmusch
   floor: 0

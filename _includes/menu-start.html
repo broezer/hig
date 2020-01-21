@@ -6,6 +6,7 @@
 {% endcapture %}
 {% assign sortedtags = tags | split:' ' | sort %}
 <dl class="search-list">
+  <a class="btn select" href="" target="special">&amp;</a>
 {% for tag in sortedtags %}
     <a class="btn select" href="" target="{{ tag | capitalize  }}">{{ tag }}</a>
 {% endfor %}

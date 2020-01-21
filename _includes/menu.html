@@ -3,8 +3,13 @@
 
     {% assign sorted_units = (site.data.units | sort: 'name') %}
     {% for unit in sorted_units %}
-
+      {% assign first_string = unit.name | slice: 0, 1 %}
+      {% if first_string contains '&' %}  
+      <a href=""  class="btn company company--{{ unit.name | slice: 0, 1 }} company--special" unit="#F{{unit.floor}}{{unit.unit |  remove: "." }}" floor=".floor0{{ unit.floor}}">
+      {% else %}
       <a href=""  class="btn company company--{{ unit.name | slice: 0, 1 }}" unit="#F{{unit.floor}}{{unit.unit |  remove: "." }}" floor=".floor0{{ unit.floor}}">
+      {% endif %}
+      
         
           <dt>{{ unit.name }}</dt> <dd>F{{unit.floor}} | {{ unit.unit | default }}</dd>
         
