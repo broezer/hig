@@ -110,17 +110,9 @@
 	<polyline class="st0" points="60,107.7 14.4,107.7 14.4,141.6 60,141.6 60,107.7 	"/>
 	<text transform="matrix(1 0 0 1 31.4102 127.1815)" class="st1 st2">3.3</text>
 </g>
-<g id="F334">
-	<polyline class="st0" points="117.5,39.6 71.9,39.6 71.9,73.6 117.5,73.6 117.5,39.6 	"/>
-	<text transform="matrix(1 0 0 1 88.7437 62.515)" class="st1 st2">3.4</text>
-</g>
 <g id="F335">
-	<polyline class="st0" points="71.9,73.6 117.5,73.6 117.5,107.7 71.9,107.7 71.9,73.6 	"/>
 	<text transform="matrix(1 0 0 1 89.7437 94.515)" class="st1 st2">3.5</text>
-</g>
-<g id="F336">
-	<polyline class="st0" points="83.5,107.7 117.5,107.7 117.5,141.6 83.5,141.6 83.5,107.7 	"/>
-	<text transform="matrix(1 0 0 1 94.0772 128.515)" class="st1 st2">3.6</text>
+	<polygon class="st0" points="117.5,107.7 117.5,39.6 71.9,39.6 71.9,107.7 83.8,107.7 83.8,141.6 117.8,141.6 117.8,107.7 	"/>
 </g>
 <g id="F337">
 	<polyline class="st0" points="68.7,210.6 14.4,210.6 14.4,141.6 68.7,141.6 68.7,210.6 	"/>

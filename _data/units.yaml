@@ -15,7 +15,7 @@
   unit: U03
 
 
-- name: Stroom
+- name: ClubgeistBVH
   floor: 5
   housenumber: 186
   unit: U01A
@@ -199,18 +199,12 @@
 - name: PixelX
   floor: 3
   housenumber: 130
-  unit: 3.18
+  unit: 3.5
 
 
 
 
 #Linkerzijvleugel
-
-
-- name: Trin-It
-  floor: 3
-  housenumber: 130
-  unit: 3.4 #3.5 3.6
 
 
 - name: Bazou
@@ -387,7 +381,7 @@
   unit: U06
 
 
-- name: LuvDaSun
+- name: Wild Digital
   floor: 3
   housenumber:
   unit: U09
@@ -395,9 +389,14 @@
 - name: Skyne
   floor: 3
   housenumber:
-  unit: U09
+  unit: U10
 
 - name: E&O Events
+  floor: 3
+  housenumber:
+  unit: U11
+
+- name: Gameye
   floor: 3
   housenumber:
   unit: U11
@@ -437,7 +436,7 @@
   housenumber:
   unit: D14
 
-- name: Wijnvan010
+- name: Wijvan010
   floor: 3
   housenumber:
   unit: D16
@@ -515,6 +514,10 @@
   housenumber: 130
   unit: 3.16
 
+- name: "&Flux"
+  floor: 3
+  housenumber:
+  unit: 3.18
 
 
 - name: Lijnn
@@ -551,12 +554,6 @@
   floor: 2
   housenumber:
   unit: U01
-
-
-- name: "&Flux"
-  floor: 2
-  housenumber:
-  unit: U03
 
 - name: Raymond Heijnen
   floor: 2
@@ -607,16 +604,6 @@
   floor: 2
   housenumber: 98
   unit: U10
-
-- name: Synopel
-  floor: 2
-  housenumber: 98
-  unit: U11
-
-- name: Blueroom B.V. 
-  floor: 2
-  housenumber: 98
-  unit: U11
 
 - name: BEECKK Ruimtemakers
   floor: 2
@@ -740,18 +727,18 @@
 - name: Clockworks Data Innovation
   floor: 2
   housenumber:
-  unit: 2.12
+  unit: 2.13
 
 - name: Studio Broei
   floor: 2
   housenumber:
-  unit: 2.12
+  unit: 2.13
 
 
 
 #2de Desks
 
-- name: Adviesbureau W-inst 
+- name: Yoshi Tuk
   floor: 2
   housenumber:
   unit: D02
@@ -816,16 +803,6 @@
   housenumber:
   unit: D14
 
-- name: Wild Digital 
-  floor: 2
-  housenumber:
-  unit: D151617
-
-- name: Angel's Omnichannel Retailing
-  floor: 2
-  housenumber:
-  unit: D18
-
 - name: Brandplant
   floor: 2
   housenumber:
@@ -840,11 +817,6 @@
   floor: 2
   housenumber:
   unit: D24
-
-- name: Adviesbureau W-inst Rotterdam
-  floor: 2
-  housenumber:
-  unit: D26
 
 - name: Super Happy
   floor: 2
@@ -918,7 +890,17 @@
   unit: U03
 
 
-- name: Intellegence Group
+- name: Synopel 
+  floor: 1
+  housenumber: 68
+  unit: U03A
+
+- name: Blue Room B.V. 
+  floor: 1
+  housenumber: 68
+  unit: U03A
+
+- name: Intelligence Group 
   floor: 1
   housenumber: 68
   unit: U04
@@ -933,6 +915,17 @@
   floor: 1
   housenumber: 68
   unit: U04
+
+- name: Arbeidsmarktkansen/
+  floor: 1
+  housenumber: 68
+  unit: U04
+
+- name: ToTalent
+  floor: 1
+  housenumber: 68
+  unit: U04
+
 
 - name: VS Logistics B.V.
   floor: 1
@@ -955,11 +948,6 @@
   housenumber: 92
   unit: U09U10
 
-
-- name: Clubgeist
-  floor: 1
-  housenumber: 98
-  unit: U03A
 
 - name: T-minus
   floor: 1
@@ -1053,7 +1041,7 @@
 - name: Elite Sportcenter
   floor: 0
   housenumber:
-  unit: 58
+  unit: 56
 
 - name: TheRoundSquare.nl
   floor: 0
