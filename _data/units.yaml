@@ -765,6 +765,11 @@
   floor: 1
   unit: 1.5
 
+- name: Parx Materials
+  floor: 1
+  unit: 1.7
+
+
 - name: Kees van Dongen Room
   floor: 1
   unit: KVD
