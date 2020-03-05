@@ -845,8 +845,8 @@ section {
           animation: backgroundColor 24s infinite;
   overflow: hidden; }
   .welcome .hello {
-    margin-left: 10%;
-    width: 90%;
+    margin-left: 0;
+    width: 100%;
     position: relative;
     vertical-align: middle;
     padding-left: 5%;
@@ -1045,8 +1045,8 @@ section {
 .news {
   margin-top: 5rem; }
   .news .image-carousel {
-    width: 90%;
-    margin-left: 10%;
+    width: 100%;
+    margin-left: 0;
     height: 60vh;
     background: none;
     padding-bottom: 0;
