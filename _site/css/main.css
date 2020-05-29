@@ -776,8 +776,7 @@ body.nomouse {
   visibility: visible;
   opacity: 1; }
 
-img,
-picture {
+img, picture {
   margin-left: auto;
   margin-right: auto;
   position: relative;
