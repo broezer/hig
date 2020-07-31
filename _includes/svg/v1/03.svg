@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 24.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 24.2.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 643 300" style="enable-background:new 0 0 643 300;" xml:space="preserve">
 <style type="text/css">
@@ -72,31 +72,31 @@
 </g>
 <g id="F33145">
 	<polyline class="st0" points="561.8,5.5 561.8,27.4 585.1,27.4 585.1,39.6 630.8,39.6 630.8,5.5 561.8,5.5 	"/>
-	<text id="_x33_.16_1_" transform="matrix(1.0645 0 0 1 593.5586 24.5148)" class="st1 st2">3.145</text>
+	<text id="_x33_.16_1_" transform="matrix(1.0645 0 0 1 593.5586 24.5146)" class="st1 st2">3.145</text>
 </g>
 <g id="F3316">
 	<polyline class="st0" points="576,39.6 630.8,39.6 630.8,73.6 576,73.6 576,39.6 	"/>
-	<text id="_x33_.16" transform="matrix(1.0645 0 0 1 593.5586 61.5148)" class="st1 st2">3.16</text>
+	<text id="_x33_.16" transform="matrix(1.0645 0 0 1 593.5586 61.5146)" class="st1 st2">3.16</text>
 </g>
 <g id="F3317">
 	<polyline class="st0" points="576,73.6 630.8,73.6 630.8,107.6 576,107.6 576,73.6 	"/>
-	<text id="_x33_.17" transform="matrix(1.0645 0 0 1 593.5586 94.5148)" class="st1 st2">3.17</text>
+	<text id="_x33_.17" transform="matrix(1.0645 0 0 1 593.5586 94.5146)" class="st1 st2">3.17</text>
 </g>
 <g id="F3318">
 	<polyline class="st0" points="576,107.6 630.8,107.6 630.8,141.6 576,141.6 576,107.6 	"/>
-	<text id="_x33_.18" transform="matrix(1.0645 0 0 1 593.5586 126.5153)" class="st1 st2">3.18</text>
+	<text id="_x33_.18" transform="matrix(1.0645 0 0 1 593.5586 126.5151)" class="st1 st2">3.18</text>
 </g>
 <g id="F3313">
 	<polyline class="st0" points="527.7,39.6 564,39.6 564,73.6 527.7,73.6 527.7,39.6 	"/>
-	<text id="_x33_.13" transform="matrix(1.0645 0 0 1 533.5586 62.5153)" class="st1 st2">3.13</text>
+	<text id="_x33_.13" transform="matrix(1.0645 0 0 1 533.5586 62.5151)" class="st1 st2">3.13</text>
 </g>
 <g id="F3312">
 	<polyline class="st0" points="563.9,73.6 527.6,73.6 527.6,107.7 563.9,107.7 563.9,73.6 	"/>
-	<text id="_x33_.12" transform="matrix(1.0645 0 0 1 533.5049 93.1818)" class="st1 st2">3.12</text>
+	<text id="_x33_.12" transform="matrix(1.0645 0 0 1 533.5049 93.1816)" class="st1 st2">3.12</text>
 </g>
 <g id="F3311">
 	<polyline class="st0" points="563.9,107.7 527.7,107.7 527.7,141.6 563.9,141.6 563.9,107.7 	"/>
-	<text id="_x33_.11" transform="matrix(1.0645 0 0 1 533.5586 127.1818)" class="st1 st2">3.11</text>
+	<text id="_x33_.11" transform="matrix(1.0645 0 0 1 533.5586 127.1816)" class="st1 st2">3.11</text>
 </g>
 <g id="F331">
 	<polyline class="st0" points="83.4,5.5 83.4,27.4 60,27.4 60,39.6 14.4,39.6 14.2,5.5 83.4,5.5 	"/>
@@ -147,72 +147,20 @@
 	<text transform="matrix(1 0 0 1 156.7437 276.1815)" class="st1 st2">U08</text>
 </g>
 <g id="F3U09">
-	<polyline class="st0" points="288.6,252.9 322.5,252.9 322.5,295.2 288.6,295.2 288.6,252.9 	"/>
-	<text transform="matrix(1 0 0 1 293.5239 276.1815)" class="st1 st2">U09</text>
+	<polyline class="st0" points="287.6,252.9 321.5,252.9 321.5,295.2 287.6,295.2 287.6,252.9 	"/>
+	<text transform="matrix(1 0 0 1 292.5239 276.1815)" class="st1 st2">U09</text>
 </g>
-<g id="F3D09">
-	<polyline class="st0" points="224,254.2 236,254.2 236,267.1 224,267.1 224,254.2 	"/>
-	<text transform="matrix(1 0 0 1 223.9941 261.7581)" class="st1 st3">D09</text>
+<g id="F3U16">
+	<polyline class="st0" points="253.6,252.9 287.5,252.9 287.5,295.2 253.6,295.2 253.6,252.9 	"/>
+	<text transform="matrix(1 0 0 1 258.4739 276.1815)" class="st1 st2">U16</text>
 </g>
-<g id="F3D01">
-	<polyline class="st0" points="270,254.2 282,254.2 282,267.1 270,267.1 270,254.2 	"/>
-	<text transform="matrix(1 0 0 1 269.9941 261.7581)" class="st1 st3">D01</text>
+<g id="F3U17">
+	<polyline class="st0" points="219.6,252.9 253.5,252.9 253.5,295.2 219.6,295.2 219.6,252.9 	"/>
+	<text transform="matrix(1 0 0 1 224.5239 276.1815)" class="st1 st2">U17</text>
 </g>
-<g id="F3D04">
-	<polyline class="st0" points="258,254.2 270,254.2 270,267.1 258,267.1 258,254.2 	"/>
-	<text transform="matrix(1 0 0 1 257.9941 261.7581)" class="st1 st3">D04</text>
-</g>
-<g id="F3D02">
-	<polyline class="st0" points="270,267.2 282,267.2 282,280.1 270,280.1 270,267.2 	"/>
-	<text transform="matrix(1 0 0 1 269.9941 274.7581)" class="st1 st3">D02</text>
-</g>
-<g id="F3D05">
-	<polyline class="st0" points="258,267.2 270,267.2 270,280.1 258,280.1 258,267.2 	"/>
-	<text transform="matrix(1 0 0 1 257.9941 274.7581)" class="st1 st3">D05</text>
-</g>
-<g id="F3D03">
-	<polyline class="st0" points="270,280.2 282,280.2 282,293.1 270,293.1 270,280.2 	"/>
-	<text transform="matrix(1 0 0 1 269.9941 287.7581)" class="st1 st3">D03</text>
-</g>
-<g id="F3D06">
-	<polyline class="st0" points="258,280.2 270,280.2 270,293.1 258,293.1 258,280.2 	"/>
-	<text transform="matrix(1 0 0 1 257.9941 287.7581)" class="st1 st3">D06</text>
-</g>
-<g id="F3D08">
-	<polyline class="st0" points="236,267.2 248,267.2 248,280.1 236,280.1 236,267.2 	"/>
-	<text transform="matrix(1 0 0 1 235.9941 274.7581)" class="st1 st3">D08</text>
-</g>
-<g id="F3D07">
-	<polyline class="st0" points="236,254.2 248,254.2 248,267.1 236,267.1 236,254.2 	"/>
-	<text transform="matrix(1 0 0 1 235.9941 261.7581)" class="st1 st3">D07</text>
-</g>
-<g id="F3D10">
-	<polyline class="st0" points="224,267.1 236,267.1 236,280 224,280 224,267.1 	"/>
-	<text transform="matrix(1 0 0 1 223.9941 274.6874)" class="st1 st3">D10</text>
-</g>
-<g id="F3D13">
-	<polyline class="st0" points="203,280.2 215,280.2 215,293.1 203,293.1 203,280.2 	"/>
-	<text transform="matrix(1 0 0 1 202.9941 287.7581)" class="st1 st3">D13</text>
-</g>
-<g id="F3D12">
-	<polyline class="st0" points="203,267.3 215,267.3 215,280.1 203,280.1 203,267.3 	"/>
-	<text transform="matrix(1 0 0 1 202.9941 274.825)" class="st1 st3">D12</text>
-</g>
-<g id="F3D11">
-	<polyline class="st0" points="203,254.5 215,254.5 215,267.4 203,267.4 203,254.5 	"/>
-	<text transform="matrix(1 0 0 1 202.9941 262.0465)" class="st1 st3">D11</text>
-</g>
-<g id="F3D16">
-	<polyline class="st0" points="191,280.2 203,280.2 203,293.1 191,293.1 191,280.2 	"/>
-	<text transform="matrix(1 0 0 1 190.9941 287.7581)" class="st1 st3">D16</text>
-</g>
-<g id="F3D15">
-	<polyline class="st0" points="191,267.3 203,267.3 203,280.1 191,280.1 191,267.3 	"/>
-	<text transform="matrix(1 0 0 1 190.9941 274.8248)" class="st1 st3">D15</text>
-</g>
-<g id="F3D14">
-	<polyline class="st0" points="191,254.5 203,254.5 203,267.4 191,267.4 191,254.5 	"/>
-	<text transform="matrix(1 0 0 1 190.9941 262.0463)" class="st1 st3">D14</text>
+<g id="F3U18">
+	<polyline class="st0" points="185.6,252.8 219.5,252.8 219.5,295.2 185.6,295.2 185.6,252.8 	"/>
+	<text transform="matrix(1 0 0 1 190.499 276.1315)" class="st1 st2">U18</text>
 </g>
 <g id="F3D19">
 	<polyline class="st0" points="191,228.5 203,228.5 203,241.4 191,241.4 191,228.5 	"/>
@@ -255,8 +203,8 @@
 	<text transform="matrix(1 0 0 1 227.7437 232.8413)" class="st1 st2">U02</text>
 </g>
 <g id="F3U10">
-	<polyline class="st0" points="322.5,252.9 356.6,252.9 356.6,295.2 322.5,295.2 322.5,252.9 	"/>
-	<text transform="matrix(1 0 0 1 329.7437 276.1815)" class="st1 st2">U10</text>
+	<polyline class="st0" points="321.5,252.9 355.6,252.9 355.6,295.2 321.5,295.2 321.5,252.9 	"/>
+	<text transform="matrix(1 0 0 1 328.7437 276.1815)" class="st1 st2">U10</text>
 </g>
 <g id="F3U11">
 	<polyline class="st0" points="459.7,261.4 493.7,261.4 493.7,295.2 459.7,295.2 459.7,261.4 	"/>
@@ -290,7 +238,7 @@
 </g>
 <g id="F3MK">
 	<polyline class="st6" points="363,262 459.7,262 459.7,211.2 363,211.2 363,262 	"/>
-	<text transform="matrix(0.9545 0 0 1 376.3105 244.2999)" class="st4 st7">Maaskantine</text>
+	<text transform="matrix(0.9545 0 0 1 376.3105 244.2998)" class="st4 st7">Maaskantine</text>
 </g>
 <g id="F332A">
 	<polyline class="st0" points="60,39.6 14.4,39.6 14.4,73.6 60,73.6 60,39.6 	"/>
