@@ -677,7 +677,7 @@ g.active rect, g.active polyline, g.active polygon {
   -webkit-animation: blink 1s infinite;
           animation: blink 1s infinite; }
 
-g.active text {
+g.active text, g.active tspan {
   -webkit-animation: blinkText 1s infinite;
           animation: blinkText 1s infinite; }
 
@@ -1300,13 +1300,13 @@ section.posts {
     top: 120px; }
   .map.inactive {
     opacity: 0.1; }
-  .map text {
+  .map text, .map tspan {
     stroke: none;
     color: transparant;
     fill: #ccc; }
   .map.active {
     opacity: 0.5; }
-    .map.active text {
+    .map.active text, .map.active tspan {
       stroke: none;
       color: black;
       fill: black; }
@@ -1391,12 +1391,13 @@ section.posts {
       width: 75%;
       margin-right: 0; }
     .companies .btn dd {
-      width: 25%;
+      width: 22%;
       background: black;
       color: white;
       padding-left: 10px;
       text-align: left;
-      float: right; }
+      float: right;
+      font-size: 50%; }
 
 .search-start {
   clear: both;

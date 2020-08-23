@@ -13,7 +13,7 @@ g.active rect, g.active polyline, g.active polygon{
 	animation: blink 1s infinite;
 }
 
-g.active text{
+g.active text, g.active tspan{
 	animation: blinkText 1s infinite;
 
 }

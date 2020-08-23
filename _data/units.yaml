@@ -1,53 +1,52 @@
 #Vijfde Verdieping
 - name: Trichis Communicatie & Ontwerp B.V.
   floor: 5
-  unit: U03
+  unit: P.194
 
 - name: Bubblefish Interactive B.V.
   floor: 5
-  unit: U01B
+  unit: P.188 U5.1
 
 - name: ClubgeistBVH
   floor: 5
-  unit: U01A
+  unit: P.188
 
 
 - name: Magnet.me
   floor: 5
-  unit: U05
+  unit: P.200
 
 - name: HIG Office
   floor: 5
-  unit: U06
+  unit: Kipstraat 6
 
 - name: Jade Architecten
   floor: 5
-  housenumber: 196-198
-  unit: U04
-
+  unit: P.192
 
 - name: Jessica Nielsen
   floor: 5
-  housenumber: 196-198
-  unit: U04
-
-- name: Van Tijenterras
-  floor: 5
-  unit: U07
-
+  unit: P.192
 
 - name: Kaaps
   floor: 5
-  unit: U10
+  unit: Kipstraat 8-10
 
 - name: Maatwerk Online
   floor: 5
-  housenumber: 184
-  unit: U08
+  unit: Kipstraat 4
 
 - name: Onlinemarketing.nl B.V.
   floor: 5
-  unit: U08
+  unit: Kipstraat 4
+
+- name: Inbo Rotterdam
+  floor: 5
+  unit: P.202
+
+- name: Van Tijenterras
+  floor: 5
+  unit: MT
 
 
 #Vierde verdieping
@@ -55,60 +54,60 @@
 
 - name: Prime Sportbusiness
   floor: 4
-  unit: U01
+  unit: 58 O4.01
 
 - name: Anglers
   floor: 4
-  unit: U02
+  unit: 58 O4.02
 
 - name: Helen Keller Stichting
   floor: 4
-  unit: U03
+  unit: 58 O4.03
 
 - name: PDS Transferfoil
   floor: 4
-  unit: U04
+  unit: 58 O4.04
 
 - name: Intax Tax Consultants
   floor: 4
-  unit: U07
+  unit: P.160
 
 - name: Robelco Tax Services 
   floor: 4
-  unit: U07
+  unit: P.160
 
 
 - name: Bitfactory
   floor: 4
-  unit: U08
+  unit: P.164
 
 - name: Weblab.nl
   floor: 4
-  unit: U09
+  unit: P.166
 
 - name: ThePerfectWedding.nl
   floor: 4
-  unit: U09
+  unit: P.166
 
 - name: MiniMe.nl
   floor: 4
-  unit: U09
+  unit: P.166
 
 - name: ThePerfectYou.nl
   floor: 4
-  unit: U09
+  unit: P.166
 
 - name: Codeglue
   floor: 4
-  unit: U10U11
+  unit: P.178
 
 - name: GI-Travel
   floor: 4
-  unit: U12
+  unit: P.184
 
-- name: Zeetours
+- name: Zeetours Cruises
   floor: 4
-  unit: U13
+  unit: P.186
 
 
 - name: Neelie Kroes Room
@@ -120,78 +119,105 @@
 
 - name: China Classification Society
   floor: 3
-  unit: '3.7'
+  unit: 132
 
 - name: CCS Rotterdam BV
   floor: 3
-  unit: '3.7'
+  unit: 132
 
-- name: Het Industriegebouw
-  floor: 3
-  unit: '3.10'
+
 
 - name:  MO Copywriting
   floor: 3
-  unit: 3.11
+  unit: K.01
 
 - name:  Ron Schuijt
   floor: 3
-  unit: 3.11
+  unit: K.01
+
+
+- name: New Normal
+  floor: 3
+  unit: K.02
+
+- name: Ben Bergsma
+  floor: 3
+  unit: K.03
+
+
+- name:  Clear:right
+  floor: 3
+  housenumber: 130
+  unit: K.03
+
+- name:  Voicenode
+  floor: 3
+  housenumber: 130
+  unit: K.03
 
 - name:  Kynda
   floor: 3
-  unit: 3.145
+  unit: K.04+05
 
+- name: QSTA
+  floor: 3
+  unit: K.06
 
 - name: Designlinq
   floor: 3
-  unit: 3.17
+  unit: K.07
+
+- name: '&Flux'
+  floor: 3
+  unit: K.08
+
+
 
 - name: PixelX
   floor: 3
-  unit: 3.5
+  unit: 130 O3.05
 
 - name: Bazou
   floor: 3
-  unit: 3.2B
+  unit: 130 O3.03
 
 - name: Bureau Door
   floor: 3
-  unit: 3.2A
+  unit: 130 O3.02
 
 - name: De Rode Wolf
   floor: 3
-  unit: 3.2A
+  unit: 130 O3.02
 
 - name: Le Concepteur 
   floor: 3
-  unit: 3.2A
+  unit: 130 O3.02
 
 - name: Ventiv
   floor: 3
-  unit: 3.2A
+  unit: 130 O3.02
 
 - name: Nicoline Rodenburg Fotografie 
   floor: 3
-  unit: 3.2A
+  unit: 130 O3.02
 
 - name: Moniek Kuipers
   floor: 3
-  unit: 3.2A
+  unit: 130 O3.02
 
 
 - name: testalize.me
   floor: 3
-  unit: 3.3
+  unit: 130 O3.01
 
 - name: OTFLOW
   floor: 3
-  unit: 3.1
+  unit: 130 O3.01
 
 
 - name: MT Finance
   floor: 3
-  unit: 3.1
+  unit: 130 O3.04
 
 - name: Nieuw Creatief Peil
   floor: 3
@@ -325,25 +351,6 @@
   floor: 3
   unit: U17
 
-- name: New Normal
-  floor: 3
-  unit: 3.12
-
-- name: Ben Bergsma
-  floor: 3
-  unit: 3.13
-
-
-- name:  Clear:right
-  floor: 3
-  housenumber: 130
-  unit: 3.13
-
-- name:  QSTA 
-  floor: 3
-  housenumber: 130
-  unit: 3.16
-
 - name: Lijnn
   floor: 3
   housenumber:
@@ -370,46 +377,57 @@
 
 #Tweede verdieping
 
-- name: RST Meiser Nederland B.V.
+- name: Buro P&O
   floor: 2
-  unit: U01
+  unit: P100
+
+
 
 - name: Make It Great Again
   floor: 2
-  unit: U02
+  unit: 98 O3.01
 
-- name: Raymond Heijnen
+- name: Contra
   floor: 2
-  unit: U03
+  unit: 98 O3.02
 
-- name: Huismeester
+- name: RST Meiser Nederland B.V.
   floor: 2
-  unit: U03
-
+  unit: 98 O3.03
 
 - name: Floodlight
   floor: 2
-  unit: U04
+  unit: 98 O3.04
 
 - name: Vloedlicht
   floor: 2
-  unit: U04
+  unit: 98 O3.04
 
 - name: Frontaal Film
   floor: 2
-  unit: U04
+  unit: 98 O3.04
+
+- name: Raymond Heijnen
+  floor: 2
+  unit: 98 O3.06
+
+- name: Huismeester
+  floor: 2
+  unit: 98 O3.06
+
+
+
 
 - name: Weave
   floor: 2
-  unit: U100
+  unit: P.78
+
+
 
 - name: BEECKK Ruimtemakers
   floor: 2
   unit: 2.0
 
-- name: Buro P&O
-  floor: 2
-  unit: U99
 
 - name: Flabberguest
   floor: 2
@@ -596,75 +614,70 @@
 
 - name: Mediad
   floor: 1
-  unit: U01
+  unit: P.68
 
 - name: ReadMe Wayfinding Agency
   floor: 1
-  unit: U02
+  unit: P.70
 
 - name: BTS Translation Services 
   floor: 1
-  unit: U03
+  unit: P.74
 
 
 - name: Synopel 
   floor: 1
-  unit: U03A
+  unit: P.76
 
 - name: Blue Room B.V. 
   floor: 1
-  unit: U03A
+  unit: P.76
 
 - name: Blijstroom
   floor: 1
-  unit: U03A
+  unit: P.76
 
 - name: Intelligence Group 
   floor: 1
-  unit: U04
-
-- name: Recruitment Accelerator
-  floor: 1
-  unit: U04
+  unit: P.80
 
 - name: "&Werf"
   floor: 1
-  unit: U04
+  unit: P80
 
 - name: Academie voor Arbeidsmarktcommunicatie
   floor: 1
-  unit: U04
+  unit: P80
 
-- name: Arbeidsmarktkansen/
+- name: Arbeidsmarktkansen
   floor: 1
-  unit: U04
+  unit: P80
 
 - name: ToTalent
   floor: 1
-  unit: U04
-
+  unit: P80
 
 - name: VS Logistics B.V.
   floor: 1
-  unit: U05
+  unit: P84
 
 - name: Tekstschrijvers.nl
   floor: 1
-  unit: U06
+  unit: P.86
 
 
 - name: Kees de Boekhouder
   floor: 1
-  unit: U08
+  unit: P.90
 
 - name: Lola Landscape Architects
   floor: 1
-  unit: U09U10
+  unit: P.92
 
 
 - name: T-minus
   floor: 1
-  unit: U07
+  unit: P.88
 
 - name: PRKKLS
   floor: 1
@@ -689,7 +702,7 @@
 
 - name: Clickdrive B.V.
   floor: 1
-  unit: 1.5
+  unit: 1.6
 
 - name: Parx Materials
   floor: 1

@@ -78,7 +78,7 @@
   &.inactive{ 
     opacity:0.1;
   }
-  text{
+  text, tspan{
     stroke: none;
     color:transparant;
     fill:#ccc;
@@ -86,7 +86,7 @@
 
   &.active{
     opacity:0.5;
-    text{
+    text, tspan{
       stroke: none;
       color:black;
       fill:black;
@@ -196,12 +196,13 @@
         margin-right:0;
       }
       dd{
-        width:25%;
+        width:22%;
         background:black;
         color:white;
         padding-left: 10px;
         text-align:left;
         float: right;
+        font-size:50%;
       }
     }
 
