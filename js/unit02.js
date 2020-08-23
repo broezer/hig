@@ -14,7 +14,7 @@
   };
 
   function goBack(){
-    //window.location.replace("/");
+    window.location.replace("/");
 
   };
 
