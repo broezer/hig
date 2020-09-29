@@ -305,10 +305,13 @@
   floor: 3
   unit: U10
 
-- name: E&O Events
+- name: Kindvall
   floor: 3
   unit: U11
 
+- name: Inspiratie op Locatie
+  floor: 3
+  unit: U12
 
 
 #Desks
@@ -317,13 +320,10 @@
   floor: 3
   unit: D17
 
-- name: Bureau Maas Marketing & Communicatie
+- name: Kok Enterprise
   floor: 3
   unit: D18
 
-- name: Best Flex
-  floor: 3
-  unit: D20
 
 - name: Eivind Bratterud
   floor: 3
@@ -343,13 +343,7 @@
   floor: 3
   unit: D24
 
-- name: Today's Specials
-  floor: 3
-  unit: U15
 
-- name: Rockdata
-  floor: 3
-  unit: U17
 
 - name: Lijnn
   floor: 3
@@ -361,6 +355,21 @@
   floor: 3
   unit: U14
 
+- name: Today's Specials
+  floor: 3
+  unit: U15
+
+- name: blauwfruit
+  floor: 3
+  unit: U16
+
+- name: Rockdata
+  floor: 3
+  unit: U17
+
+- name: Clickdrive B.V.
+  floor: 3
+  unit: U18
 
 - name: Maaskantine
   floor: 3
@@ -407,6 +416,10 @@
   floor: 2
   unit: 98 O3.04
 
+- name: Nondisclosure
+  floor: 2
+  unit: 98 O3.05
+
 - name: Raymond Heijnen
   floor: 2
   unit: 98 O3.06
@@ -429,7 +442,7 @@
   unit: 2.0
 
 
-- name: Flabberguest
+- name: Wild Digital 
   floor: 2
   unit: 2.1
 
@@ -442,7 +455,11 @@
   floor: 2
   unit: 2.2
 
-- name: LISA Interieur en archirectuur
+- name: Hester de Gier
+  floor: 2
+  unit: 2.2
+
+- name: Leantine Illustrations
   floor: 2
   unit: 2.2
 
@@ -496,15 +513,6 @@
   floor: 2
   unit: "2.10"
 
-
-- name: Loes Sikkes Visual Communication
-  floor: 2
-  unit: "2.10"
-
-- name:  The USP Company
-  floor: 2
-  unit: "2.10"
-
 - name:  ROOS
   floor: 2
   unit: "2.10"
@@ -537,11 +545,15 @@
   floor: 2
   unit: D02
 
+- name: Teamsmaken
+  floor: 2
+  unit: D05
+
 - name: Monkeys & Bananas
   floor: 2
   unit: D05
 
-- name: MyFoodCoach
+- name: Yoshi Tuk
   floor: 2
   unit: D06
 
@@ -552,6 +564,10 @@
 - name: Bart Cosijn Gespreksleiding
   floor: 2
   unit: D08
+
+- name: Liquity
+  floor: 2
+  unit: D09
 
 - name: Upepo B.V.
   floor: 2
@@ -666,10 +682,6 @@
   unit: P.86
 
 
-- name: Kees de Boekhouder
-  floor: 1
-  unit: P.90
-
 - name: Lola Landscape Architects
   floor: 1
   unit: P.92
@@ -735,16 +747,16 @@
 
 - name: Chocoholic
   floor: 0
-  unit: 214
+  unit: 212
+
+
+- name: Kees de Boekhouder
+  floor: 0
+  unit: 210
 
 - name: Vico
   floor: 0
   unit: 60
-
-
-- name: Nondisclosure 
-  floor: 0
-  unit: 210
 
 - name: By Jarmusch
   floor: 0
