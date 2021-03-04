@@ -20,6 +20,10 @@
   floor: 5
   unit: Kipstraat 6
 
+- name: Anglers
+  floor: 5
+  unit: Kipstraat 4
+
 - name: Jade Architecten
   floor: 5
   unit: P.192
@@ -63,10 +67,6 @@
 - name: PDS Transferfoil
   floor: 4
   unit: 58 O4.04
-
-- name: Intax Tax Consultants
-  floor: 4
-  unit: P.160
 
 - name: Robelco Tax Services 
   floor: 4
@@ -163,9 +163,9 @@
   floor: 3
   unit: K.07
 
-- name: '&Flux'
+- name: Burgs Foods B.V.
   floor: 3
-  unit: K.08
+  unit: K.07
 
 
 
@@ -314,12 +314,20 @@
   floor: 3
   unit: U3.12
 
+- name: Energie van Rotterdam 
+  floor: 3
+  unit: U3.13
 
 #Desks
 
 - name: SOLVERR
   floor: 3
   unit: D17
+
+
+- name: Smit Artificial Intelligence
+  floor: 3
+  unit: D19
 
 
 - name: Stichting Wrokko
@@ -431,6 +439,11 @@
   unit: 98 O3.06
 
 
+- name: '&Flux'
+  floor: 2
+  unit: 128 O2.01
+
+
 - name: The Next School
   floor: 2
   unit: 128 O2.02
@@ -518,6 +531,10 @@
   floor: 2
   unit: U2.10
 
+- name:  Perrine Philomeen
+  floor: 2
+  unit: U2.10
+
 - name: MedScaler
   floor: 2
   unit: U2.11
@@ -537,10 +554,6 @@
 
 
 #2de Desks
-
-- name: Verbeek&Vermeulen
-  floor: 2
-  unit: D01
 
 - name: Enliven
   floor: 2
@@ -562,10 +575,6 @@
   floor: 2
   unit: D09
 
-- name: PL fondsenwerving & projecten
-  floor: 2
-  unit: D14
-
 - name: Nextblue
   floor: 2
   unit: D14
@@ -573,14 +582,6 @@
 - name: Wijvan010
   floor: 2
   unit: D16
-
-- name: Brandplant
-  floor: 2
-  unit: D19
-
-- name: Marine Finance House
-  floor: 2
-  unit: D20
 
 - name: Ruud Lubbers Keuken
   floor: 2
@@ -626,10 +627,6 @@
   unit: P.76
 
 - name: Blue Room B.V. 
-  floor: 1
-  unit: P.76
-
-- name: Blijstroom
   floor: 1
   unit: P.76
 

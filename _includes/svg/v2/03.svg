@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 25.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 643 300" style="enable-background:new 0 0 643 300;" xml:space="preserve">
 <style type="text/css">
@@ -100,10 +100,10 @@
 	<polyline class="st0" points="83.4,5.5 83.4,27.4 60,27.4 60,39.6 14.4,39.6 14.2,5.5 83.4,5.5 	"/>
 	<text transform="matrix(1 0 0 1 20.2439 20.3329)" class="st1 st2">130 O3.04</text>
 </g>
-<g id="F3130O303">
+<g id="F3130O302">
 	<polyline class="st0" points="60,73.6 14.4,73.6 14.4,107.7 60,107.7 60,73.6 	"/>
 	<text transform="matrix(1 0 0 1 20.2441 88.4203)" class="st1 st2">130 </text>
-	<text transform="matrix(1 0 0 1 20.2441 102.8203)" class="st1 st2">O3.03</text>
+	<text transform="matrix(1 0 0 1 20.2441 102.8203)" class="st1 st2">O3.02</text>
 </g>
 <g id="F3130O301">
 	<polyline class="st0" points="60,107.7 14.4,107.7 14.4,141.6 60,141.6 60,107.7 	"/>
@@ -240,9 +240,9 @@
 	<polyline class="st5" points="363,262 459.7,262 459.7,211.2 363,211.2 363,262 	"/>
 	<text transform="matrix(0.9545 0 0 1 406.0176 244.2998)" class="st1 st2">MK</text>
 </g>
-<g id="F3130O302">
+<g id="F3130O303_1_">
 	<polyline class="st0" points="60,39.6 14.4,39.6 14.4,73.6 60,73.6 60,39.6 	"/>
 	<text transform="matrix(1 0 0 1 20.244 54.6755)" class="st1 st2">130 </text>
-	<text transform="matrix(1 0 0 1 20.244 69.0755)" class="st1 st2">O3.02</text>
+	<text transform="matrix(1 0 0 1 20.244 69.0755)" class="st1 st2">O3.03</text>
 </g>
 </svg>
