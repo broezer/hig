@@ -215,9 +215,6 @@
   floor: 3
   unit: 130 O3.04
 
-- name: Nieuw Creatief Peil
-  floor: 3
-  unit: U3.04
 
 - name: All This and More
   floor: 3
@@ -272,7 +269,7 @@
   floor: 3
   unit: U3.01
 
-- name: Bijcollege
+- name: Scopos B.V.
   floor: 3
   unit: U3.02
 
@@ -404,27 +401,27 @@
 
 - name: Make It Great Again
   floor: 2
-  unit: 98 O3.01
+  unit: 98 O2.01
 
 - name: Contra
   floor: 2
-  unit: 98 O3.02
+  unit: 98 O2.02
 
 - name: RST Meiser Nederland B.V.
   floor: 2
-  unit: 98 O3.03
+  unit: 98 O2.03
 
 - name: Floodlight
   floor: 2
-  unit: 98 O3.04
+  unit: 98 O2.04
 
 - name: Vloedlicht
   floor: 2
-  unit: 98 O3.04
+  unit: 98 O2.04
 
 - name: Frontaal Film
   floor: 2
-  unit: 98 O3.04
+  unit: 98 O2.04
 
 - name: Nondisclosure
   floor: 2
@@ -521,9 +518,13 @@
 
 - name: Bruisadvies
   floor: 2
-  unit: U2.o9
+  unit: U2.09
 
-- name: Anne Pater
+- name: Loes Sikkes Visual Communication
+  floor: 2
+  unit: U2.10
+
+- name:  The Media Club
   floor: 2
   unit: U2.10
 
@@ -531,7 +532,7 @@
   floor: 2
   unit: U2.10
 
-- name:  Perrine Philomeen
+- name:  Dewi Works
   floor: 2
   unit: U2.10
 
@@ -559,9 +560,23 @@
   floor: 2
   unit: D02
 
+- name: aatvos
+  floor: 2
+  unit: D02
+
+
+- name: Pixall 
+  floor: 2
+  unit: D0506
+
 - name: Teamsmaken
   floor: 2
-  unit: D05
+  unit: D04
+
+
+- name: Studio Ruben Doornweerd
+  floor: 2
+  unit: D07
 
 - name: Urban Dialogue
   floor: 2
@@ -575,13 +590,49 @@
   floor: 2
   unit: D09
 
-- name: Nextblue
+- name: Diego’s Burgers
+  floor: 2
+  unit: D10
+
+- name: PAD Landscape
+  floor: 2
+  unit: D11
+
+- name: Martijnbaten.nl
+  floor: 2
+  unit: D12
+
+- name: PAD Landscape
+  floor: 2
+  unit: D13
+
+- name: AIRhub
   floor: 2
   unit: D14
+
+- name: Nextblue
+  floor: 2
+  unit: D15
 
 - name: Wijvan010
   floor: 2
   unit: D16
+
+- name: Virtual Care
+  floor: 2
+  unit: D17
+
+- name: Kopwerk
+  floor: 2
+  unit: D18
+
+- name: AVES Copywriting
+  floor: 2
+  unit: D19
+
+- name: Laura Burke
+  floor: 2
+  unit: D20
 
 - name: Ruud Lubbers Keuken
   floor: 2
